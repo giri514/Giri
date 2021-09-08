@@ -1,0 +1,5 @@
+Hello Ademola,
+
+Sorry for the inconvenienced caused to you. The issue was related to outbound spam filter server, which was throwing error while connecting to the gmail via IPv6. There is nothing odd with your emails and no one touched the settings or worked within your account. This is server side filtering system.
+
+The issue is fixed now. Can you try to send email and let me know if you are getting any issue?

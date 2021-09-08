@@ -1,0 +1,760 @@
+1. Difference between Linux and Windows Operating system. Explain the advantages of Linux over Windows.
+=> 
+#1: Full access vs. no access
+#2: Licensing freedom vs. licensing restrictions
+#3: Online peer support vs. paid help-desk support
+#4: Full vs. partial hardware support
+#5: Command line vs. no command line
+#6: Centralized vs. noncentralized application installation
+#7: Flexibility vs. rigidity
+
+Linux Operating System:
+
+It is an operating system assembled under the model of open source software development and mostly used for server purpose. It supports a dozen of programming languages like C,C++,JAVA,PHP and many more.
+
+Advantages:
+
+Low cost: You need not spend much money to obtain license as its softwares come from GNU General Public License. You can also download high quality software whenever you want, free of cost and you need not worry that your program may stop due to trail version. You can also install it in  many computers without paying.
+Performance: Linux provides high performance on workstations and on networks. It also helps in making old computers  sufficient and usable again and also can handle many users at a time.
+Stability: You don’t have to reboot periodically to maintain performance. It can handle large number of users and does not hang up or slow down due to memory issues. Continuous up time upto a year or so is common.
+Flexibility: It is used for high performance applications, desktop applications and embedded applications. You can save disk space by installing components required for a particular use. You can restrict specific computers instead of all computers.
+Security: The security aspect of the linux is very strong as it is very secure and it is less prominent to viruses, even if there is an attack there would be immediate step taken by the developers all over the world to resolve it.
+Choice: Choice is one of the greatest advantage of Linux. It gives the power to control every aspect of the operating system. Main features that you have control is look and feel of desktop by Windows Manager and  kernel.
+
+
+Disadvantages:
+
+Understanding: To become familiar with Linux you need to have a lot of patience and desire to read and explore about it.
+Software: Linux has a limited selection of available softwares.
+Ease: Even though Linux has improved a lot in ease of use but windows is much easier.
+Hardware: Linux doesnot support many hardware devices.
+
+
+Windows Operating System:
+
+ It is family of operating system from Microsoft. If programming languages such as Visual Basic.net, ASP.net, Visual C#, Visual C++ are used then it is better to opt windows hosting.
+
+Advantages:
+
+Ease: Microsoft Windows has made much advancement and changes which made it easy to use the operating system. Even though it is not the easiest, it is easier than linux.
+Software: Since there are more number of Microsoft users there are more software programs, games and utilities for windows. All most all games are compatible to windows, some CPU intensive and graphic intensive games are also supported.
+Hardware: All hardware manufacturers will support Microsoft windows. Due to large number of Microsoft users and broader driver, all the hardware devices are supported.
+Front Page Extension: When using a popular web design program having windows hosting makes it lot more easier. You don’t have to worry if it supported or not.
+Development: If you plan to develop windows based applications then windows platform is most suggested as linux does not support windows applications.
+
+Disadvantage:
+
+Price: Microsoft windows is costly compared to Linux as each license costs between $50.00-$100.00.
+Security: When compared to linux it is much more prone to viruses and other attacks.
+Reliability: It needs to be rebooted periodically else there is a possibility of hang up of the system.
+Software Cost: Even though the windows have softwares,games for free most of the programs will cost more than $200.
+
+
+
+
+2. Explain the different RAID types, their advantages and steps to configure RAID 0, RAID 1, RAID 10, RAID 01.
+=>
+RAID Types:
+
+RAID0 = Striping
+RAID1 = Mirroring
+RAID5 = Single Disk Distributed Parity
+RAID6 = Double Disk Distributed Parity
+RAID10 = Combine of Mirror & Stripe. (Nested RAID)
+
+
+RAID 0 (or) Striping:  In Raid 0 (Striping) the data will be written to disk using shared method. Half of the content will be in one disk and another half will be written to other disk.
+
+High Performance.
+There is Zero Capacity Loss in RAID 0
+Zero Fault Tolerance.
+Write and Reading will be good performance.
+
+
+RAID 1 (or) Mirroring: Minimum two drives are needed to create a RAID 1 or Mirror. If a disk failure occurred we can reproduce the raid set by replacing a new disk.
+
+Good Performance.
+Here Half of the Space will be lost in total capacity.
+Full Fault Tolerance.
+Rebuilt will be faster.
+Writing Performance will be slow.
+Reading will be good.
+Can be used for operating systems and database for small scale.
+
+
+RAID 5 (or) Distributed Parity:  RAID 5 work by distributed parity method. Parity info will be used to rebuild the data. It rebuilds from the information left on the remaining good drives. 
+
+Excellent Performance
+Reading will be extremely very good in speed.
+Writing will be Average, slow if we won’t use a Hardware RAID Controller.
+Rebuild from Parity information from all drives.
+Full Fault Tolerance.
+1 Disk Space will be under Parity.
+Can be used in file servers, web servers, very important backups.
+
+
+RAID 6 Two Parity Distributed Disk: 
+
+Poor Performance.
+Read Performance will be good.
+Write Performance will be Poor if we not using a Hardware RAID Controller.
+Rebuild from 2 Parity Drives.
+Full Fault tolerance.
+2 Disks space will be under Parity.
+Can be Used in Large Arrays.
+Can be use in backup purpose, video streaming, used in large scale.
+
+
+RAID 10 (or) Mirror & Stripe:
+
+RAID 10 can be called as 1+0 or 0+1. This will do both works of Mirror & Striping. Mirror will be first and stripe will be the second in RAID 10. Stripe will be the first and mirror will be the second in RAID 01. RAID 10 is better comparing to 01.
+
+Assume, we have 4 Number of drives. While I’m writing some data to my logical volume it will be saved under All 4 drives using mirror and stripe methods.
+
+If I’m writing a data “TECMINT” in RAID 10 it will save the data as follow. First “T” will write to both disks and second “E” will write to both disk, this step will be used for all data write. It will make a copy of every data to other disk too.
+
+Same time it will use the RAID 0 method and write data as follow “T” will write to first disk and “E” will write to second disk. Again “C” will write to first Disk and “M” to second disk.
+
+Good read and write performance.
+Here Half of the Space will be lost in total capacity.
+Fault Tolerance.
+Fast rebuild from copying data.
+Can be used in Database storage for high performance and availability.
+
+
+
+
+3. What is Volume, Physical Volume, Logical Volumes and explain the steps for setting up Physical Volume, Volume Group, Logical Volume?
+4. Explain the process of extending & reducing Logical Volumes.
+=>
+
+- Create the primary partitions using fdisk utility. 
+
+# fidisk /dev/sdb
+
+- Create physical volumes:
+
+Use the pvcreate command to create physical volumes.
+
+# pvcreate /dev/sdb1
+# pvcreate /dev/sdb2 
+The pvdisplay command displays all physical volumes on your system.
+
+# pvdisplay  Or #pvs Or #pvscan
+
+- Create Volume Group:
+# vgcreate mynew_vg /dev/sdb1 
+
+To include both partitions at once you can use this command:
+# vgcreate mynew_vg /dev/sdb1 /dev/sdb2 
+
+Feel free to add new physical volumes to a virtual group by using the vgextend command.
+# vgextend mynew_vg /dev/sdb2 
+
+
+- Create Logical Volumes:
+# lvcreate -L 400 -n vol01 mynew_vg
+
+With a following example you will create a logical volume with a size of 1GB and with the name vol02:
+# lvcreate -L 1000 -n vol02 mynew_vg
+
+
+- Create File system on logical volumes:
+# mkfs.ext4  /dev/mynew_vg/vol01 
+
+- Mount logical volumes
+# mount /dev/mynew_vg/vol01 /home/test1
+
+- Edit /etc/fstab
+#  <File System>  <Mount Point> <File System Type> <options> <dump> <pass Or fsck>
+e.g. /dev/mynew_vg/vol01 /home/test1 ext4 defaults 0 0
+
+# mount -a
+
+
+- Extend logical volume
+
+To increase the size of a logical volume by another 800 MB you can run this command:
+# lvextend -L +800 /dev/mynew_vg/vol01 
+
+The command above does not actually increase the physical size of volume, to do that you need to:
+# resize2fs  /dev/mynew_vg/vol01 
+
+- Reducing Logical Volume (LVM)
+5 steps:
+unmount the file system for reducing.
+Check the file system after unmount.
+Reduce the file system.
+Reduce the Logical Volume size than Current size.
+Recheck the file system for error.
+Remount the file-system back to stage.
+
+ # umount -v /mnt/tecmint_reduce_test/
+# e2fsck -ff /dev/vg_tecmint_extra/tecmint_reduce_test
+# resize2fs /dev/vg_tecmint_extra/tecmint_reduce_test 8GB
+# lvreduce -L -8G /dev/vg_tecmint_extra/tecmint_reduce_test
+# lvdisplay vg_tecmint_extra
+
+Reduce the size using PE.
+# lvreduce -l -2048 /dev/vg_tecmint_extra/tecmint_reduce_test
+# resize2fs /dev/vg_tecmint_extra/tecmint_reduce_test
+# mount /dev/vg_tecmint_extra/tecmint_reduce_test /mnt/tecmint_reduce_test/
+
+- Remove logical volume
+# lvremove /dev/mynew_vg/vol02 
+
+
+
+
+5. Explain the Linux boot process
+=> 
+
+6 Stages of Linux Boot Process:
+
+1. BIOS
+
+BIOS stands for Basic Input/Output System
+Performs some system integrity checks
+Searches, loads, and executes the boot loader program.
+It looks for boot loader in floppy, cd-rom, or hard drive. You can press a key (typically F12 of F2, but it depends on your system) during the BIOS startup to change the boot sequence.
+Once the boot loader program is detected and loaded into the memory, BIOS gives the control to it.
+So, in simple terms BIOS loads and executes the MBR boot loader.
+
+2. MBR
+
+MBR stands for Master Boot Record.
+It is located in the 1st sector of the bootable disk. Typically /dev/hda, or /dev/sda
+MBR is less than 512 bytes in size. This has three components 1) primary boot loader info in 1st 446 bytes 2) partition table info in next 64 bytes 3) mbr validation check in last 2 bytes.
+It contains information about GRUB (or LILO in old systems).
+So, in simple terms MBR loads and executes the GRUB boot loader.
+
+3. GRUB
+
+GRUB stands for Grand Unified Bootloader.
+If you have multiple kernel images installed on your system, you can choose which one to be executed.
+GRUB displays a splash screen, waits for few seconds, if you don’t enter anything, it loads the default kernel image as specified in the grub configuration file.
+GRUB has the knowledge of the filesystem (the older Linux loader LILO didn’t understand filesystem).
+Grub configuration file is /boot/grub/grub.conf (/etc/grub.conf is a link to this). The following is sample grub.conf of CentOS.
+#boot=/dev/sda
+default=0
+timeout=5
+splashimage=(hd0,0)/boot/grub/splash.xpm.gz
+hiddenmenu
+title CentOS (2.6.18-194.el5PAE)
+          root (hd0,0)
+          kernel /boot/vmlinuz-2.6.18-194.el5PAE ro root=LABEL=/
+          initrd /boot/initrd-2.6.18-194.el5PAE.img
+As you notice from the above info, it contains kernel and initrd image.
+So, in simple terms GRUB just loads and executes Kernel and initrd images.
+
+4. Kernel
+
+Mounts the root file system as specified in the “root=” in grub.conf
+Kernel executes the /sbin/init program
+Since init was the 1st program to be executed by Linux Kernel, it has the process id (PID) of 1. Do a ‘ps -ef | grep init’ and check the pid.
+initrd stands for Initial RAM Disk.
+initrd is used by kernel as temporary root file system until kernel is booted and the real root file system is mounted. It also contains necessary drivers compiled inside, which helps it to access the hard drive partitions, and other hardware.
+
+5. Init
+
+Looks at the /etc/inittab file to decide the Linux run level.
+Following are the available run levels
+0 – halt
+1 – Single user mode
+2 – Multiuser, without NFS
+3 – Full multiuser mode
+4 – unused
+5 – X11
+6 – reboot
+Init identifies the default initlevel from /etc/inittab and uses that to load all appropriate program.
+Execute ‘grep initdefault /etc/inittab’ on your system to identify the default run level
+If you want to get into trouble, you can set the default run level to 0 or 6. Since you know what 0 and 6 means, probably you might not do that.
+Typically you would set the default run level to either 3 or 5.
+
+6. Runlevel programs
+
+When the Linux system is booting up, you might see various services getting started. For example, it might say “starting sendmail …. OK”. Those are the runlevel programs, executed from the run level directory as defined by your run level.
+Depending on your default init level setting, the system will execute the programs from one of the following directories.
+Run level 0 – /etc/rc.d/rc0.d/
+Run level 1 – /etc/rc.d/rc1.d/
+Run level 2 – /etc/rc.d/rc2.d/
+Run level 3 – /etc/rc.d/rc3.d/
+Run level 4 – /etc/rc.d/rc4.d/
+Run level 5 – /etc/rc.d/rc5.d/
+Run level 6 – /etc/rc.d/rc6.d/
+Please note that there are also symbolic links available for these directory under /etc directly. So, /etc/rc0.d is linked to /etc/rc.d/rc0.d.
+Under the /etc/rc.d/rc*.d/ directories, you would see programs that start with S and K.
+Programs starts with S are used during startup. S for startup.
+Programs starts with K are used during shutdown. K for kill.
+There are numbers right next to S and K in the program names. Those are the sequence number in which the programs should be started or killed.
+For example, S12syslog is to start the syslog deamon, which has the sequence number of 12. S80sendmail is to start the sendmail daemon, which has the sequence number of 80. So, syslog program will be started before sendmail.
+
+
+
+6. How to create, delete users & gruops with the proper commands?
+=>
+
+id: Displays user and group IDs.
+useradd, usermod, userdel: Standard utilities for adding, modifying, and deleting user accounts.
+groupadd, groupmod, groupdel: Standard utilities for adding, modifying, and deleting groups.
+gpasswd: Utility primarily used for modification of group password in the /etc/gshadow file which is used by the newgrp command.
+pwck, grpck: Utilities that can be used for verification of the password, group, and associated shadow files.
+pwconv, pwunconv:	Utilities that can be used for the conversion of passwords to shadow passwords, or back from shadow passwords to standard passwords.
+grpconv, grpunconv:  Similar to the previous, these utilities can be used for conversion of shadowed information for group accounts.
+
+
+# useradd [options] username
+# passwd username
+
+-c 'comment'	comment can be replaced with any string. This option is generally used to specify the full name of a user.
+-d home_directory	Home directory to be used instead of default /home/username/.
+-e date	Date for the account to be disabled in the format YYYY-MM-DD.
+-f days	Number of days after the password expires until the account is disabled. If 0 is specified, the account is disabled immediately after the password expires. If -1 is specified, the account is not disabled after the password expires.
+-g group_name	Group name or group number for the user's default (primary) group. The group must exist prior to being specified here.
+-G group_list	List of additional (supplementary, other than default) group names or group numbers, separated by commas, of which the user is a member. The groups must exist prior to being specified here.
+-m	Create the home directory if it does not exist.
+-M	Do not create the home directory.
+-N	Do not create a user private group for the user.
+-p password	The password encrypted with crypt.
+-r	Create a system account with a UID less than 1000 and without a home directory.
+-s	User's login shell, which defaults to /bin/bash.
+-u uid	User ID for the user, which must be unique and greater than 999.
+
+
+IMP paths:
+/etc/skel/
+/etc/passwd
+/etc/shadow
+
+
+# groupadd [options] group_name
+
+-f, --force	When used with -g gid and gid already exists, groupadd will choose another unique gid for the group.
+-g gid	Group ID for the group, which must be unique and greater than 999.
+-K, --key key=value	Override /etc/login.defs defaults.
+-o, --non-unique	Allows creating groups with duplicate GID.
+-p, --password password	Use this encrypted password for the new group.
+-r	Create a system group with a GID less than 1000.
+
+
+- Creating Group Directories
+For example, a group of people need to work on files in the /opt/myproject/ directory. Some people are trusted to modify the contents of this directory, but not everyone.
+
+As root, create the /opt/myproject/ directory by typing the following at a shell prompt:
+mkdir /opt/myproject
+
+Add the myproject group to the system:
+groupadd myproject
+
+Associate the contents of the /opt/myproject/ directory with the myproject group:
+chown root:myproject /opt/myproject
+
+Allow users in the group to create files within the directory and set the setgid bit:
+chmod 2775 /opt/myproject
+
+At this point, all members of the myproject group can create and edit files in the /opt/myproject/ directory without the administrator having to change file permissions every time users write new files. To verify that the permissions have been set correctly, run the following command:
+~]# ls -ld /opt/myproject
+drwxrwsr-x. 3 root myproject 4096 Mar  3 18:31 /opt/myproject
+
+Add users to the myproject group:
+usermod -aG myproject username
+
+Deleting user accounts:
+# userdel --remove [username]
+
+Deleting a group:
+# groupdel [group_name]
+
+
+
+8. How to enable quota for the drive & enable/configure quota for the user?
+=> 
+
+i) Enable quota check on filesystem
+
+Modify the /etc/fstab
+
+ # cat /etc/fstab
+LABEL=/home    /home   ext2   defaults,usrquota,grpquota  1 2
+
+
+ii) Initial quota check on Linux filesystem using quotacheck
+# quotacheck -avug
+
+In the above command:
+
+a: Check all quota-enabled filesystem
+v: Verbose mode
+u: Check for user disk quota
+g: Check for group disk quota
+
+(Also make sure to turned ON quota on partition.  for e.g. quotaon /home
+
+
+iii) Assign disk quota to a user using edquota command
+
+# edquota ramesh
+
+Disk quotas for user ramesh (uid 500):
+  Filesystem           blocks       soft       hard     inodes     soft     hard
+  /dev/sda3           1419352          0          0       1686        0        0
+
+Once the edquota command opens the quota settings for the specific user in a editor, you can set the following limits:
+
+soft and hard limit for disk quota size for the particular user.
+soft and hard limit for the total number of inodes that are allowed for the particular user.
+
+
+iv) Report the disk quota usage for users and group using repquota
+# repquota /home
+
+
+v) Add quotacheck to daily cron job
+# cat /etc/cron.daily/quotacheck
+quotacheck -avug
+
+
+
+9.  What is Yum and how does Yum repos work?
+10. How to install applications using YUM & RPM?
+=>
+YUM (Yellowdog Updater Modified) is an open source command-line as well as graphical based package management tool for RPM (RedHat Package Manager) based Linux systems. It allows users and system administrator to easily install, update, remove or search software packages on a systems.
+
+Install a Package with YUM:  
+yum -y install firefox
+
+Removing a Package with YUM:  
+yum -y remove firefox
+
+Updating a Package using YUM: 
+yum update mysql
+
+List a Package using YUM: 
+yum list openssh
+
+Search for a Package using YUM: 
+yum search vsftpd
+
+List all Available Packages using YUM
+# yum list | less
+
+List all Installed Packages using YUM
+# yum list installed | less
+
+Check for Available Updates using Yum
+# yum check-update
+
+Update System using Yum
+# yum update
+
+List Enabled Yum Repositories
+# yum repolist
+
+List all Enabled and Disabled Yum Repositories
+# yum repolist all
+
+Install a Package from Specific Repository
+# yum --enablerepo=epel install phpmyadmin
+
+Clean Yum Cache
+# yum clean all
+
+View History of Yum
+# yum history
+
+
+- RPM (RedHat Package Manager)
+
+RPM is free and released under GPL (General Public License).
+RPM keeps the information of all the installed packages under /var/lib/rpm database.
+RPM is the only way to install packages under Linux systems, if you’ve installed packages using source code, then rpm won’t manage it.
+RPM deals with .rpm files, which contains the actual information about the packages such as: what it is, from where it comes, dependencies info, version info etc.
+
+There are five basic modes for RPM command
+
+Install : It is used to install any RPM package.
+Remove : It is used to erase, remove or un-install any RPM package.
+Upgrade : It is used to update the existing RPM package.
+Verify : It is used to query about different RPM packages.
+Query : It is used for the verification of any RPM package.
+
+Install an RPM Package
+# rpm -ivh pidgin-2.7.9-5.el6.2.i686.rpm
+
+How to check dependencies of RPM Package before Installing
+# rpm -qpR BitTorrent-5.2.2-1-Python2.4.noarch.rpm
+
+Install a RPM Package Without Dependencies
+# rpm -ivh --nodeps BitTorrent-5.2.2-1-Python2.4.noarch.rpm
+
+check an Installed RPM Package
+# rpm -q BitTorrent
+
+ List all files of an installed RPM package
+# rpm -ql BitTorrent
+
+List Recently Installed RPM Packages
+# rpm -qa --last
+
+List All Installed RPM Packages
+# rpm -qa
+
+Upgrade a RPM Package
+# rpm -Uvh nx-3.5.0-2.el6.centos.i686.rpm
+
+Remove a RPM Package
+# rpm -evv nx
+
+Remove an RPM Package Without Dependencies
+# rpm -ev --nodeps vsftpd
+
+How to Query a file that belongs which RPM Package
+# rpm -qf /usr/bin/htpasswd
+
+How to Query a Information of Installed RPM Package
+# rpm -qi vsftpd
+
+Get the Information of RPM Package Before Installing
+# rpm -qip sqlbuddy-1.3.3-1.noarch.rpm
+
+How To rebuild Corrupted RPM Database
+[root@tecmint]# cd /var/lib
+[root@tecmint]# rm __db*
+[root@tecmint]# rpm --rebuilddb
+[root@tecmint]# rpmdb_verify Packages
+
+
+
+
+11. What are inodes, how can you find files with particular inode number?
+=>  
+
+An Inode number points to an Inode. An Inode is a data structure that stores the following information about a file :
+
+Size of file
+Device ID
+User ID of the file
+Group ID of the file
+The file mode information and access privileges for owner, group and others
+File protection flags
+The timestamps for file creation, modification etc
+link counter to determine the number of hard links
+Pointers to the blocks storing file’s contents
+
+inode IMP commads:
+
+i) To view the inode of entire server
+# df -i
+
+ii)To view the inode of specific cPanel user
+# quota -s <cpanel username>
+
+iii) To view the inodes for a specific folder
+# echo "Detailed Inode usage for: $(pwd)" ; for d in `find -maxdepth 1 -type d |cut -d\/ -f2 |grep -xv . |sort`; do c=$(find $d |wc -l) ; printf "$c\t\t- $d\n" ; done ; printf "Total: \t\t$(find $(pwd) | wc -l)\n"
+
+iv) Finding files by inodes
+# find . -inum <inode number> -print
+
+v) Lists the inode of a file
+# ls -ila
+
+
+
+12. What is Kernel and how to upgrade Kernel?
+= > 
+The kernel is the central module of an operating system (OS). It is the part of the operating system that loads first, and it remains in main memory. Typically, the kernel is responsible for memory management, process and task management, and disk management. The kernel connects the system hardware to the application software.
+
+Use yum command to upgrade kernel:
+
+#  yum update kernel
+
+vi /boot/grub/grub.conf
+default=0    set it as 1
+
+Run the below command on shell prompt.
+
+# grub 
+grub> savedefault --default=0 --once
+grub> quit
+
+• Once this is done go ahead and reboot the server. You can use command shutdown -rf now
+
+• Once server is up check the installed kernel using uname -r
+root@server [~]#uname –r
+
+• If kernel is successfully updated then go to /boot/grub/grub.conf and set default=0
+
+
+
+13. Commands for blocking particular IP address and port numbers through IP tables?
+=> 
+
+- Block Specific IP Address in IPtables Firewall
+# iptables -A INPUT -s xxx.xxx.xxx.xxx -j DROP
+
+In case you only want to block TCP traffic from that IP address, you can use the -p option that specifies the protocol. That way the command will look like this:
+# iptables -A INPUT -p tcp -s xxx.xxx.xxx.xxx -j DROP
+
+- Block Specific Port on IPtables Firewall
+# iptables -A OUTPUT -p tcp --dport xxx -j DROP
+
+To allow incoming connections use:
+# iptables -A INPUT -p tcp --dport xxx -j ACCEPT
+
+
+
+14. Steps for installaing and configuring csf.
+=> 
+
+Installation
+============
+Installation is quite straightforward:
+
+cd /usr/src
+rm -fv csf.tgz
+wget https://download.configserver.com/csf.tgz
+tar -xzf csf.tgz
+cd csf
+sh install.sh
+
+Next, test whether you have the required iptables modules:
+
+perl /usr/local/csf/bin/csftest.pl
+
+
+
+15. Steps to install and configure LAMP Server.
+=> 
+
+i) Step One—Install Apache
+
+To install apache, open terminal and type in this command:
+
+sudo yum install httpd
+Once it installs, you can start apache running on your VPS:
+
+sudo service httpd start
+
+How to find your Server’s IP address
+You can run the following command to reveal your server’s IP address.
+
+ifconfig eth0 | grep inet | awk '{ print $2 }'
+
+
+ii) Step Two—Install MySQL
+
+MySQL is a powerful database management system used for organizing and retrieving data on a virtual server
+
+To install MySQL, open terminal and type in these commands:
+
+sudo yum install mysql-server
+sudo service mysqld start
+During the installation, MySQL will ask you for your permission twice. After you say Yes to both, MySQL will install.
+
+Once it is done installing, you can set a root MySQL password:
+
+sudo /usr/bin/mysql_secure_installation
+The prompt will ask you for your current root password.
+
+Since you just installed MySQL, you most likely won’t have one, so leave it blank by pressing enter.
+
+Enter current password for root (enter for none): 
+OK, successfully used password, moving on...
+Then the prompt will ask you if you want to set a root password. Go ahead and choose Y and follow the instructions.
+
+
+iii) Step Three—Install PHP
+
+PHP is an open source web scripting language that is widely used to build dynamic webpages.
+
+To install PHP on your virtual private server, open terminal and type in this command:
+
+sudo yum install php php-mysql
+Once you answer yes to the PHP prompt, PHP will be installed.
+
+PHP Modules
+PHP also has a variety of useful libraries and modules that you can add onto your server. You can see the libraries that are available by typing:
+
+yum search php-
+
+iv) Step Four—RESULTS: See PHP on your Server
+
+To set this up, first create a new file:
+
+sudo nano /var/www/html/info.php
+Add in the following line:
+
+<?php
+phpinfo();
+?>
+Then Save and Exit.
+
+Restart apache so that all of the changes take effect on your virtual server:
+
+sudo service httpd restart
+
+
+
+16. Explain the steps for installating and configuring Nginx.
+=> 
+
+Step One—Install EPEL
+
+To install EPEL, open terminal and type in:
+sudo yum install epel-release
+
+Step Two—Install nginx
+
+To install nginx, open terminal and type in:
+sudo yum install nginx
+
+Step Three—Start nginx
+
+To get nginx running, type:
+sudo /etc/init.d/nginx start
+
+
+You can confirm that nginx has installed on your VPS by directing your browser to your IP address.
+
+You can run the following command to reveal your server’s IP address.
+ifconfig eth0 | grep inet | awk '{ print $2 }'
+
+
+Step #4: Configuration files
+
+Default configuration directory: /etc/nginx/
+Default SSL and vhost config directory: /etc/nginx/conf.d/
+Default log file directory: /var/log/nginx/
+Default document root directory: /usr/share/nginx/html
+Default configuration file: /etc/nginx/nginx.conf
+Default server access log file: /var/log/nginx/access.log
+Default server access log file: /var/log/nginx/error.log
+To edit the nginx configuration file, enter:
+# vi /etc/nginx/nginx.conf
+
+
+17. Explain the steps for installing & configuring postfix, dovecot & squirrel mail?
+=> Ref Link: http://www.krizna.com/centos/setup-mail-server-in-centos-6/http://www.krizna.com/centos/setup-mail-server-in-centos-6/
+
+
+18. Explain how website and email works?
+=> 
+
+Website Working Process:
+
+i) A user enters a URL into a browser (for example, Google.com >> It checks entries in local machines host file >> Then it checks domain entires at ISP >> Then this request is passed to a domain name server.
+ii) The domain name server returns an IP address for the server that hosts the Website (for example, 68.178.157.132).
+iii) The browser requests the page from the Web server using the IP address specified by the domain name server.
+iv) The Web server returns the page to the IP address specified by the browser requesting the page. The page may also contain links to other files on the same server, such as images, which the browser will       also request.
+v) The browser collects all the information and displays to your computer in the form of Web page.
+
+
+Email Working Process:
+
+i) A user (Alice) sends an email message and connects to an SMTP (Simple Mail Transfer Protocol) server as configured in her email client or Mail User Agent (MUA).
+ii) On the SMTP server, a Mail Transfer Agent (MTA) looks at the recipient address and looks up the domain part of the address to determine its destination.
+iii) After querying a Domain Name System (DNS) server for the name of the Mail eXchanger (MX) for the recipient’s domain name
+iv) the SMTP server will send the message to that server via the SMTPprotocol.
+v) The receiving server will store the message and make it available to the recipient (Bob), who can access it via web, POP, or IMAP.
+
+

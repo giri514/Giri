@@ -1,0 +1,9 @@
+VPS: 
+
+Try these command to fix it.
+
+# ploop check -F /vz/private/192/root.hdd/root.hdd
+# ploop mount /vz/private/192/root.hdd/DiskDescriptor.xml
+# fdisk -l /dev/ploop46026
+# e2fsck /dev/ploop46026p1
+# vzctl start 207

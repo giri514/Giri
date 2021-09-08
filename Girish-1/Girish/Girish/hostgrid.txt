@@ -1,0 +1,23 @@
+lucidcube
+hosting-support
+
+dipak.salve@aress.com
+
+191315@All
+
+wadpp05-dipak
+
+
+girishpatil0309
+
+
+ansible@hp-ansible-automation1-313408.iam.gserviceaccount.com
+hp-ansible-automation1-313408
+===================
+
+ansible-doc   iptables
+
+A00J00-058C07-T2BZ68-37NX19-TW9G32
+
+cat /home/dipaks/.ssh/id_rsa.pub | ssh root@34.94.67.137 "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat >>  ~/.ssh/authorized_keys"
+

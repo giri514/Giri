@@ -1,0 +1,18 @@
+ please use ovh/sys for provisioning of windows servers " SyS".
+
+
+https://sites.google.com/a/ncube.ca/ncube-wiki/procedures/order-processing/order-validation-procedure/dedicated-servers
+
+
+personal template
+WHC_CENTOS7 
+NO - custom installation
+
+
+
+ Dedicated Server QA Agent    https://docs.google.com/spreadsheets/d/1Fk53uChUSIsHnQ32-XfGD1W5U-0A_15dy_wEiZwqJq4/edit#gid=0
+
+
+Exim Configuration Manager-  enable rbl spamcop
+
+update inventory as well

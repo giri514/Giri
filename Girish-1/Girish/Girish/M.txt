@@ -1,0 +1,9 @@
+https://community.magento.com/t5/Installing-Magento-2-x/Magento-detects-a-wrong-php-version-in-multiPHP-envirornment-of/td-p/58776
+
+-------------
+Re: Magento detects a wrong php version in multiPHP envirornment of WHM / cpanel
+I have figured out that it's not Magento and not the Data Migration Tool that is checking php version but the Composer! The solution is forcing Composer to ignore requirements with --ignore-platform-reqsoption. Like so:
+
+composer config repositories.magento composer https://repo.magento.com
+composer require magento/data-migration-tool:<version> --ignore-platform-reqs
+-------------
