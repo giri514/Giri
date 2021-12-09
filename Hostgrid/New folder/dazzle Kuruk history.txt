@@ -1,0 +1,1002 @@
+[root@dazzle httpdocs]# history
+  116  ls -la
+  117  dc ..
+  118  cd ..
+  119  cd the-fells-efeqsatc0.hostgrid.live/
+  120  ls -la
+  121  cd -
+  122  cd themusiciansforum-0adr0zs00.hostgrid.live
+  123  ls -la
+  124  mkdir httpdocs
+  125  ls -la
+  126  cd httpdocs/
+  127  ls -la
+  128  cd ..
+  129  ll
+  130  chown trflt3yp0hem:psaserv httpdocs
+  131  ls -la
+  132  cd ..
+  133  cd chilispot-c04r13hc0.hostgrid.live/
+  134  ls -la
+  135  cd httpdocs
+  136  ls -la
+  137  cd .well-known
+  138  ls -la
+  139  cd acme-challenge/
+  140  ls -la
+  141  cd ..
+  142  cd ll
+  143  cd ..
+  144  cd ..
+  145  cd ..
+  146  cd themusiciansforum-0adr0zs00.hostgrid.live
+  147  cd httpdocs/
+  148  mkdir  .well-known
+  149  cd .well-known/
+  150  mkdir  acme-challenge
+  151  rm -rf acme-challenge
+  152  cd ..
+  153  cd ..
+  154  cd ..
+  155  cd drew606-8efr0qio0.hostgrid.live/
+  156  ls -la
+  157  cd httpdocs
+  158  ls -la
+  159  cd .well-known/
+  160  ls -la
+  161  cd ../..
+  162  dc ..
+  163  cd ..
+  164  cd themusiciansforum-0adr0zs00.hostgrid.live/httpdocs/
+  165  cd .well-known/
+  166  mkdir acme-challenge
+  167  cat /var/www/vhosts/system/lithiashomedecor.com/logs/access_ssl_log | grep '20/Oct/2021:1[3-6]' | awk '{print $1}' | sort -n | uniq -c | sort -nr
+  168  cd -
+  169  cat /var/www/vhosts/system/lithiashomedecor.com/logs/access_ssl_log | grep '20/Oct/2021:1[3-6]' | awk '{print $1}' | sort -n | uniq -c | sort -nr
+  170  cd ..
+  171  cd ..
+  172  cd coverface-232r0kyo0.hostgrid.live
+  173  cd coverface-232r0kyo0.hostgrid.live
+  174  du -sch *
+  175  cd Files\ for\ Coverface/
+  176  du -sch *
+  177  pwd
+  178  ls -la
+  179  mysql cu71phmp0ove_coverface < database.sql
+  180  du -sch database.sql
+  181  cd /var/lib/mysql/
+  182  ll
+  183  ll  grep cu71phmp0ove_coverface
+  184  ll  | grep cu71phmp0ove_coverface
+  185  cd -
+  186  ll
+  187  sud -sch database.sql
+  188  du -sch database.sql
+  189  mysql cu71phmp0ove_coverfacedb < database.sql
+  190  mysql cu71phmp0ove_coverfacedb < database.sql
+  191  cd -
+  192  ll | grep cu71phmp0ove_coverfacedb
+  193  cd -
+  194  mysql cu71phmp0ove_coverfacedb < database.sql
+  195  mysql -uroot cu71phmp0ove_coverfacedb < database.sql
+  196  mysql -u root cu71phmp0ove_coverfacedb < database.sql
+  197  pwd
+  198  mysql cu71phmp0ove_coverface < /var/www/vhosts/coverface-232r0kyo0.hostgrid.live/Files\ for\ Coverface/database.sql
+  199  mysql cu71phmp0ove_coverface < database.sql
+  200  mysql cu71phmp0ove_test < database.sql
+  201  ls -la
+  202  mysql cu71phmp0ove_test123 < cu71phmp0ove_coverface.sql
+  203  mysql -u root -p  cu71phmp0ove_test123 < cu71phmp0ove_coverface.sql
+  204  mysql
+  205  service mysql status
+  206  mysql
+  207  history
+  208  sudo su
+  209  cd /var/www/vhosts/coverface-232r0kyo0.hostgrid.live/
+  210  l
+  211  ll
+  212  cd httpdocs/
+  213  ls -la
+  214  vi wp-config.php
+  215  vi wp-config.php
+  216  vi wp-config.php
+  217  vi wp-config.php
+  218  vi wp-config.php
+  219  vi wp-config.php
+  220  ls -la
+  221  cat wp-config.php
+  222  ll
+  223  cat wp-config.php
+  224  cd /home/ansible/
+  225  ll
+  226  cd /root/
+  227  ll
+  228  cat sslit.sh
+  229  cd /usr/local/src/
+  230  ll
+  231  cat cart.cert
+  232  cat cert.cert
+  233  ll
+  234  cat csrreq
+  235  ll
+  236  cat pkey.key
+  237  cd /usr/local/src/
+  238  ll
+  239  cat cart.cert
+  240  ll
+  241  cat cert.cert
+  242  ll
+  243  cat csrreq
+  244  cat pkey.key
+  245  pwd
+  246  cd /var/www/vhosts/
+  247  ll | grep uritysystem
+  248  cd puritysystem-db9r1elc0.hostgrid.live
+  249  ll
+  250  cd httpdocs
+  251  ll
+  252  cat .htaccess
+  253  mv httpdocs httpdocs_
+  254  mv .htaccess .htaccess_
+  255  ll
+  256  cd wp-content
+  257  ls -la
+  258  cd plugins
+  259  ll
+  260  cd ..
+  261  ll
+  262  ll
+  263  mv plugins plugins_
+  264  mv plugins_ plugins
+  265  ls -la
+  266  cd plugins/
+  267  ls-la
+  268  ls  -la
+  269  cd ../..
+  270  cd ..
+  271  cd ..
+  272  ll | grep leejohncarteroriginalsong
+  273  cd leejohncarteroriginalsongs-cb8r1gg00.hostgrid.live
+  274  ls -la
+  275  cd httpdocs/
+  276  ls -la
+  277  cat .htaccess
+  278  vi .htaccess
+  279  vi .htaccess
+  280  ll
+  281  ls -la
+  282  cat .htaccess.bk
+  283  cp -ar .htaccess .htaccess-org
+  284  vi .htaccess
+  285  ls -la
+  286  cat wp-config.php
+  287  ls -la
+  288  cat index.php
+  289  cd wp-content/
+  290  ll
+  291  cat wp-cache-config.php
+  292  l
+  293  ll
+  294  ls -la
+  295  mv plugins plugins_
+  296  cd ..
+  297  ls -la
+  298  mv .htaccess .htaccess_
+  299  mv .htaccess-org .htaccess
+  300  cd wp-content
+  301  ll
+  302  mv plugins_ plugins
+  303  cd plugins
+  304  ls -la
+  305  mv wp-maintenance-mode wp-maintenance-mode_
+  306  mv wp-maintenance-mode_/ wp-maintenance-mode
+  307  ls -la
+  308  mv redirection redirection_
+  309  mv redirection_ redirection
+  310  ll
+  311  mv jetpack jetpack_
+  312  mv jetpack_ jetpack
+  313  mv drwxr-xr-x.  4 la9w9uaq0eej psacln  4096 Oct 25 13:36 add-to-any
+  314  drwxr-xr-x.  5 la9w9uaq0eej psacln    98 Oct 25 13:32 advanced-custom-fields
+  315  drwxr-xr-x.  4 la9w9uaq0eej psacln  4096 Oct 25 14:05 akismet
+  316  drwxr-xr-x.  4 la9w9uaq0eej psacln   246 Oct 25 13:31 all-in-one-wp-migration
+  317  drwxr-xr-x. 12 la9w9uaq0eej psacln   252 Oct 25 13:34 all-in-one-wp-security-and-firewall
+  318  drwxr-xr-x.  5 la9w9uaq0eej psacln   172 Oct 25 13:37 antispam-bee
+  319  drwxr-xr-x.  7 la9w9uaq0eej psacln   117 Oct 25 13:34 astra-sites
+  320  drwxr-xr-x.  4 la9w9uaq0eej psacln   147 Oct 25 13:32 autoptimize
+  321  drwxr-xr-x.  7 la9w9uaq0eej psacln   181 Oct 25 13:38 backwpup
+  322  drwxr-xr-x.  6 la9w9uaq0eej psacln   157 Oct 25 13:34 better-search-replace
+  323  drwxr-xr-x.  6 la9w9uaq0eej psacln   117 Oct 25 13:37 black-studio-tinymce-widget
+  324  drwxr-xr-x.  4 la9w9uaq0eej psacln  4096 Oct 25 13:34 breadcrumb-navxt
+  325  drwxr-xr-x. 10 la9w9uaq0eej psacln   182 Oct 25 13:36 broken-link-checker
+  326  drwxr-xr-x.  3 la9w9uaq0eej psacln    78 Oct 25 13:31 classic-editor
+  327  drwxr-xr-x.  2 la9w9uaq0eej psacln    69 Oct 25 13:36 classic-widgets
+  328  drwxr-xr-x.  5 la9w9uaq0eej psacln   104 Oct 25 13:36 coblocks
+  329  drwxr-xr-x.  6 la9w9uaq0eej psacln   138 Oct 25 13:37 code-snippets
+  330  drwxr-xr-x.  3 la9w9uaq0eej psacln    20 Oct 25 13:34 coming-soon
+  331  drwxr-xr-x.  7 la9w9uaq0eej psacln   184 Oct 25 13:31 contact-form-7
+  332  drwxr-xr-x.  4 la9w9uaq0eej psacln    77 Oct 25 13:36 contact-form-cfdb7
+  333  drwxr-xr-x.  8 la9w9uaq0eej psacln   224 Oct 25 13:34 cookie-law-info
+  334  drwxr-xr-x.  9 la9w9uaq0eej psacln   162 Oct 25 13:33 cookie-notice
+  335  drwxr-xr-x.  5 la9w9uaq0eej psacln   189 Oct 25 13:37 creative-mail-by-constant-contact
+  336  drwxr-xr-x.  8 la9w9uaq0eej psacln   147 Oct 25 13:34 custom-post-type-ui
+  337  drwxr-xr-x.  6 la9w9uaq0eej psacln   133 Oct 25 13:33 disable-comments
+  338  drwxr-xr-x.  9 la9w9uaq0eej psacln   158 Oct 25 13:37 disable-gutenberg
+  339  drwxr-xr-x.  6 la9w9uaq0eej psacln    98 Oct 25 13:32 duplicate-page
+  340  drwxr-xr-x.  7 la9w9uaq0eej psacln   273 Oct 25 13:31 duplicate-post
+  341  drwxr-xr-x. 11 la9w9uaq0eej psacln   280 Oct 25 13:56 duplicator
+  342  drwxr-xr-x.  8 la9w9uaq0eej psacln   202 Oct 25 13:36 duracelltomi-google-tag-manager
+  343  drwxr-xr-x.  7 la9w9uaq0eej psacln  4096 Oct 25 13:37 easy-wp-smtp
+  344  drwxr-xr-x.  3 la9w9uaq0eej psacln    20 Oct 25 13:31 elementor
+  345  drwxr-xr-x. 11 la9w9uaq0eej psacln   227 Oct 25 13:36 elementskit-lite
+  346  drwxr-xr-x. 10 la9w9uaq0eej psacln   236 Oct 25 13:36 enable-media-replace
+  347  drwxr-xr-x.  7 la9w9uaq0eej psacln   154 Oct 25 13:37 envato-elements
+  348  drwxr-xr-x.  5 la9w9uaq0eej psacln   169 Oct 25 13:34 essential-addons-for-elementor-lite
+  349  drwxr-xr-x. 11 la9w9uaq0eej psacln  4096 Oct 25 13:35 ewww-image-optimizer
+  350  drwxr-xr-x.  7 la9w9uaq0eej psacln  4096 Oct 25 13:34 facebook-for-woocommerce
+  351  drwxr-xr-x.  5 la9w9uaq0eej psacln   109 Oct 25 13:37 flamingo
+  352  drwxr-xr-x.  3 la9w9uaq0eej psacln   145 Oct 25 13:36 force-regenerate-thumbnails
+  353  drwxr-xr-x.  7 la9w9uaq0eej psacln   155 Oct 25 13:37 ga-google-analytics
+  354  drwxr-xr-x.  3 la9w9uaq0eej psacln    20 Oct 25 13:34 google-analytics-dashboard-for-wp
+  355  drwxr-xr-x.  6 la9w9uaq0eej psacln   127 Oct 25 13:31 google-analytics-for-wordpress
+  356  drwxr-xr-x.  3 la9w9uaq0eej psacln    17 Oct 25 13:32 google-sitemap-generator
+  357  drwxr-xr-x.  7 la9w9uaq0eej psacln   128 Oct 25 13:34 header-footer-elementor
+  358  drwxr-xr-x.  2 la9w9uaq0eej psacln    41 Oct 25 13:35 hello-dolly
+  359  -rw-r--r--.  1 la9w9uaq0eej psacln  2578 Mar 18  2019 hello.php
+  360  drwxr-xr-x.  7 la9w9uaq0eej psacln   155 Oct 25 13:36 imagify
+  361  -rw-r--r--.  1 la9w9uaq0eej psacln    28 Jun  5  2014 index.php
+  362  drwxr-xr-x.  3 la9w9uaq0eej psacln    53 Oct 25 13:32 insert-headers-and-footers
+  363  drwxr-xr-x.  8 la9w9uaq0eej psacln   187 Oct 25 13:33 instagram-feed
+  364  drwxr-xr-x. 13 la9w9uaq0eej psacln  4096 Oct 25 13:31 jetpack
+  365  drwxr-xr-x.  9 la9w9uaq0eej psacln   105 Oct 25 13:37 kirki
+  366  drwxr-xr-x.  2 la9w9uaq0eej psacln  4096 Oct 25 13:35 limit-login-attempts
+  367  drwxr-xr-x.  8 la9w9uaq0eej psacln   149 Oct 25 13:32 limit-login-attempts-reloaded
+  368  drwxr-xr-x. 11 la9w9uaq0eej psacln   117 Oct 25 13:32 litespeed-cache
+  369  drwxr-xr-x.  6 la9w9uaq0eej psacln    56 Oct 25 13:32 loco-translate
+  370  drwxr-xr-x.  4 la9w9uaq0eej psacln  4096 Oct 25 13:33 loginizer
+  371  drwxr-xr-x.  5 la9w9uaq0eej psacln    48 Oct 25 13:34 mailch
+  372  drwxr-xr-x.  3 la9w9uaq0eej psacln    20 Oct 25 13:32 mailchi
+  373  drwxr-xr-x.  7 la9w9uaq0eej psacln   154 Oct 25 13:36 mainwp-child
+  374  drwxr-xr-x
+  375  drwxr-xr-x.  6 la9w9uaq0eej psacln   167 Oct 25 13:36 ocean-extra
+  376  drwxr-xr-x.  7 la9w9uaq
+  377  drwxr-xr-x.  6 la9w9uaq0eej psacln   127 Oct 25 13:34 optinmonster
+  378  drwxr-xr-x. 13 la9w9uaq0eej psacln   244 Oct 25 13:37 polylang
+  379  dr
+  380  drwxr-xr-x.  8 la9w9uaq0eej psacln   209 Oct 25 13:37 post-types-
+  381  drwxr-xr-x.  8 la9w9uaq0eej psacln   177 Oct 25 13:36 premium-
+  382  drwxr-xr-x.  4 la9w9uaq0eej psacln   102 Oct 25 13:37 really-simple-captcha
+  383  drwxr-xr-x. 11 la9w9uaq0eej psacln  4096 Oct 25 13:31 really-simple-ssl
+  384  drwxr-xr-
+  385  drwxr-xr-x.  6 la9w9uaq0eej psacln   106 Oct 25 13:32 regenerate-thumb
+  386  drwxr-xr-x.  7 la9w9uaq0eej psacln   156 Oct 25 13:37 safe-svg
+  387  drwxr-xr-x
+  388  drwxr-xr-x.  7 la9w9uaq0eej psacln   121 Oct 25 13:33 sg-cachepress
+  389  drwxr-xr-x.  7 la9w9uaq0eej psacln   203 Oct 25 13:36 shortcodes-ultim
+  390  drwxr-xr-x.  5 la9w9uaq0eej psacln    42 Oct 25 13:34 siteorig
+  391  drwxr-xr-x. 10 la9w9uaq0eej psacln   106 Oct 25 13:35 so-widgets-bu
+  392  drwxr-xr-x.  5 la9w9uaq0eej psacln   109 Oct 25 13:35 sucuri-scan
+  393  drwxr-xr-x.  8 la9w9uaq0eej psacln   173 Oct 25 13:37 svg-support
+  394  dr
+  395  drwxr-xr-x.  7 la9w9uaq0eej psacln   192 Oct 25 13:36 taxonomy-terms-ord
+  396  drwxr-xr-x.  3 la9w9uaq0eej psacln    20 Oct 25 13:35 the-events-cale
+  397  drwxr-xr-x.  5 la9w9uaq0eej psacln   147 Oct 25 13:32 tinymce-advan
+  398  drwxr-xr-x.  7 la9w9uaq0eej psacln   179 Oct 25 13:37 under-construction-page
+  399  drwxr-xr-
+  400  drwxr-xr-x. 10 la9w9uaq0eej psacln 24576 Oct 25 13:33 w3-total-cache
+  401  drwx
+  402  drwxr-xr-x.  7 la9w9uaq0eej psacln   253 Oct 25 13:35 woocommerce-gate
+  403  drwxr-xr-x.  6 la9w9uaq0eej psacln   109 Oct 25 13:34 woocommerce-servi
+  404  drwxr-xr-x. 15 la9w9uaq0eej psacln   230 Oct 25 13:31 wordfence
+  405  drwx
+  406  drwxr-xr-x.  3 la9w9uaq0eej psacln    23 Oct 25 13:31 wordpress-seo
+  407  drwxr-xr-x.  4 la9w9uaq0eej psacln   141 Oct 25 13:34 worker
+  408  drwx
+  409  drwxr-xr-x.  9 la9w9uaq0eej psacln   181 Oct 25 13:31 wpforms-lite
+  410  drwxr-xr-x.  7 la9
+  411  drwxr-xr-x.  6 la9w9uaq0eej psacln   174 Oct 25 13:35 wp-maintenan
+  412  drwxr-xr-x.  5 la9w9uaq0eej psacln   170 Oct 25 13:34 wp-multib
+  413  drwxr-xr-x.  3 la9w9uaq0eej psacln   152 Oct 25 13:37 wp-pagenavi
+  414  drwx
+  415  drwxr-xr-x.  4 la9w9uaq0eej psacln    29 Oct 25 13:32 wp-smushit
+  416  drwxr-xr-
+  417  drwxr-xr-x.  8 la9w9uaq0eej psacln   223 Oct 25 13:35 yith-woocommerc
+  418   drwxr-xr-x.  4 la9w9uaq0eej psacln  4096 Oct 25 13:36 add-to-any
+  419  drwxr-xr-x.  5 la9w9uaq0eej psacln    98 Oct 25 13:32 advanced-custom-fields
+  420  drwxr-xr-x.  4 la9w9uaq0eej psacln  4096 Oct 25 14:05 akismet
+  421  drwxr-xr-x.  4 la9w9uaq0eej psacln   246 Oct 25 13:31 all-in-one-wp-migration
+  422  drwxr-xr-x. 12 la9w9uaq0eej psacln   252 Oct 25 13:34 all-in-one-wp-security-and-firewall
+  423  drwxr-xr-x.  5 la9w9uaq0eej psacln   172 Oct 25 13:37 antispam-bee
+  424  drwxr-xr-x.  7 la9w9uaq0eej psacln   117 Oct 25 13:34 astra-sites
+  425  drwxr-xr-x.  4 la9w9uaq0eej psacln   147 Oct 25 13:32 autoptimize
+  426  drwxr-xr-x.  7 la9w9uaq0eej psacln   181 Oct 25 13:38 backwpup
+  427  drwxr-xr-x.  6 la9w9uaq0eej psacln   157 Oct 25 13:34 better-search-replace
+  428  drwxr-xr-x.  6 la9w9uaq0eej psacln   117 Oct 25 13:37 black-studio-tinymce-widget
+  429  drwxr-xr-x.  4 la9w9uaq0eej psacln  4096 Oct 25 13:34 breadcrumb-navxt
+  430  drwxr-xr-x. 10 la9w9uaq0eej psacln   182 Oct 25 13:36 broken-link-checker
+  431  drwxr-xr-x.  3 la9w9uaq0eej psacln    78 Oct 25 13:31 classic-editor
+  432  drwxr-xr-x.  2 la9w9uaq0eej psacln    69 Oct 25 13:36 classic-widgets
+  433  drwxr-xr-x.  5 la9w9uaq0eej psacln   104 Oct 25 13:36 coblocks
+  434  drwxr-xr-x.  6 la9w9uaq0eej psacln   138 Oct 25 13:37 code-snippets
+  435  drwxr-xr-x.  3 la9w9uaq0eej psacln    20 Oct 25 13:34 coming-soon
+  436  drwxr-xr-x.  7 la9w9uaq0eej psacln   184 Oct 25 13:31 contact-form-7
+  437  drwxr-xr-x.  4 la9w9uaq0eej psacln    77 Oct 25 13:36 contact-form-cfdb7
+  438  drwxr-xr-x.  8 la9w9uaq0eej psacln   224 Oct 25 13:34 cookie-law-info
+  439  drwxr-xr-x.  9 la9w9uaq0eej psacln   162 Oct 25 13:33 cookie-notice
+  440  drwxr-xr-x.  5 la9w9uaq0eej psacln   189 Oct 25 13:37 creative-mail-by-constant-contact
+  441  drwxr-xr-x.  8 la9w9uaq0eej psacln   147 Oct 25 13:34 custom-post-type-ui
+  442  drwxr-xr-x.  6 la9w9uaq0eej psacln   133 Oct 25 13:33 disable-comments
+  443  drwxr-xr-x.  9 la9w9uaq0eej psacln   158 Oct 25 13:37 disable-gutenberg
+  444  drwxr-xr-x.  6 la9w9uaq0eej psacln    98 Oct 25 13:32 duplicate-page
+  445  drwxr-xr-x.  7 la9w9uaq0eej psacln   273 Oct 25 13:31 duplicate-post
+  446  drwxr-xr-x. 11 la9w9uaq0eej psacln   280 Oct 25 13:56 duplicator
+  447  drwxr-xr-x.  8 la9w9uaq0eej psacln   202 Oct 25 13:36 duracelltomi-google-tag-manager
+  448  drwxr-xr-x.  7 la9w9uaq0eej psacln  4096 Oct 25 13:37 easy-wp-smtp
+  449  drwxr-xr-x.  3 la9w9uaq0eej psacln    20 Oct 25 13:31 elementor
+  450  drwxr-xr-x. 11 la9w9uaq0eej psacln   227 Oct 25 13:36 elementskit-lite
+  451  drwxr-xr-x. 10 la9w9uaq0eej psacln   236 Oct 25 13:36 enable-media-replace
+  452  drwxr-xr-x.  7 la9w9uaq0eej psacln   154 Oct 25 13:37 envato-elements
+  453  drwxr-xr-x.  5 la9w9uaq0eej psacln   169 Oct 25 13:34 essential-addons-for-elementor-lite
+  454  drwxr-xr-x. 11 la9w9uaq0eej psacln  4096 Oct 25 13:35 ewww-image-optimizer
+  455  drwxr-xr-x.  7 la9w9uaq0eej psacln  4096 Oct 25 13:34 facebook-for-woocommerce
+  456  drwxr-xr-x.  5 la9w9uaq0eej psacln   109 Oct 25 13:37 flamingo
+  457  drwxr-xr-x.  3 la9w9uaq0eej psacln   145 Oct 25 13:36 force-regenerate-thumbnails
+  458  drwxr-xr-x.  7 la9w9uaq0eej psacln   155 Oct 25 13:37 ga-google-analytics
+  459  drwxr-xr-x.  3 la9w9uaq0eej psacln    20 Oct 25 13:34 google-analytics-dashboard-for-wp
+  460  drwxr-xr-x.  6 la9w9uaq0eej psacln   127 Oct 25 13:31 google-analytics-for-wordpress
+  461  drwxr-xr-x.  3 la9w9uaq0eej psacln    17 Oct 25 13:32 google-sitemap-generator
+  462  drwxr-xr-x.  7 la9w9uaq0eej psacln   128 Oct 25 13:34 header-footer-elementor
+  463  drwxr-xr-x.  2 la9w9uaq
+  464  -rw-
+  465  drwxr-xr-x.  7 la9w9uaq0eej psacln   155 Oct 25 13:36 imagify
+  466  -rw-r--r
+  467  drwxr-xr-x.  3 la9w9uaq0eej psacln    53 Oct 25 13:32 insert-headers-an
+  468  drwxr-xr-x.  8 la9w9uaq0eej psacln   187 Oct 25 13:33 instagram
+  469  drwx
+  470  drwxr-xr-x.  9 la9w9uaq0eej psacln   105 Oct 25 13:37 kirki
+  471  drwxr-x
+  472  drwxr-xr-x.  8 la9w9uaq0eej psacln   149 Oct 25 13:32 limit-
+  473  drwx
+  474  drwxr-xr-x.  6 la9w9uaq0eej psacln    56 Oct 25 13:32 loco-transla
+  475  drwxr-xr-x.  4 la9
+  476  drwxr-xr-x.  5 la9w9uaq0eej psacln    48 Oct 25 13:34 mailchimp-fo
+  477  drwxr-xr-x.  3 la9w9uaq0eej psacln    20 Oct 25 13:32 mailchimp
+  478  drwxr-xr-x.  7 la9w9uaq0eej psacln   154 Oct 25 13:36 mainwp-chil
+  479  drwx
+  480  drwxr-xr-x.  6 la9w9uaq0eej psacln   167 Oct 25 13:36 ocean-extr
+  481  drwxr-xr-
+  482  drwxr-xr-x.  6 la9w9uaq0eej psacln   127 Oct 25 13:34 optinmonster
+  483  dr
+  484  drwxr-xr-x.  3 la9w9uaq0eej psacln    20 Oct 25 13:37 popup-maker
+  485  drwxr-xr-x.  8 la9w9uaq0eej psacln   209 Oct 25 13:37 post-types-order
+  486  drwxr
+  487  drwxr-xr-x.  4 la9w9uaq0eej psacln   102 Oct 25 13:37 really-
+  488  drwxr-xr-x. 11 la9w9uaq0eej psacln  4096 Oct 25 13:31 really-simple-ssl
+  489  drwxr
+  490  drwxr-xr-x.  6 la9w9uaq0eej psacln   106 Oct 25 13:32 regenerate-thumbnails
+  491  drwxr-xr-x.
+  492  drwxr-xr-x.  3 la9w9uaq0eej psacln    22 Oct 25 13:35 seo-by-rank-
+  493  drwxr-xr-x.  7 la9w9uaq0eej psacln   121 Oct 25 13:33 sg-cachepre
+  494  drwxr-xr-x.  7 la9w9uaq0eej psacln   203 Oct 25 13:36 shortcodes-
+  495  drwxr-xr-x.  5 la9w9uaq0eej psacln    42 Oct 25 13:34 siteorig
+  496  drwxr-xr-x. 10 la9w9uaq0eej psacln   106 Oct 25 13:35 so-widgets-bundle
+  497  drw
+  498  drwxr-xr-x.  8 la9w9uaq0eej psacln   173 Oct 25 13:37 svg-support
+  499  drwxr-xr-x. 11
+  500  drwxr-xr-x.  7 la9w9uaq0eej psacln   192 Oct 25 13:36 taxonomy-terms-o
+  501  drwxr-xr-x.  3 la9w9uaq0eej psacln    20 Oct 25 13:35 the-events-calendar
+  502  drwxr-xr-x.  5 la9w9uaq0eej psacln   147 Oct 25 13:32 tinymce-advanc
+  503  drwxr-xr-x.  7 la9w9uaq0eej psacln   179 Oct 25 13:37 under-construct
+  504  drwxr-xr-x.  7 la9w9uaq0eej psacln  4096 Oct 25 13:37 user-rol
+  505  drwxr-xr-x. 10 la9w9uaq0eej psacln 24576 Oct 25 13:33 w3-total-cach
+  506  drwxr-xr-x.  6 la9w9uaq0eej psacln   164 Oct 25 13:37 woocommerce
+  507  drwxr-xr-x.  7 la9w9uaq0eej psacln   253 Oct 25 13:35 woocommerce-ga
+  508  drwxr-xr-x.  6 la9w9uaq0eej psacln   109 Oct 25 13:34 woocommerce-servic
+  509  drwxr-xr-x. 15 la9w9uaq0eej psacln   230 Oct 25 13:31 wordfence
+  510  drwxr
+  511  drwxr-xr-x.  3 la9w9uaq0eej psacln    23 Oct 25 13:31 wordpress-seo
+  512  drwxr-xr-x.  4 la9w9uaq0eej psacln   141 Oct 25 13:34 worker
+  513  drwxr-xr-x.  3 la9w9uaq0ee
+  514  drwxr-xr-x.  9 la9w9uaq0eej psacln   181 Oct 25 13:31 wpforms-lite
+  515  drwxr-
+  516  drwxr-xr-x.  6 la9w9uaq0eej psacln   174 Oct 25 13:35 wp-maintenance-m
+  517  drwxr-xr-x.  5 la9w9uaq0eej psacln   170 Oct 25 13:34 wp-multibyte-patc
+  518  drwxr-xr-x.  3 la9w9uaq0eej psacln   152 Oct 25 13:37 wp-pagenavi
+  519  dr
+  520  drwxr-xr-x.  4 la9w9uaq0eej psacln    29 Oct 25 13:32 wp-smushit
+  521  drw
+  522  drwxr-xr-x.  8 la9w9uaq0eej psacln   223 Oct 25 13:35 yith-wooco
+  523  ls -la
+  524  mv  wordfence
+  525  mv  wordfence wordfence_
+  526  mv wordfence_ wordfence
+  527  ls -la
+  528  cd ..
+  529  ll
+  530  mv plugins plugins_
+  531  mv plugins_ plugins
+  532  cd plugins/
+  533  ls -la
+  534  mv w3-total-cache w3-total-cache_
+  535  mv add-to-any                                add-to-any-
+  536  mv advanced-custom-fields                    advanced-custom-fields-
+  537  mv akismet                                   akismet-
+  538  mv all-in-one-wp-migration                   all-in-one-wp-migration-
+  539  mv all-in-one-wp-security-and-firewall       all-in-one-wp-security-and-firewall-
+  540  mv antispam-bee                              antispam-bee-
+  541  mv astra-sites                               astra-sites-
+  542  mv autoptimize                               autoptimize-
+  543  mv backwpup                                  backwpup-
+  544  mv better-search-replace                     better-search-replace-
+  545  mv black-studio-tinymce-widget               black-studio-tinymce-widget-
+  546  mv breadcrumb-navxt                          breadcrumb-navxt-
+  547  mv broken-link-checker                       broken-link-checker-
+  548  mv classic-editor                            classic-editor-
+  549  mv classic-widgets                           classic-widgets-
+  550  mv coblocks                                  coblocks-
+  551  ls -a
+  552  ll
+  553  mv  add-to-any-                                 add-to-any
+  554  mv  advanced-custom-fields-                     advanced-custom-fields
+  555  mv  akismet-                                    akismet
+  556  mv  all-in-one-wp-migration-                    all-in-one-wp-migration
+  557  mv  all-in-one-wp-security-and-firewall-        all-in-one-wp-security-and-firewall
+  558  mv  antispam-bee-                               antispam-bee
+  559  mv  astra-sites-                                astra-sites
+  560  mv  autoptimize-                                autoptimize
+  561  mv  backwpup-                                   backwpup
+  562  mv  better-search-replace-                      better-search-replace
+  563  mv  black-studio-tinymce-widget-                black-studio-tinymce-widget
+  564  mv  breadcrumb-navxt-                           breadcrumb-navxt
+  565  mv  broken-link-checker-                        broken-link-checker
+  566  mv  classic-editor-                             classic-editor
+  567  mv  classic-widgets-                            classic-widgets
+  568  mv  coblocks-                                   coblocks
+  569  ll
+  570  ,v w3-total-cache_ w3-total-cache
+  571  mv w3-total-cache_ w3-total-cache
+  572  mv litespeed-cache litespeed-cache_
+  573  mv limit-login-attempts-reloaded limit-login-attempts-reloaded_
+  574  mv loginizer loginizer_
+  575  mv loginizer_ loginizer
+  576  mv wps-hide-login wps-hide-login_
+  577  mv ga-google-analytics ga-google-analytics_
+  578  mv ga-google-analytics_ ga-google-analytics
+  579  mv disable-gutenberg disable-gutenberg_
+  580  mv disable-gutenberg_ disable-gutenberg
+  581  mv  flamingo  flamingo_
+  582  mv flamingo_ flamingo
+  583  mv hello-dolly hello-dolly_
+  584  ls -la
+  585  mv limit-login-attempts-reloaded_ limit-login-attempts-reloaded
+  586  ll
+  587  mv wps-hide-login_ wps-hide-login
+  588  mv wps-hide-login wps-hide-login-bk
+  589  l
+  590  ll
+  591  mv litespeed-cache_ litespeed-cache
+  592  ll
+  593  mv hello-dolly_ hello-dolly-BK
+  594  ll | wc -l
+  595  ll
+  596  cd /var/www/vhosts/
+  597  ll | grep puritysystem-db9r1elc0.hostgrid.live/
+  598  ls -la
+  599  ll
+  600  cd  puritysystem-db9r1elc0.hostgrid.live/
+  601  ll
+  602  ls -la
+  603  c
+  604  cd httpdocs/
+  605  ls -la
+  606  cat .htaccess
+  607  vi .htaccess
+  608  vi .htaccess
+  609  mv  .htaccess .htaccess_
+  610  mv  .htaccess .htaccess_bk
+  611  mv .htaccess_bk .htaccess
+  612  ls -la
+  613  cat web.config
+  614  cat index.php
+  615  ll
+  616  cat index.php
+  617  mv index.php index.php_bk
+  618  vi index.php
+  619  ls -la
+  620  chown p72btt8q0uri:psacln index.php
+  621  mv .htaccess .htaccess_
+  622  mv .htaccess .htaccess_bb
+  623  ll
+  624  cat index.php_bk
+  625  cd wp-content
+  626  ls -la
+  627  cd plugins
+  628  ls -la
+  629  cd l
+  630  ls -la
+  631  cd ..
+  632  ls -la
+  633  cat index.php
+  634  cat maintenance.php
+  635  cd ..
+  636  ls -la
+  637  cd ..
+  638  ls -la
+  639  cd httpdocs/
+  640  ll
+  641  cd wp-content
+  642  ll
+  643  mv plugins plugins_
+  644  ls -la
+  645  cd ..
+  646  ls -la
+  647  mv web.config web.config_bk
+  648  cd ..
+  649  ls -la
+  650  cat .htsitebuilder_config
+  651  cd staging.puritysystem.com
+  652  ls -la
+  653  cat .htaccess
+  654  ls -la
+  655  cd ..
+  656  ll
+  657  cd httpdocs/
+  658  ls -la
+  659  cat wp-login.php
+  660  ll
+  661  cat wp-trackback.php
+  662  ll
+  663  mv wp-trackback.php wp-trackback.php_
+  664  mv wp-trackback.php_ wp-trackback.php
+  665  cd ..
+  666  ll
+  667  mv httpdocs httpdocs_
+  668  mv httpdocs_ httpdocs
+  669  cd httpdocs
+  670  ls -la
+  671  cat wp-activate.php
+  672  ll
+  673  cd wp-content
+  674  ll
+  675  mv plugins_ plugins
+  676  ls -la
+  677  cd themes
+  678  ls -la
+  679  cd ..
+  680  ls -la
+  681  cd ..
+  682  ls -la
+  683  cat readme.html
+  684  ls -la
+  685  cat wp-config.php
+  686  ls -la
+  687  cat wp-links-opml.php
+  688  mv wp-links-opml.php wp-links-opml.php_
+  689  mv wp-links-opml.php_ wp-links-opml.php
+  690  ls -la
+  691  cat index.php_bk
+  692  mv index.php index.php-kb
+  693  mv index.php_bk index.php
+  694  ls -la
+  695  cat index.php
+  696  cd sitepro
+  697  ls -la
+  698  cat .htaccess
+  699  cat index.php
+  700  ls -la
+  701  lll
+  702  ll
+  703  ls -la
+  704  cat .htaccess
+  705  mv .htaccess .htaccess_
+  706  mv .htaccess_ .htaccess
+  707  ls -la
+  708  cd ..
+  709  ls -la
+  710  cat index.php
+  711  cd sitepro
+  712  ls -la
+  713  ls -la
+  714  cd ..
+  715  ls -la
+  716  cat .htaccess_bb
+  717  ls -la
+  718  mv .htaccess_ .htaccess
+  719  cat .htaccess
+  720  cat .htaccess_bb
+  721  ls -la
+  722  mv .htaccess .htaccess-
+  723  vi .htaccess
+  724  chown p72btt8q0uri:psacln .htaccess
+  725  ls -la
+  726  cat index.php
+  727  mv index.php index.php_org
+  728  vi index.php
+  729  ls -la
+  730  chown p72btt8q0uri:psacln index.php
+  731  ls -la
+  732  greip -ilr "This site is asking you to sign in"
+  733  grep  -ilr "This site is asking you to sign in"
+  734  grep  -ilr "This site"
+  735  grep  -ilr "This site is asking"
+  736  grep  -ilr "asking you"
+  737  ls -la
+  738  mv cpmove-wpuritys cpmove-wpuritys_bk
+  739  ls -la
+  740  mv wp-content wp-content_
+  741  ls -la
+  742  ls -la
+  743  mv cpmove-wpuritys_bk cpmove-wpuritys
+  744  ls -la
+  745  cat .htaccess-
+  746  ls -la
+  747  mv .htaccess -.htaccess
+  748  mv .htaccess .htaccess--
+  749  ls -la
+  750  mv .htaccess- .htaccess
+  751  ls -la
+  752  cat index.php
+  753  mv index.php index.php_b
+  754  ll
+  755  mv index.php_org index.php
+  756  cat index.php
+  757  ls -la
+  758  mv wp-content_ wp-content
+  759  ll
+  760  mv web.config_bk web.config
+  761  ls -la
+  762  cat .htaccess--
+  763  rm -rf .htaccess--
+  764  cat index.php-kb
+  765  rm -rf index.php-kb
+  766  cat index.php_b
+  767  rm -rf index.php_b
+  768  ll
+  769  cd wp-content
+  770  ls -la
+  771  cd plugins/
+  772  ls -la
+  773  pwd
+  774  cd ../..
+  775  cd ..
+  776  cd ..
+  777  cd ladiesknightproducts-fear1elc0.hostgrid.live/
+  778  ll
+  779  ll
+  780  cd wordpress-backups
+  781  s -la
+  782  ll
+  783  cd ..
+  784  ll
+  785  l
+  786  l
+  787  l
+  788  ll
+  789  cd httpdocs
+  790  l
+  791  ls -la
+  792  cd wp-content
+  793  ls -la
+  794  cd plugins
+  795  ls -la
+  796  cd ..
+  797  ls -la
+  798  ls -la
+  799  ll
+  800  cd ll
+  801  cd ..
+  802  ls -la
+  803  ll
+  804  cd ..
+  805  ll
+  806  cd logs
+  807  ls -la
+  808  cd ladiesknightproducts.co.uk
+  809  ls -la
+  810  cat access_ssl_log
+  811  cat access_ssl_log | grep 25/Oct
+  812  cat access_ssl_log | "grep 25/Oct"
+  813  cat access_ssl_log | grep "25/Oct"
+  814  cat access_ssl_log | grep -i "25/Oct"
+  815  cat access_ssl_log | more
+  816  l
+  817  ll
+  818  cd ..
+  819  cd ..
+  820  cd ..
+  821  cd leejohncarteroriginalsongs-cb8r1gg00.hostgrid.live/
+  822  ll
+  823  cd httpdocs
+  824  ls -la
+  825  cat index.php
+  826  cat .htaccess
+  827  ll
+  828  cd wp-content
+  829  ls -la
+  830  ll
+  831  cd plugins
+  832  ll
+  833  cd ..
+  834  cd ..
+  835  l
+  836  ll
+  837  cd ..
+  838  l
+  839  ll
+  840  cd logs/
+  841  ll
+  842  tail -f error_log
+  843  ll
+  844  cd leejohncarteroriginalsongs.com
+  845  ll
+  846  tail -f error_log
+  847  ll
+  848  tail -f  /usr/local/
+  849  tail -f  /var/log/nginx/error.log
+  850  cd ../..
+  851  ll
+  852  cd httpdocs/
+  853  lll
+  854  ll
+  855  greip -ilr "Just another"
+  856  grep -ilr "Just another"
+  857  cat wp-content/languages/plugins/contact-form-7-en_GB.po | grep "Just another"
+  858  grep -ilr "Just another WordPress site"
+  859  cat wp-admin/includes/schema.php
+  860  cat wp-admin/includes/schema.php | grep  "Just another WordPress site"
+  861  vi wp-admin/includes/schema.php
+  862  cd /var/www/vhosts/marslatest.com
+  863  cd /var/www/vhosts/coverface-232r0kyo0.hostgrid.live/
+  864  cd httpdocs/
+  865  ls -la
+  866  cat .htaccess
+  867  cd marslatest
+  868  ls -la
+  869  find . -type d -exec chmod 0755 {} \;
+  870  find . -type f -exec chmod 0644 {} \;
+  871  ls -la
+  872  cat index.php
+  873  cat wp-config.php
+  874  ll
+  875  grep -ilr coverface.com
+  876  cd ..
+  877  ll
+  878  tar -cvf marslatest.tar marslatest
+  879  ls -la
+  880  grep -ilr coverface.com
+  881  l
+  882  ll
+  883  cd marslatest/
+  884  ll
+  885  grep -ilr coverface.com
+  886  cat wp-content/themes/gridlove/header.php | grep
+  887  cat wp-content/themes/gridlove/header.php | grep coverface.com
+  888  cat wp-content/uploads/2020/06/index.html | grep coverface.com
+  889  ls -la
+  890  cd ..
+  891  ll
+  892  cd ..
+  893  ll
+  894  cd marslatest.com/
+  895  ll
+  896  cd ..
+  897  l
+  898  ll
+  899  cd logs/
+  900  ll
+  901  cd marslatest.com/
+  902  ll
+  903  tail -f error_log
+  904  ls -la
+  905  tail -f error_log
+  906  cd ..
+  907  ls -la
+  908  tail -f error_log
+  909  ls -la
+  910  cd marslatest.com
+  911  ll
+  912  tail -f access_ssl_log
+  913  tail -f proxy_error_log
+  914  cd ..
+  915  ll
+  916  cd ..
+  917  ll
+  918  cd marslatest.com/
+  919  ll
+  920  cd ..
+  921  cd ll
+  922  ll
+  923  cd marslatest.com/
+  924  ll
+  925  cd ..
+  926  ll
+  927  cd httpdocs
+  928  ll
+  929  cd marslatest
+  930  ls -la
+  931  cat .htaccess
+  932  vi .htaccess
+  933  mv .htaccess .htaccess_
+  934  vi .htaccess
+  935  ll
+  936  chown cu71phmp0ove:psacln .htaccess
+  937  rm -rf .htaccess
+  938  ll
+  939  ls -la
+  940  mv .htaccess_ .htaccess
+  941  ls -la
+  942  rm -rf test.php
+  943  ls -la
+  944  tail -f /var/log/nginx/error.log
+  945  tail -f /var/log/nginx/access.log
+  946  ll
+  947  pwd
+  948  cd /var/log/
+  949  ls- lart
+  950  ls -lrat
+  951  cd nginx/
+  952  ls -lart
+  953  date
+  954  tail -f error.log
+  955  tail -f access.log
+  956  cd /var/www/vhosts/coverface-232r0kyo0.hostgrid.live/
+  957  ls -lart
+  958  cd httpdocs/
+  959  ls -lart
+  960  cd marslatest/wp-
+  961  cd marslatest/
+  962  ls -alrt
+  963  pwd
+  964  pwd
+  965  cd ../
+  966  ls -alrt
+  967  cd ..
+  968  ls -alrt
+  969  cd logs/
+  970  ls -alrt
+  971  cd marslatest.com/
+  972  ls -alrt
+  973  date
+  974  tail -f er
+  975  tail -f error_log
+  976  pwd
+  977  cd ..
+  978  ls -alrt
+  979  cd ..
+  980  ls -alrt
+  981  cd ..
+  982  ls -art
+  983  cd -
+  984  pwd
+  985  pwd
+  986  pwd
+  987  ll
+  988  cd marslatest.com/
+  989  ll
+  990  cd ..
+  991  pwd
+  992  cd httpdocs/
+  993  cd marslatest/wp-
+  994  cd marslatest/
+  995  ll
+  996  ls -lart
+  997  more .htaccess
+  998  vi .htaccess
+  999  dATE
+ 1000  date
+ 1001  cd /var/www/vhosts/betterbenefitsforal-ba8r191c0.hostgrid.live/
+ 1002  ll
+ 1003  cd blog
+ 1004  ls -la
+ 1005  cd ..
+ 1006  ll
+ 1007  cd BBforAL
+ 1008  ls -la
+ 1009  pwd
+ 1010  cp -ar * /var/www/vhosts/betterbenefitsforal-ba8r191c0.hostgrid.live/httpdocs/
+ 1011  cd /var/www/vhosts/betterbenefitsforal-ba8r191c0.hostgrid.live/httpdocs/
+ 1012  ls -la
+ 1013  cat index.php
+ 1014  mv index.php index.php_
+ 1015  ls -la
+ 1016  cat index.html
+ 1017  pwd
+ 1018  cd ..
+ 1019  ls -la
+ 1020  zcat project.zip
+ 1021  ls -la
+ 1022  project.zip project.zip
+ 1023  zmore  project.zip
+ 1024  ls -la
+ 1025  cd httpdocs/
+ 1026  ls -la
+ 1027  mv index.php_ index.php
+ 1028  rm -rf blog Blog-Template.css Home.css Home.html index.htmljquery.jsnicepage.cssnicepage.jsPost-Template.css project project
+ 1029  ls -la
+ 1030  rm -rf project
+ 1031  ll
+ 1032  ls -la
+ 1033  pwd
+ 1034  rm -rf index.html index.php jquery.js nicepage.css Post-Template.css
+ 1035  ls -la
+ 1036  tar -zvf project.zip
+ 1037  unzip project.zip
+ 1038  ll
+ 1039  rm -rf images favicon.ico nicepage.js site.json
+ 1040  ls -la
+ 1041  unzip project.zip
+ 1042  ls -la
+ 1043  chown b7iwkg5q0ett:psacln * -R
+ 1044  ls -la
+ 1045  ls -la
+ 1046  mv Home_167174912.html home_167174912.html
+ 1047  vi test.php
+ 1048  chown b7iwkg5q0ett:psacln test
+ 1049  chown b7iwkg5q0ett:psacln test.php
+ 1050  cd ..
+ 1051  ls -la
+ 1052  ls -la
+ 1053  cd ..
+ 1054  ls -la
+ 1055  ll | grep betterbenefitsforal-ba8r191c0.hostgrid.live
+ 1056  cd betterbenefitsforal-ba8r191c0.hostgrid.live
+ 1057  ls -la
+ 1058  ll
+ 1059  ls -la
+ 1060  cd BBforAL
+ 1061  ls -la
+ 1062  cat index.html
+ 1063  ls -la
+ 1064  cd ..
+ 1065  ls -la
+ 1066  ls -la
+ 1067  cd httpdocs
+ 1068  ls -la
+ 1069  rm -rf 404-Not-Found-Template.html Blog-Template.html blog home_167174912.html images Post-Template.html Login-Template.html img Post-Template.html Product-Details-Template.html Product-List-Template.html Shopping-Cart-Template.html site.json test.php
+ 1070  ls -la
+ 1071  cd ..
+ 1072  ll
+ 1073  cd blog/
+ 1074  cd ..
+ 1075  cd BBforAL/
+ 1076  ll
+ 1077  cd ..
+ 1078  ll
+ 1079  cd httpdocs/
+ 1080  ll
+ 1081  rm -rf project*
+ 1082  ls -la
+ 1083  cd ..
+ 1084  ll
+ 1085  cp -ar project.zip httpdocs/
+ 1086  cd httpdocs/
+ 1087  ls -la
+ 1088  unzip project.zip
+ 1089  ls -a
+ 1090  ls -la
+ 1091  chown b7iwkg5q0ett:psaserv * -R
+ 1092  ll
+ 1093  cd ..
+ 1094  ls -la
+ 1095  cd BBforAL
+ 1096  ls -la
+ 1097  cat index.html
+ 1098  cd ..
+ 1099  ls -la
+ 1100  cd httpdocs/
+ 1101  ls -la
+ 1102  cd ..
+ 1103  cd BBforAL/
+ 1104  pwd
+ 1105  ll
+ 1106  co -ar * /var/www/vhosts/betterbenefitsforal-ba8r191c0.hostgrid.live/httpdocs/
+ 1107  cp -ar * /var/www/vhosts/betterbenefitsforal-ba8r191c0.hostgrid.live/httpdocs/
+ 1108  cd ..
+ 1109  cd httpdocs/
+ 1110  ls -la
+ 1111  grep -ilr Alabama
+ 1112  cat | grep Alabama
+ 1113  cat index.html | grep Alabama
+ 1114  cat /root/265708_alias_redir_disable.sh
+ 1115  history
+[root@dazzle httpdocs]#

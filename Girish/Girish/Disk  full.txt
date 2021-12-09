@@ -1,0 +1,179 @@
+root@bernard /]# du -sch * | grep G
+
+3.0G    opt
+1.1G    root
+3.2G    run
+67G     usr
+43G     var
+
+
+
+find . -type f -name "*log" -size +1G -exec du -sh {} \;
+
+[root@bernard /]# du -sch * | grep G
+
+
+/usr/local/cpanel/logs
+
+/usr/local/apache/logs
+
+/var/log/apache2/
+
+
+donot remove Stdrr.log
+Stdrr logs delete 
+
+
+lsof|grep '(deleted)'
+lsof|grep '(deleted)' | awk {'print $1'}
+lsof|grep '(deleted)' | awk {'print $2'}
+lsof|grep '(deleted)' | awk {'print $2'} l xargs kill -9
+
+
+
+
+/usr/local/lsws/bin/lswsctrl restart
+
+
+
+==========================
+backup and log files in /home
+
+ll -h /home/*/*.zip | grep G
+ll -h /home/*/*.tar | grep G
+ll -h /home/*/*.tar.gz | grep G
+ll -h /home/*.tar.gz | grep G
+
+
+ll -h /home/*/public_html/*.zip | grep G
+ll -h /home/*/public_html/*.rar | grep G
+ll -h /home/*/public_html/*.tar | grep G
+ll -h /home/*/public_html/*.tar.gz | grep G
+ll -h /home/*/public_html/*.gz | grep G
+
+ll -h /home/*/public_html/*/*.zip | grep G
+ll -h /home/*/public_html/*/*.rar | grep G
+ll -h /home/*/public_html/*/*.exe | grep G
+ll -h /home/*/public_html/*/*.tar | grep G
+ll -h /home/*/public_html/*/*.gz | grep G
+ll -h /home/*/public_html/*/*.tar.gz | grep G
+ll -h /home/*/public_html/error_log | grep G
+ll -h /home/*/public_html/*/error_log | grep G
+ll -h /home/*/public_html/*/*/error_log | grep G
+
+
+
+==============
+find / -size +1G -exec ls -hl {} \; | awk {'print $5, $9'} > /root/dc.txt &
+
+===============
+cd healthcheck/
+cat large_files.txt
+
+cat large_files.txt | grep backup | awk '{print $2}' > wp
+cat large_files.txt | grep error_log | awk '{print $2}' >> wp
+
+[root@duluth healthcheck]# du -sch /home/./clearmin/public_html/wp-content/uploads/backupbuddy_backups/
+12G     /home/./clearmin/public_html/wp-content/uploads/backupbuddy_backups/
+12G     total
+[root@duluth healthcheck]# du -sch /home/./watchtym/public_html/wp-content/updraft/
+92G     /home/./watchtym/public_html/wp-content/updraft/
+92G     total
+
+================
+
+mkdir healthcheck
+
+cd healthcheck
+
+touch error_log
+touch final_report.txt
+touch large_files.txt
+touch mysql_corrupt.txt
+touch wp
+
+vi a.sh
+------------
+#!/bin/bash
+
+dt=$(date -d "yesterday 13:00" '+%d')
+date=$(date)
+
+#Cleaning old  data
+
+echo > final_report.txt
+
+#Start with some design....
+
+echo "+***************+" >> final_report.txt
+echo "Report Started $date" >> final_report.txt
+echo "+***************+" >> final_report.txt
+
+#finding %user & %iowait
+
+printf "\n" >> final_report.txt
+echo "%User | %iowait" >> final_report.txt
+echo "+--------------+" >> final_report.txt
+sar -f /var/log/sa/sa$dt | grep Average | awk {'printf ("%5s\t%s\n", $3, $6)'} >> final_report.txt
+
+
+##finding %commit
+
+printf "\n">>final_report.txt
+echo "%commit" >> final_report.txt
+echo "+--------------+" >> final_report.txt
+sar -r -f /var/log/sa/sa$dt | grep Average | awk {'printf $8'} >> final_report.txt
+
+
+#Find corrupt db
+
+printf "\n">>final_report.txt
+printf "\n">>final_report.txt
+echo "MySQL courrpt DB" >> final_report.txt
+echo "+--------------+" >> final_report.txt
+grep repair /var/lib/mysql/mysqlerror.log | awk '{print $7}' | cut -d . -f2 | cut -d / -f2 | sort | uniq | sort -n > mysql_corrupt.txt
+echo "Please refer mysql_corrupt.txt for all details" >> final_report.txt
+
+
+#Large inode
+
+
+printf "\n" >> final_report.txt
+echo "Users having large inode usage " >> final_report.txt
+echo "+--------------+" >> final_report.txt
+repquota -a | sort -nk6 | tail   >> final_report.txt
+
+
+# Cron running every minute.
+
+printf "\n" >> final_report.txt
+echo "Crons running every minute" >> final_report.txt
+echo "+--------------+" >> final_report.txt
+grep -ir '\* \* \* \* \* ' /var/spool/cron*  >> final_report.txt
+
+
+#Finding files larger than 100M
+
+printf "\n" >> final_report.txt
+echo "Files larger than 100M" >> final_report.txt
+echo "+--------------+" >> final_report.txt
+find /home/. -type f -size +100000k -exec ls -lh {} \; | awk '{ print $5 "   " $9 }' > large_files.txt
+echo "Please refer large_files.txt for all details" >> final_report.txt
+
+
+#End
+
+printf "\n" >> final_report.txt
+echo "+**********+" >> final_report.txt
+echo "Report Finished $date" >> final_report.txt
+echo "+**********+" >> final_report.txt
+
+exit 1
+
+------------
+
+chmod 755 a.sh
+
+
+
+

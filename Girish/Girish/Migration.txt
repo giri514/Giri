@@ -1,0 +1,81 @@
+We will surely migrate your account from Site5 to us. Please send us the necessary accesses to download the content of your website to your current host. In some cases, FTP access may be sufficient.
+
+After migration, you will need to update the following DNS for your domain. 
+
+~~~
+ns1.web-dns1.com
+ns2.web-dns1.com
+ns3.web-dns1.com
+~~~
+
+Please confirm if you will update the DNS on your side or do you want us to make the DNS changes? 
+
+Let us know how you would like to proceed so that I can schedule the migration accordingly. 
+
+I remain at your disposal should you have any additional questions.
+
+Regards, 
+
+============
+Hello Alex,
+
+Thank you for contacting Web Hosting Canada. 
+
+I could see that the primary domain name of your WHC hosting account is "monad.media" and the primary domain of your siteground hosting account is "urbangreencontracting.com". 
+
+With the siteground hosting account you have hosted two websites urbangreencontracting.com and ingenuitybox.com. Your website "monad.media" is not hosted under siteground so we won't be able to migrate it. 
+
+Please confirm if you want to change the primary domain name of your WHC hosting account from "monad.media" to "urbangreencontracting.com". 
+
+Or 
+
+Do you wish to add urbangreencontracting.com and ingenuitybox.com as an addon domain under the hosting account of "monad.media"? If yes then we will need to migrate both the websites manually. 
+
+In the manual migration, we can't directly transfer your emails from old host to WHC. If you want us to migrate the emails manually then there will be a charge of $49.  If you would like to opt for this service, please simply confirm the email address that you wish to transfer to your account with us and its password.
+
+Otherwise, you can use our following online tool to migrate email accounts yourself. 
+
+-------------
+https://imapsync.whc.ca/
+------------- 
+
+----------------------------------------------------
+Hello Ariadna,
+
+Thank you for your patience. I have successfully migrated the website "iat202.com" from the old host to WHC now. 
+
+Further, I have verified your website "http://iat202.com/" by adding the following host file entry on my local machine and it's working fine.
+```
+162.213.156.67 iat202.com www.iat202.com
+```
+
+Please refer to the following screenshot for the verification.
+
+```
+https://prnt.sc/qaixfy
+```
+
+You can also preview the website by adding host file entry on your machine. Please refer to the following KB article for your reference.
+```
+https://clients.whc.ca/en/knowledgebase/1507/How-to-Preview-your-Website-on-your-WHC-Account-using-the-Hosts-File.html
+```
+
+If everything works as expected, then you can proceed to update the following nameservers for your domain in order to get your domain running from the WHC server.
+
+```
+cloud1.whc.ca
+cloud2.whc.ca
+```
+
+I remain at your disposal should you have any additional questions.
+
+========================
+
+
+Hello Randy,
+
+I am able to log in to your old host control panel, Currently, I can see disk space usage of your account is around 71.39 GB and full backup can't be generated for the large accounts.
+
+You can refer our site transfer policy at https://clients.whc.ca/en/knowledgebase/1660/What-are-the-conditions-for-the-Site-Transfer-service.html , Can you please remove unwanted files to reduce the disk space of your account to around 10G ?
+----
+We can surely able to migrate the website but website exceeding our migration limits will incur additional cost which billed at our standard hourly rate $85/hour. If you are okay with this then I can go ahead and migrate your website. It may takes 1-2 hours sysadmin work for migration.

@@ -1,0 +1,29 @@
+
+
+Disable all site.pro codes in Plesk provision script before performing 
+
+  - name: Add site.pro license for HostGrid instance IP
+      shell: php /home/ansible/hostgrid-sitepro-api.php
+      when: label == "hostgrid"
+
+    - name: Add site.pro license for HostPlus instance IP
+      shell: php /home/ansible/hostplus-sitepro-api.php
+      when: label == "hostplus"
+
+    - name: Add site.pro license for SiteCreator instance IP
+      shell: php /home/ansible/sitecreator-sitepro-api.php
+      when: label == "sitecreator"
+
+
+Use the old hostnam to provision test plesk instance 
+
+blueberry
+
+XXX- caramel
+
+srv.hostplus.com
+
+Enable all site.pro codes in Plesk provision script
+
+
+add the the old hostnam in hostname file. 

@@ -1,0 +1,46 @@
+zabbix
+
+certbot --apache
+
+==============
+
+Ubuntu
+
+ cd /tmp
+
+git clone https://github.com/Neilpang/acme.sh.git
+
+cd /tmp/acme.sh/
+
+./acme.sh --install --home /usr/local/acme.sh --certhome /var/www/letsencrypt/ --accountemail dipak.salve@hostgrid.com
+
+cd /usr/local/acme.sh
+
+./acme.sh --issue -d jump.srv.hostgrid.com -w /var/www/html/
+
+vi /etc/xrdp/xrdp.ini
+
+Find the two lines certificate=& key_file= and edit these two lines with the path to the certificates which is issued in step 13.
+
+nano /etc/xrdp/xrdp.ini
+
+certificate=/usr/local/acme.sh/example.com/fullchain.cer
+key_file=/usr/local/acme.sh/example.com/example.com.key
+
+systemctl restart xrdp
+service apache2 restart
+
+cd /etc/apache2/sites-enabled/
+
+vi 000-default.conf - disabled resdirection to https
+
+vi default-ssl.conf -- disabled
+----
+certificate=/usr/local/acme.sh/example.com/fullchain.cer
+key_file=/usr/local/acme.sh/example.com/example.com.key
+----
+
+systemctl restart xrdp
+service apache2 restart
+
+==============

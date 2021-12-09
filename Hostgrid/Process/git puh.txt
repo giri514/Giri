@@ -1,0 +1,111 @@
+Go to "repo" remove plesk-provision-host 
+cp -ar  plesk-provision-host to "repo"
+
+git init
+git add plesk-provision-host
+git commit -m "commit"
+git branch -M main 
+git push https://dipaksalve13:b8e740c08d98c4a009c842ca6b9d89da2345534b@github.com/LucidCube/hostplus-ansible.git
+======================================================================
+Test Git token: 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
+
+
+Git token: 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
+
+production: b8e740c08d98c4a009c842ca6b9d89da2345534b
+
+
+ git add src
+ git commit -m "my data"
+ git branch -M main
+ git remote add origin https://github.com/giri514/Giri.git
+ git push -u origin main
+ 
+======================================================================
+-----------------
+  cd  /etc/ansible/repo/
+  ll
+  rm -rf plesk-provision-host
+  cd ..
+  cp -ar plesk-provision-host repo/
+  cd repo/plesk-provision-host/
+  ll
+  cat roles/plesk-configure/tasks/main.yml
+  cd ..
+  ll
+  git init
+  git add plesk-provision-host
+  git commit -m "Updated"
+  git branch -M main
+  git push https://dipaksalve13:b8e740c08d98c4a009c842ca6b9d89da2345534b@github.com/LucidCube/hostplus-ansible.git
+
+-----------------
+
+
+ 2  cd repo/
+    3  ll
+    4  rm -rf kernel-update
+    5  ll
+    6  cd ..
+    7  ll
+    8  cd plesk-provision-host/
+    9  ll
+   10  cat plesk-provision-host.yml
+   11  ll
+   12  cd ../
+   13  ll
+   14  cp -ar plesk-provision-host/ repo/
+   15  cd repo/
+   16  ll
+   17  git init
+   18  git add plesk-provision-host
+   19  git commit -m "Updated"
+   20  git remote add origin https://github.com/LucidCube/hostplus-ansible.git
+   21  git branch -M main
+   22  git push https://dipaksalve13:b8e740c08d98c4a009c842ca6b9d89da2345534b@github.com/LucidCube/hostplus-ansible.git
+   23  vi /usr/lib/python2.7/site-packages/libcloud/compute/drivers/gce.py
+   24  vi /usr/lib/python2.7/site-packages/libcloud/common/google.py
+   25  cat /usr/lib/python2.7/site-packages/libcloud/compute/drivers/gce.py | grep -i timeout
+   26  cat /usr/lib/python2.7/site-packages/libcloud/compute/drivers/gce.py | grep -i 14400
+   27  cat /usr/lib/python2.7/site-packages/libcloud/common/google.py | grep -i 14400
+   28  ll
+   29  rm -rf plesk-provision-host/
+
+---------------------------
+
+…or create a new repository on the command line
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/giri514/test.git
+git push -u origin main
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/giri514/ansible.git
+git branch -M main
+git push -u origin main
+
+
+
+
+
+============================
+
+mkdir repo
+cp -ar ansible repo/
+cd ansible/
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/giri514/ansible.git
+git push --force origin master
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+wget -r --level=0 --user='whctest.expocote-design.com' --password='Wwb@8t$.)#TFDEL' ftp://expocote-design.com
+
+
+sftp -oPort=22 username@serverIP
+
+get -r * (to download all files/directories)
+
+
+backup database from remote server
+
+ mysqldump -h sql5c11b.megasqlservers.com -u expocotede440988 -p  wp_expocote-design_com > wp_expocote-design_com.sql

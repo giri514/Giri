@@ -1,0 +1,8 @@
+#!/bin/bash
+whmapi1 backup_config_set backupenable=0 #Disable cPanel Backup
+yum clean all --enablerepo=jetapps* #Clean Old JetApps Repo
+rm -rf /var/cache/yum #Clear Yum Cache
+yum -y install http://repo.jetlicense.com/centOS/jetapps-repo-latest.rpm #Install Lastest JetApps Repo
+yum -y install jetapps-cpanel --enablerepo=jetapps #Install Jet Apps
+jetapps --install jetbackup stable #Install JetBackup
+jetcli backup --license #Triger License

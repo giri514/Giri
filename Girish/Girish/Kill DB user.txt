@@ -1,0 +1,66 @@
+[root@georgia src]# cat mysqlkilluser.sh
+#!/bin/bash
+if [[ $1 != "" ]]
+then
+    for p in `mysqladmin proc stat | grep $1 | awk '{print $2}'`
+    do
+            mysqladmin kill $p
+    done
+else
+    echo "Usage: mysqlkilluser.sh <user>"
+fi
+
+sh mysqlkilluser.sh  adm0833_wp
+
+
+
+==============]
+
+Kill mysql sleep process: 
+
+mysqladmin proc | grep Sleep | awk '{print $2}' | while read LINE; do mysqladmin kill $LINE; done
+
+Mysql number of connections. 
+
+mysqladmin pr | awk {'print $4'} | sort | uniq -c | sort -n
+
+
+
+ lsof -p $(pgrep -u mysql mysql) | grep -E '/var/lib/mysql/.+/.+' | cut -d '/' -f5 | sort | uniq -c | sort -nr | head
+
+
+ps aufx | grep php | awk {'print $1'} | sort | uniq -c | sort -n
+
+===============
+MySQL error: /var/lib/mysql/cloud41909.mywhc.ca.err
+
+https://clients.whc.ca/power/supporttickets.php?action=view&id=1082237
+
+curl -L http://mysqltuner.pl/ | perl
+
+
+````
+MySQL configuration: 
+
+In addition, I optimized the MySQL configuration on your server by adjusting the following variables.
+
+    max_connections (> 151)
+    wait_timeout (< 28800)
+    interactive_timeout (< 28800)
+    query_cache_size (=0)
+    query_cache_type (=0)
+    query_cache_limit (> 1M, or use smaller result sets)
+    join_buffer_size (> 256.0K, or always use indexes with JOINs)
+    tmp_table_size (> 16M)
+    max_heap_table_size (> 16M)
+    thread_cache_size (start at 4)
+    table_open_cache (> 2000)
+    performance_schema = ON enable PFS
+    innodb_buffer_pool_size (>= 4.1G) if possible.
+    innodb_log_file_size should be (=16M) if possible, so InnoDB total log files size equals to 25% of buffer pool size.
+    innodb_buffer_pool_instances (=1)
+````
+
+/scripts/restartsrv_mysql --stop
+/scripts/restartsrv_mysql --start
+

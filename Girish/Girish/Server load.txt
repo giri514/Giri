@@ -1,0 +1,144 @@
+netstat -na
+
+List of IPs hacing high connections. 
+
+netstat -ntu | awk '{print $5}' | cut -d: -f1 | sort | uniq -c | sort -n    
+
+=====================
+
+egrep 'wp-login.php' /usr/local/apache/domlogs/* | grep -v ftp_log | awk -F : '{print $2}' | awk '{print $1}' | sort | uniq -c | sort -n
+egrep 'xmlrpc.php' /usr/local/apache/domlogs/* | grep -v ftp_log | awk -F : '{print $2}' | awk '{print $1}' | sort | uniq -c | sort -n
+
+
+
+grep domainname /usr/local/apache/logs/error_log | grep ModSecurity | grep id | awk {'print $28'} | sort | uniq -c | sort -n
+grep domainname /usr/local/apache/logs/error_log | grep ModSecurity | grep id
+
+
+
+/usr/local/lsws/bin/lswsctrl restart
+
+
+for i in `tail -20000 /usr/local/apache/logs/error_log | grep "xmlrpc.php" | grep "77141064" | awk {'print $13'} | replace "]" "" | sort | uniq -c | sort -nr | awk {'print $2'}`; do echo $i; csf -d $i "Bruteforce"; done
+
+    for i in `tail -20000 /usr/local/apache/logs/error_log | grep "wp-login.php" | grep "33332" | awk {'print $13'} | replace "]" "" | sort | uniq -c | sort -nr | awk {'print $2'}`; do echo $i; csf -d $i "Bruteforce"; done
+
+---------
+lisst and kill process
+
+ps -aufx | grep lsphp | awk '{print $2}'
+ps -aufx | grep lsphp | awk '{print $2}' | xargs kill -9
+
+RESTART THE SERVICE
+--------------
+High hit IP
+netstat -ntu | awk '{print $5}' | cut -d: -f1 | sort | uniq -c | sort -n
+
+===========
+Load on node:
+
+killall -9 httpd
+pidof clamd
+for i in `cat /proc/vz/veinfo | awk '{print $1}'|egrep -v '^0$'`; do echo "Container $i"; vzctl exec $i "service httpd restart"; done
+-----------------
+
+vzlist -o ctid,laverage
+
+
+=======================================
+Load monitoring commands 
+
+Identify brute-force attacks on Wordpress. This will often be the issue if you are seeing the same IP hitting differnt domains with POST requests
+
+grep -R "wp-login.php" /usr/local/apache/domlogs/* | grep "POST" | awk -F: '{ print $2 }' | awk '{print $1}' | sort | uniq -c | sort -n
+
+*******************
+
+Connections to Port 80:- 
+
+netstat -plan|grep :80|awk {'print $5'}|cut -d: -f 1|sort|uniq -c|sort -nk 1
+
+
+******************
+
+(D)DOS Load Issues
+
+1.Find IP flooding the server with suspicious packets :- netstat -an | grep SYN_RECV
+
+2.Find top IPs with the number of connections they currently have:  netstat -ntu | awk '{print $5}' | cut -d: -f1 | sort | uniq -c | sort -n
+
+3.If it's an Apache DDOS, by command line:  netstat -apn | grep :80 | wc -l    (If > 1000, DDOS likely.)
+
+  You can guess target of DDOS by reading apache output of:  service httpd fullstatus
+
+  For Centos 7:  apachectl fullstatus
+  
+4. To see what Ips are connecting to server and how many connections exist from each IP:  netstat -anp |grep 'tcp\|udp' | awk '{print $5}' | cut -d: -f1 | sort | uniq -c | sort -n
+
+5. To see how many connections each IP on the server is receiving: netstat -plan |grep :80 | awk '{print $4}' | cut -d: -f1 | sort | uniq -c | sort -n
+
+
+********************
+
+
+CSF Configuration for Connection Tracking in case of DDOS
+
+The Connection Tracking setting can be used to block IPs with too many connections to the server. This will also block some legitimate requests, so should be done with great care and for a limited time only.
+
+CT_LIMIT is max number of connection allowed from one IP, you can set this value as low as 100 for a big DDOS, but a value of 300 will cause less false-positives (it will still cause false positives though, even with a value as high as 1000).
+
+CT_LIMIT =100
+
+Set connection tracking interval.
+
+CT_INTERVAL =30
+
+If you want to get possible ddos attack email then enable it, otherwise set to 0.
+
+CT_EMAIL_ALERT =1
+
+If you want to make IP blocks permanent then set this to 1, otherwise blocks
+will be temporary and will be cleared after CT_BLOCK_TIME seconds
+
+CT_PERMANENT = 0
+
+If you opt for temporary IP blocks for CT, then the following is the interval
+in seconds that the IP will remained blocked for (e.g. 1800 = 30 mins)
+
+CT_BLOCK_TIME = 1800
+
+If you only want to count specific ports (e.g. 80,443) then add the ports
+to the following as a comma separated list. E.g. “80,443”
+
+CT_PORTS = 80,443
+
+
+*******************
+
+View load history over the past few hours:
+
+sar
+sar -q
+sar -r
+
+*******************
+
+Check RAID Status
+
+cat /proc/mdstat
+
+Test hard drive speed
+
+dd if=/dev/zero of=output.img bs=8k count=256k conv=fdatasync
+
+
+Check SMART HDD Status
+smartctl -H /dev/sda | grep SMART
+smartctl -H /dev/sdb | grep SMART
+smartctl -H /dev/sdc | grep SMART
+
+To run you'll need the smartmontools package installed on your system (yum install smartmontools)
+
+******************
+
+  

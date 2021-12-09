@@ -1,0 +1,1003 @@
+[zabbix@zabbix ~]$ sudo su
+[root@zabbix zabbix]# history
+    2  pidof httpd
+    3  cd /etc/httpd/conf.d
+    4  ll
+    5  cp zabbix.conf zabbix.conf-org
+    6  vi zabbix.conf
+    7  service httpd restart
+    8  vi zabbix.conf
+    9  vi zabbix.conf
+   10  service httpd restart
+   11  vi zabbix.conf
+   12  service httpd restart
+   13  vi zabbix.conf
+   14  vi zabbix.conf
+   15  service httpd restart
+   16  vi zabbix.conf
+   17  certbot --apache
+   18  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+   19  service httpd restart
+   20  cd /etc/letsencrypt/
+   21  ll
+   22  cd live
+   23  ll
+   24  certbot delete --cert-name zabbix.srv.hostgrid.com
+   25  certbot delete --cert-name zabbix.srv.hostgrid.com
+   26  ll /etc/letsencrypt/renewal/zabbix.srv.hostgrid.com.conf
+   27  ll
+   28  ll zabbix.srv.hostgrid.com/
+   29  cd ..
+   30  ll
+   31  cd  live/
+   32  ll
+   33  rm -rf zabbix.srv.hostgrid.com/
+   34  ll
+   35  cd ..
+   36  ll
+   37  ll archive/
+   38  ll renewal
+   39  certbot delete --cert-name zabbix.srv.hostgrid.com
+   40  certbot --apache
+   41  service httpd restart
+   42  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+   43  cat /etc/letsencrypt/live/zabbix.srv.hostgrid.com/fullchain.pem
+   44  w
+   45  w
+   46  certbot delete --cert-name zabbix.srv.hostgrid.com
+   47  cd /etc/httpd/conf.d/
+   48  ll
+   49  cat zabbix.conf
+   50  vi zabbix.conf
+   51  service httpd restart
+   52  journalctl -xe
+   53  mv /etc/httpd/conf.d/zabbix-le-ssl.conf /etc/httpd/conf.d/zabbix-le-ssl.conf-old
+   54  service httpd restart
+   55  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+   56  ll
+   57  vi zabbix.conf
+   58  service httpd restart
+   59  pidof httpd
+   60  certbot delete --cert-name zabbix.srv.hostgrid.com
+   61  service httpd restart
+   62  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+   63  ll
+   64  cat ssl.conf
+   65  ll
+   66  mv zabbix.conf-org zabbix-le-ssl.conf- zabbix-le-ssl.conf-old /usr/local/src/
+   67  ll
+   68  mv /etc/letsencrypt /usr/local/src/
+   69  vi zabbix.conf
+   70  certbot --apache
+   71  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+   72  vi zabbix.conf
+   73  service httpd restart
+   74  ll /etc/letsencrypt/live/zabbix.srv.hostgrid.com/fullchain.pem
+   75  vi zabbix.conf
+   76  service httpd restart
+   77  pidof httpd
+   78  vi zabbix.conf
+   79  service httpd restart
+   80  ll
+   81  cp ssl.conf /usr/local/src/
+   82  ll
+   83  cat zabbix-le-ssl.conf
+   84  cat /etc/letsencrypt/live/zabbix.srv.hostgrid.com/cert.pem
+   85  vi zabbix.conf
+   86  service httpd restart
+   87  vi zabbix.conf
+   88  service httpd restart
+   89  certbot delete --cert-name zabbix.srv.hostgrid.com
+   90  servie httpd restart
+   91  service httpd restart
+   92  journalctl -xe
+   93  rm -vf /etc/httpd/conf.d/zabbix-le-ssl.conf
+   94  service httpd restart
+   95  cd /etc/letsencrypt/
+   96  ll
+   97  ll live
+   98  cat options-ssl-apache.conf
+   99  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  100  ll
+  101  cd ..
+  102  mv letsencrypt/ letsencrypt-
+  103  cd /etc/httpd/conf.
+  104  cd /etc/httpd/conf.d/
+  105  ll
+  106  vi zabbix.conf
+  107  service httpd restart
+  108   systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  109  certbot renew --dry-run
+  110  ll
+  111  certbot delete --cert-name zabbix.srv.hostgrid.com
+  112  rm -rf /etc/letsencrypt
+  113  certbot delete --cert-name zabbix.srv.hostgrid.com
+  114  ll
+  115  cat zabbix.conf
+  116  certbot --apache
+  117  vi zabbix.conf
+  118  certbot --apache
+  119  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  120  service httpd restart
+  121  ll
+  122  cat zabbix-le-ssl.conf
+  123  ll
+  124  vi ssl.conf
+  125  cat /etc/pki/tls/certs/localhost.crt
+  126  vi ssl.conf
+  127  service httpd restart
+  128  journalctl -xe
+  129  vi ssl.conf
+  130  service httpd restart
+  131  pidof httpd
+  132  ll
+  133  cat zabbix-le-ssl.conf
+  134  vi ssl.conf
+  135  service httpd restart
+  136  pidof httpd
+  137  vi zabbix
+  138  vi zabbix.conf
+  139  cat zabbix.conf
+  140  service httpd restart
+  141  vi zabbix.conf
+  142  service httpd restart
+  143  ll
+  144  cat ssl.conf
+  145  vi ssl.conf
+  146  vi zabbix.conf
+  147  service httpd restart
+  148  ll
+  149  cat zabbix.conf
+  150  l
+  151  ll
+  152  cat ssl.conf | grep -i ssl
+  153  cat ssl.conf
+  154  pwd
+  155  ll
+  156  cat zabbix-le-ssl.conf
+  157  cat zabbix.conf
+  158  history
+  159  cat /var/log/yum.log | grep -i mod
+  160  cat /var/log/yum.log
+  161  history
+  162  cat /etc/httpd/conf.d/zabbix.conf
+  163  cat /etc/httpd/conf.d/zabbix-le-ssl.conf
+  164  history
+  165  cat ssl.conf
+  166  cd  /etc/httpd/conf.d/
+  167  ll
+  168  cat zabbix-le-ssl.conf
+  169  cat ssl.conf
+  170  cat /lib/zabbix/externalscripts/checkssl.sh
+  171  date
+  172  timedatectl set-timezone Europe/London
+  173  date
+  174  cd /lib/zabbix/externalscripts/
+  175  ll
+  176  mv checkssl.sh plesk-checkssl.sh
+  177  cp plesk-checkssl.sh cpanel-checkssl.sh
+  178  vi cpanel-checkssl.sh
+  179  ll
+  180  vi plesk-checkssl.sh
+  181  vi cpanel-checkssl.sh
+  182  ll
+  183  diff cpanel-checkssl.sh plesk-checkssl.sh
+  184  ll
+  185  ll
+  186  ll
+  187  ll
+  188  ll
+  189  tail -f hostnames_ssl_expiry_check.log
+  190  ll
+  191  ll plesk-checkssl.sh
+  192  touch plesk-hostnames_ssl_expiry_check.log
+  193  chown zabbix: plesk-hostnames_ssl_expiry_check.log
+  194  ll
+  195  ll
+  196  ll
+  197  ll
+  198  touch cpanel-hostnames_ssl_expiry_check.log
+  199  chown zabbix: cpanel-hostnames_ssl_expiry_check.log
+  200  ll
+  201  ll
+  202  ./plesk-checkssl.sh blueberry.srv.hostplus.com
+  203  ll
+  204  cat plesk-hostnames_ssl_expiry_check.log
+  205  cat plesk-hostnames_ssl_expiry_check.log
+  206  tail -f plesk-hostnames_ssl_expiry_check.log
+  207  ll
+  208  cat hostnames_ssl_expiry_check.log | more
+  209    ll
+  210  cat cpanel-checkssl.sh
+  211  ll
+  212  cat plesk-checkssl.sh
+  213  cat plesk-hostnames_ssl_expiry_check.log
+  214  cat plesk-hostnames_ssl_expiry_check.log
+  215  cat plesk-hostnames_ssl_expiry_check.log
+  216  cat plesk-hostnames_ssl_expiry_check.log
+  217  cd /lib/zabbix/externalscripts/
+  218  ll
+  219  cat cpanel-checkssl.sh
+  220  cat plesk-checkssl.sh
+  221  ll
+  222  vi cpanel-checkssl.sh
+  223  ll
+  224  vi cpanel-checkssl.sh
+  225  vi plesk-checkssl.sh
+  226  vi plesk-checkssl.sh
+  227  ll
+  228  tail -f plesk-hostnames_ssl_expiry_check.log
+  229  ll
+  230  ll
+  231  ll
+  232  ./cpanel-checkssl.sh almond.srv.sitecreator.com
+  233  ll
+  234  ./cpanel-checkssl.sh blueberry.srv.hostplus.com
+  235  ll
+  236  ./cpanel-checkssl.sh almond.srv.sitecreator.com
+  237  ll
+  238  cd /lib/zabbix/externalscripts/
+  239  ll
+  240  ./cpanel-checkssl.sh jump.srv.hostgrid.com
+  241  ./cpanel-checkssl.sh jump.srv.hostgrid.com:3389
+  242  ./cpanel-checkssl.sh jump.srv.hostgrid.com 3389
+  243  telnet jump.srv.hostgrid.com 443
+  244  telnet jump.srv.hostgrid.com 3389
+  245  telnet jump.srv.hostgrid.com 443
+  246  telnet jump.srv.hostgrid.com 443
+  247  telnet jump.srv.hostgrid.com 443
+  248  telnet jump.srv.hostgrid.com 443
+  249  ll
+  250  cp cpanel-checkssl.sh xrdp-checkssl.sh
+  251  vi xrdp-checkssl.sh
+  252  ./xrdp-checkssl.sh jump.srv.hostgrid.com
+  253  history -i ssl
+  254  history | grep -i ssl
+  255  ll
+  256  cat xrdp-hostnames_ssl_expiry_check.log
+  257  cat xrdp-checkssl.sh
+  258  openssl s_client -connect jump.srv.hostgrid.com:3389 2>/dev/null | openssl x509 -noout -dates 2>/dev/null | grep notAfter | cut -d'=' -f2`
+  259   openssl s_client -connect jump.srv.hostgrid.com:3389
+  260  openssl s_client -connect blueberry.srv.hostplus.com:8443
+  261  openssl s_client -connect blueberry.srv.hostplus.com:443
+  262   openssl s_client -connect jump.srv.hostgrid.com:3389
+  263   openssl s_client -connect jump.srv.hostgrid.com:443
+  264  ll
+  265  vi xrdp-checkssl.sh
+  266  ./xrdp-checkssl.sh jump.srv.hostgrid.com
+  267  ll
+  268  chown zabbix: xrdp-checkssl.sh
+  269  ll
+  270  chown zabbix: xrdp-hostnames_ssl_expiry_check.log
+  271  ll
+  272  tail -f xrdp-hostnames_ssl_expiry_check.log
+  273  ./xrdp-checkssl.sh jump.srv.hostgrid.com
+  274  ll
+  275  cat xrdp-checkssl.sh
+  276  ll
+  277  cat xrdp-hostnames_ssl_expiry_check.log
+  278  cat xrdp-hostnames_ssl_expiry_check.log
+  279  cat xrdp-hostnames_ssl_expiry_check.log
+  280  cat xrdp-hostnames_ssl_expiry_check.log
+  281  cat xrdp-hostnames_ssl_expiry_check.log
+  282  cat xrdp-hostnames_ssl_expiry_check.log
+  283  cat xrdp-hostnames_ssl_expiry_check.log
+  284  cat xrdp-hostnames_ssl_expiry_check.log
+  285  cat xrdp-hostnames_ssl_expiry_check.log
+  286  ll
+  287  cat xrdp-checkssl.sh
+  288  ll
+  289  cd /var/lib/mysql/
+  290  ll
+  291  du -sh zabbix_db
+  292  du -sh *
+  293  du -sh
+  294  uptime
+  295  cd /backup/
+  296  ll
+  297  du -sh *
+  298  cat /root/mysql-backup.sh
+  299  cd /lib/zabbix/externalscripts/
+  300  ll
+  301  ./cpanel-checkssl.sh zabbix.srv.hostgrid.com
+  302  cat cpanel-hostnames_ssl_expiry_check.log
+  303  tail -f cpanel-hostnames_ssl_expiry_check.log
+  304  tail -f cpanel-hostnames_ssl_expiry_check.log
+  305  ping blueberry.srv.hostplus.com
+  306  hostname
+  307  hostname
+  308  ping blueberry.srv.hostplus.com
+  309  ping blueberry.srv.hostplus.com
+  310  iptables -nL | grep 34.67.40.245
+  311  iptables -nL
+  312  iptables -I INPUT -s 34.67.40.245 -j ACCEPT
+  313  service iptables save
+  314  iptables -nL | grep 34.67.40.245
+  315  ping blueberry.srv.hostplus.com
+  316  cat /etc/resolv.conf
+  317  vi /etc/resolv.conf
+  318  ping blueberry.srv.hostplus.com
+  319  history
+  320  cd /lib/zabbix/externalscripts/
+  321  ll
+  322  ./plesk-checkssl.sh blueberry.srv.hostplus.com
+  323  vi plesk-checkssl.sh
+  324  ./cpanel-checkssl.sh blueberry.srv.hostplus.com
+  325  ./plesk-checkssl.sh alomond.srv.sitecreator.com
+  326  cat plesk-hostnames_ssl_expiry_check.log
+  327  ll
+  328  cd /backup/
+  329  ll
+  330  cd 05Jun2021/
+  331  ll
+  332  du -sh zabbix_db-05Jun2021.sql.gz
+  333  cd ..
+  334  cd ..
+  335  cd -
+  336  ll
+  337  du -sh *
+  338  cd /var/lib/mysql/
+  339  ll
+  340  du -sh *
+  341  df -h
+  342  certbot delete --cert-name zabbix.srv.hostgrid.com
+  343  rm -rf /etc/letsencrypt
+  344  rm -vf /etc/httpd/conf.d/zabbix-le-ssl.conf
+  345  service httpd restart
+  346  certbot --apache
+  347  journalctl -xe
+  348  vi /etc/httpd/conf.d/ssl.conf
+  349  service httpd restart
+  350  journalctl -xe
+  351  service httpd restart
+  352  certbot delete --cert-name zabbix.srv.hostgrid.com
+  353  rm -rf /etc/letsencrypt
+  354  rm -vf /etc/httpd/conf.d/zabbix-le-ssl.conf
+  355  service httpd restart
+  356  journalctl -xe
+  357  cd /etc/httpd/conf.d/
+  358  ll
+  359  vi zabbix.conf
+  360  service httpd restart
+  361  journalctl -xe
+  362  httpd -t
+  363  pidof httpd
+  364  ll
+  365  cat ssl.conf
+  366  vi ssl.conf
+  367  service httpd restart
+  368  journalctl -xe
+  369  cat /etc/httpd/conf.d/zabbix.conf  | more
+  370  ll
+  371  vi zabbix.conf
+  372  service httpd restart
+  373  journalctl -xe
+  374  ll /etc/letsencrypt
+  375  cd /etc/httpd/conf.d/
+  376  ll
+  377  service httpd restar
+  378  service httpd restart
+  379  systemctl status httpd.service
+  380  certbot --apache
+  381  netstat -anp | grep :80
+  382  kiall -9 httpd
+  383  killall -9 httpd
+  384  ps aufx | greep httpd
+  385  ps aufx | grep httpd
+  386  journalctl -xe
+  387  service httpd status
+  388  service httpd start
+  389  tail -f /var/log/httpd/error_log
+  390  vi /etc/httpd/conf.d/ssl.conf
+  391  service httpd restart
+  392  vi zabbix.conf
+  393  service httpd restart
+  394  vi zabbix.conf
+  395  service httpd restart
+  396  systemctl status httpd.service
+  397  vi /etc/httpd/conf.d/ssl.conf
+  398  systemctl status httpd.service
+  399  service httpd restart
+  400  service httpd status
+  401  cat zabbix.conf
+  402  vi zabbix.conf
+  403  service httpd restart
+  404  certbot delete --cert-name zabbix.srv.hostgrid.com
+  405  certbot --apache
+  406  service httpd restart
+  407  vi ssl.conf
+  408  ll /etc/letsencrypt/live/zabbix.srv.hostgrid.com
+  409  service httpd restart
+  410  vi ssl.conf
+  411  service httpd restart
+  412  vi ssl.conf
+  413  ll /etc/letsencrypt/live/zabbix.srv.hostgrid.com/cert.pem
+  414  ll ../../archive/zabbix.srv.hostgrid.com/cert1.pem
+  415  cd /etc/letsencrypt/live/zabbix.srv.hostgrid.com/
+  416  ll
+  417  cd ..
+  418  ll
+  419  cd ..
+  420  ll
+  421  mv archive archive-
+  422  service httpd restart
+  423  certbot --apache
+  424  vi /etc/httpd/conf.d/ssl.conf
+  425  service httpd restart
+  426  certbot --apache
+  427  vi /etc/httpd/conf.d/ssl.conf
+  428  service httpd restart
+  429  vi /etc/httpd/conf.d/ssl.conf
+  430  service httpd restart
+  431  systemctl status httpd.service
+  432  vi /etc/httpd/conf.d/ssl.conf
+  433  service httpd restart
+  434  systemctl status httpd.service
+  435  vi /etc/httpd/conf.d/zabbix-le-ssl.conf
+  436  service httpd restart
+  437  mv /etc/httpd/conf.d/zabbix-le-ssl.conf /etc/httpd/conf.d/zabbix-le-ssl.conf-
+  438  service httpd restart
+  439  certbot --apache
+  440  ll /etc/httpd/conf.d/zabbix-le-ssl.conf
+  441  cd  /etc/letsencrypt/live/
+  442  ll
+  443  vi /etc/httpd/conf.d/ssl.conf
+  444  cat /etc/httpd/conf.d/ssl.conf | grep -0001
+  445  cat /etc/httpd/conf.d/ssl.conf | grep "-0001"
+  446  cat /etc/httpd/conf.d/ssl.conf | grep "0001"
+  447  ll /etc/letsencrypt/live/zabbix.srv.hostgrid.com-0001/cert.pem
+  448  ll /etc/letsencrypt/live/zabbix.srv.hostgrid.com-0001/privkey.pem
+  449  ll /etc/letsencrypt/live/zabbix.srv.hostgrid.com-0001/chain.pem
+  450  service httpd restart
+  451  vi /etc/httpd/conf.d/zabbix.conf
+  452  service httpd restart
+  453  cat /etc/letsencrypt/live/zabbix.srv.hostgrid.com-0001/cert.pem
+  454  service httpd restart
+  455  vi /etc/httpd/conf.d/zabbix.conf
+  456  vi /etc/httpd/conf.d/ssl.conf
+  457  vi /etc/httpd/conf.d/ssl.conf
+  458  service httpd restart
+  459  cd /var/lib/mysql/
+  460  ll
+  461  du -sh *
+  462  cd /backup/
+  463  ll
+  464  du -sh *
+  465  netstat -tunlp | grep :100
+  466  ccd /usr/share/zabbix/
+  467  cd /usr/share/zabbix/
+  468  ll
+  469  cd /opt/
+  470  ll
+  471  cd rh/
+  472  ll
+  473  cd /lib
+  474  ll
+  475  cd zabbix/
+  476  ll
+  477  cd externalscripts/
+  478  ll
+  479  pwd
+  480  cd /etc/zabbix/
+  481  ll
+  482  cd /var/log/zabbix/
+  483  ll
+  484  du -sh /var/lib/mysql/
+  485  cd /var/lib/mysql/
+  486  ll
+  487  du -sh *
+  488  cd /backup/
+  489  ll
+  490  history | grep cert
+  491  cat /etc/letsencrypt/live/zabbix.srv.hostgrid.com-0001/cert.pem
+  492  cd /etc/httpd/
+  493  ll
+  494  cd conf.d/
+  495  ll
+  496  cat zabbix.conf
+  497  cat zabbix-le-ssl.conf
+  498  ll
+  499  cp -a zabbix.conf zabbix.conf-Sept-07
+  500  cp -a zabbix-le-ssl.conf zabbix-le-ssl.conf-Sept-07
+  501  certbot --apache
+  502  cd /etc/letsencrypt
+  503  ll
+  504  cd ../
+  505  cp -a letsencrypt letsencrypt-Sept-20
+  506  cd /etc/httpd/conf.d/
+  507  ll
+  508  cat zabbix-le-ssl.conf
+  509  certbot --apache
+  510  cat /etc/letsencrypt/live/zabbix.srv.hostgrid.com-0001/cert.pem
+  511  history
+  512  service httpd restart
+  513  ll
+  514  cat zabbix-le-ssl.conf
+  515  cat zabbix.conf
+  516  cat ssl.conf
+  517  cat /usr/share/zabbix/include/defines.inc.php
+  518  vi /usr/share/zabbix/include/defines.inc.php
+  519  cat /etc/redhat-release
+  520  cd /usr/share/zabbix/
+  521  grep -ilr "X-Frame-Options"
+  522  vi include/defines.inc.php
+  523  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  524  vi include/defines.inc.php
+  525  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  526  tail -f /var/log/zabbix/zabbix_server.log
+  527  tail -f /var/log/zabbix/zabbix_agentd.log
+  528  vi include/defines.inc.php
+  529  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  530  grep -ilr "SAMEORIGIN"
+  531  vi app/views/layout.htmlpage.php
+  532  cd /etc/httpd/
+  533  ll
+  534  grep -ilr "SAMEORIGIN"
+  535  grep -ilr "hosting.console.fortifi.io"
+  536  vi conf.d/zabbix.conf
+  537  vi conf.d/zabbix.conf
+  538  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  539  cat conf/httpd.conf
+  540  vi conf.d/zabbix.conf
+  541  grep -ilr "hosting.console.fortifi.io"
+  542  vi conf/httpd.conf
+  543  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  544  vi include/defines.inc.php
+  545  vi /usr/share/zabbix/include/defines.inc.php
+  546  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  547  vi /usr/share/zabbix/include/defines.inc.php
+  548  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  549  grep -ilr "hosting.console.fortifi.io"
+  550  cat conf.d/zabbix.conf
+  551  vi conf.d/zabbix.conf
+  552  vi conf.d/zabbix.conf
+  553  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  554  vi conf.d/zabbix.conf
+  555  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  556  ll
+  557  cd conf.d/
+  558  ll
+  559  cat ssl.conf
+  560  cat ssl.conf | grep -i frame
+  561  cat ssl.conf | grep -i heaDER
+  562  cat ssl.conf | grep -i header
+  563  grep -ilr "hosting.console.fortifi.io"
+  564  cd ..
+  565  grep -ilr "hosting.console.fortifi.io"
+  566  cd conf.d/
+  567  vi zabbix.conf
+  568  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  569  vi zabbix.conf
+  570  vi zabbix.conf
+  571  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  572  vi zabbix.conf
+  573  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  574  vi zabbix.conf
+  575  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  576  vi /usr/share/zabbix/include/defines.inc.php
+  577  vi /usr/share/zabbix/include/defines.inc.php
+  578  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  579  vi /usr/share/zabbix/include/defines.inc.php
+  580  vi zabbix.conf
+  581  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  582  journalctl -xe
+  583  vi zabbix.conf
+  584  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  585  vi zabbix.conf
+  586  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  587  vi zabbix.conf
+  588  vi ssl.conf
+  589  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  590  journalctl -xe
+  591  vi ssl.conf
+  592  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  593  grep -ilr "hosting.console.fortifi.io"
+  594  cd ..
+  595  grep -ilr "hosting.console.fortifi.io"
+  596  vi /usr/share/zabbix/include/defines.inc.php
+  597  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  598  vi /usr/share/zabbix/include/defines.inc.php
+  599  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  600  vi conf.d/ssl.conf
+  601  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  602  vi conf.d/ssl.conf
+  603  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  604  vi conf.d/ssl.conf
+  605  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  606  vi conf.d/ssl.conf
+  607  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  608  vi /usr/share/zabbix/include/defines.inc.php
+  609  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  610  vi conf.d/ssl.conf
+  611  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  612  vi /usr/share/zabbix/include/defines.inc.php
+  613  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  614  vi conf.d/ssl.conf
+  615  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  616  vi /usr/share/zabbix/include/defines.inc.php
+  617  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  618  vi /usr/share/zabbix/include/defines.inc.php
+  619  vi /usr/share/zabbix/include/defines.inc.php
+  620  vi conf.d/ssl.conf
+  621  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  622  cp /usr/share/zabbix/include/page_header.php /usr/share/zabbix/include/page_header.php-org
+  623  vi /usr/share/zabbix/include/page_header.php
+  624  vi /usr/share/zabbix/include/defines.inc.php
+  625  vi /usr/share/zabbix/include/page_header.php
+  626  vi /usr/share/zabbix/include/defines.inc.php
+  627  vi conf.d/ssl.conf
+  628  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  629  vi conf.d/ssl.conf
+  630  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  631  journalctl -xe
+  632  vi conf.d/ssl.conf
+  633  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  634  vi conf.d/ssl.conf
+  635  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  636  vi /usr/share/zabbix/include/defines.inc.php
+  637  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  638  cd conf.d/
+  639  ll
+  640  vi ssl.conf
+  641  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  642  cp ssl.conf ssl.conf-bk
+  643  vi ssl.conf
+  644  vi zabbix.conf
+  645  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  646  vi zabbix.conf
+  647  vi /usr/share/zabbix/include/defines.inc.php
+  648  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  649  vi /usr/share/zabbix/include/defines.inc.php
+  650  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  651  vi /usr/share/zabbix/include/defines.inc.php
+  652  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  653  vi /usr/share/zabbix/include/defines.inc.php
+  654  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  655  vi /usr/share/zabbix/include/defines.inc.php
+  656  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  657  vi /usr/share/zabbix/include/defines.inc.php
+  658  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  659  vi /usr/share/zabbix/include/defines.inc.php
+  660  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  661  vi /usr/share/zabbix/include/defines.inc.php
+  662  vi /usr/share/zabbix/include/defines.inc.php
+  663  vi /usr/share/zabbix/include/defines.inc.php
+  664  vi /usr/share/zabbix/include/defines.inc.php
+  665  vi /usr/share/zabbix/include/defines.inc.php
+  666  vi /usr/share/zabbix/include/defines.inc.php
+  667  vi /usr/share/zabbix/include/defines.inc.php
+  668  vi zabbix.conf
+  669  cat ssl.conf
+  670  vi /usr/share/zabbix/include/defines.inc.php
+  671  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  672  vi /usr/share/zabbix/include/defines.inc.php
+  673  vi /usr/share/zabbix/include/defines.inc.php
+  674  cd /usr/share/zabbix/include/
+  675  ll
+  676  cd /backup/
+  677  ll
+  678  cd 19Sep2021
+  679  ll
+  680  zcat zabbix_db-19Sep2021.sql.gz | grep X-Frame-Options
+  681  zcat zabbix_db-19Sep2021.sql.gz | grep X-Frame
+  682  zcat zabbix_db-19Sep2021.sql.gz | grep -i X-Frame
+  683  zcat zabbix_db-19Sep2021.sql.gz | grep -i Frame
+  684  vi /usr/share/zabbix/include/defines.inc.php
+  685  zcat zabbix_db-19Sep2021.sql.gz | grep -i "HTTP headers"
+  686  ping hosting.console.fortifi.io
+  687  telnet hosting.console.fortifi.io :80
+  688  telnet hosting.console.fortifi.io
+  689  vi /usr/share/zabbix/include/defines.inc.php
+  690  cp -ar /usr/share/zabbix/include/defines.inc.php /usr/share/zabbix/include/defines.inc.php-BK
+  691  vi /usr/share/zabbix/include/defines.inc.php
+  692  iptables -nl
+  693  iptables -nL
+  694  service iptables save
+  695  iptables-save
+  696  service iptables stop
+  697  iptables -nL
+  698  service firewalld status
+  699  service firewalld stop
+  700  iptables -nL
+  701  cd /etc/httpd/conf.d/zabbix.conf
+  702  cat /etc/httpd/conf.d/zabbix.conf
+  703  curl -IL hosting.console.fortifi.io
+  704  service httpd restart
+  705  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  706  curl -IL hosting.console.fortifi.io
+  707  vi /etc/httpd/conf/httpd.conf
+  708  vi /etc/httpd/conf/httpd.conf
+  709  cp -ar /etc/httpd/conf/httpd.conf /etc/httpd/conf/httpd.conf-BK
+  710  vi /etc/httpd/conf/httpd.conf
+  711  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  712  journalctl -xe
+  713  httpd -M | grep  headers_module
+  714  httpd -t | grep  headers_module
+  715  httpd -t
+  716  vi /etc/httpd/conf/httpd.conf
+  717  httpd -M
+  718  httpd -M | grep -i header
+  719  vi /etc/httpd/conf.d/zabbix.conf
+  720  cp -ar /etc/httpd/conf.d/zabbix.conf /etc/httpd/conf.d/zabbix.conf-BK
+  721  vi /etc/httpd/conf.d/zabbix.conf
+  722  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  723  journalctl -xe
+  724  vi /etc/httpd/conf.d/zabbix.conf
+  725  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  726  journalctl -xe
+  727  httpd -v
+  728  vi /etc/httpd/conf.d/zabbix.conf
+  729  vi /etc/httpd/conf/httpd.conf
+  730  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  731  vi /etc/httpd/conf/httpd.conf
+  732  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  733  journalctl -xe
+  734  vi /etc/httpd/conf/httpd.conf
+  735  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  736  curl -IL hosting.console.fortifi.io
+  737  cd  /etc/httpd/conf/
+  738  grep -ilr header
+  739  ll
+  740  ls -la
+  741  cd ..
+  742  ls -la
+  743  grep -ilr header
+  744  grep -ilr X-Frame-Options
+  745  grep -ilr DENY
+  746  vi conf/httpd.conf
+  747  cat conf/httpd.conf | grep DENY
+  748  pwd
+  749  ll
+  750  cd /usr/share/zabbix/
+  751  ls -la
+  752  grep -ilr header
+  753  grep -ilr X-Frame-Options
+  754  vi include/page_header.php
+  755  grep -ilr DENY
+  756  cd /
+  757  find . -name security.conf
+  758  cat /etc/redhat-release
+  759  cd /etc/httpd/conf.d/
+  760  ls -la
+  761  vi zabbix.conf
+  762  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  763  curl -IL hosting.console.fortifi.io
+  764  vi zabbix.conf
+  765  vi zabbix.conf
+  766  cd /etc/httpd/conf/httpd.conf
+  767  vi /etc/httpd/conf/httpd.conf
+  768  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  769  cd /usr/share/
+  770  ll
+  771  cd zabbix/
+  772  ll
+  773  cd /tmp/
+  774  ll
+  775  tail -f  /var/log/zabbix/zabbix_server.log
+  776  cd  /var/log/zabbix/
+  777  ll
+  778  curl -IL hosting.console.fortifi.io
+  779  vi /etc/httpd/conf/httpd.conf
+  780  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  781  vi /etc/httpd/conf/httpd.conf
+  782  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  783  vi /etc/httpd/conf/httpd.conf
+  784  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  785  vi /etc/httpd/conf/httpd.conf
+  786  cd /etc/
+  787  grep -ilr sameorigin
+  788  vi /etc/httpd/conf/httpd.conf
+  789  vi /etc/httpd/conf/httpd.conf
+  790  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  791  vi  /usr/share/zabbix/include/defines.inc.php
+  792  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  793  vi  /usr/share/zabbix/include/defines.inc.php
+  794  cd /usr/share
+  795  grep -ilr SAMEORIGIN
+  796  vi zabbix/include/page_header.php
+  797  vi zabbix/app/views/layout.htmlpage.php
+  798  pwd
+  799  cd ..
+  800  grep -ilr SAMEORIGIN
+  801  cd /etc/
+  802  grep -ilr SAMEORIGIN
+  803  grep -ilr X_FRAME_OPTIONS
+  804  cd /var/
+  805  grep -ilr X_FRAME_OPTIONS
+  806  cat log/httpd/ssl_error_log | grep X_FRAME_OPTIONS
+  807  cd /
+  808  ls -la
+  809  cd opt/
+  810  grep -ilr X_FRAME_OPTIONS
+  811  cd /home/
+  812  grep -ilr X_FRAME_OPTIONS
+  813  cat /usr/share/zabbix/include/page_header.php
+  814  cd us
+  815  cd /usr/
+  816  grep -i x_frame_options * -R
+  817  cd /var
+  818  grep -i x_frame_options * -R
+  819  cd /etc/httpd/conf.d/zabbix-le-ssl.conf
+  820  cat /etc/httpd/conf.d/zabbix-le-ssl.conf
+  821  cd /etc/httpd/
+  822  grep -i x_frame_options * -R
+  823  cd /usr/share/zabbix/
+  824  ls -la
+  825  cat zabbix.php
+  826  cd ..
+  827  cd /
+  828  cd ~
+  829  ls -la
+  830  grep SAMEORIGIN * -R
+  831  df -h
+  832  cd /sys/
+  833  grep -i SAMEORIGIN * -R
+  834  cd ..
+  835  ll
+  836  cd usr/
+  837  grep -i SAMEORIGIN * -R
+  838  cat /etc/httpd/conf/httpd.conf
+  839  cat /usr/share/zabbix/include/defines.inc.php
+  840  history
+  841  iptables -nL
+  842  cat /etc/httpd/conf.d/zabbix-le-ssl.conf
+  843  cat  /usr/share/zabbix/include/page_header.php
+  844  vi  /usr/share/zabbix/include/page_header.php
+  845  vi  /usr/share/zabbix/include/page_header.php
+  846  vi  /usr/share/zabbix/include/defines.inc.php
+  847  history
+  848  vi /etc/httpd/conf/httpd.conf
+  849  vi  /usr/share/zabbix/include/defines.inc.php
+  850  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  851  vi  /usr/share/zabbix/include/defines.inc.php
+  852  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  853  vi  /usr/share/zabbix/include/defines.inc.php
+  854  vi  /usr/share/zabbix/include/defines.inc.php
+  855  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  856  vi  /usr/share/zabbix/include/defines.inc.php
+  857  history
+  858  vi /etc/httpd/conf/httpd.conf
+  859  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  860  vi  /usr/share/zabbix/include/defines.inc.php
+  861  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  862  vi  /usr/share/zabbix/include/defines.inc.php
+  863  vi /etc/httpd/conf/httpd.conf
+  864  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  865  cat /etc/httpd/conf/httpd.conf
+  866  cat  /usr/share/zabbix/include/defines.inc.php
+  867  vi /etc/httpd/conf/httpd.conf
+  868  vi /etc/httpd/conf/httpd.conf
+  869  vi  /usr/share/zabbix/include/defines.inc.php
+  870  vi  /usr/share/zabbix/include/defines.inc.php
+  871  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  872  vi  /usr/share/zabbix/include/defines.inc.php
+  873  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  874  vi  /usr/share/zabbix/include/defines.inc.php
+  875  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  876  vi  /usr/share/zabbix/include/defines.inc.php
+  877  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  878  vi  /usr/share/zabbix/include/defines.inc.php
+  879  curl -IL hosting.console.fortifi.io/hostgrid/zabbix
+  880  vi  /usr/share/zabbix/include/defines.inc.php
+  881  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  882  curl -IL hosting.console.fortifi.io/hostgrid/zabbix
+  883  vi  /usr/share/zabbix/include/defines.inc.php
+  884  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  885  vi  /usr/share/zabbix/include/defines.inc.php
+  886  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  887  vi  /usr/share/zabbix/include/defines.inc.php
+  888  vi /etc/httpd/conf/httpd.conf
+  889  vi /usr/share/zabbix/include/defines.inc.php
+  890  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  891  service firewalld status
+  892  vi /usr/share/zabbix/include/page_header.php
+  893  clear
+  894  vi /usr/share/zabbix/include/defines.inc.php
+  895  vi /etc/httpd/conf/httpd.conf
+  896  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  897  vi /usr/share/zabbix/include/defines.inc.php
+  898  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  899  iptables -nL
+  900  httpd -v
+  901  clear
+  902  vi /usr/share/zabbix/include/defines.inc.php
+  903  vi /etc/httpd/conf/httpd.conf
+  904  telnet hosting.console.fortifi.io
+  905  telnet 107.178.246.153
+  906  iptables start
+  907  service iptables start
+  908  history
+  909  iptables -I INPUT -s 107.178.246.153 -j ACCEPT; service iptables save;
+  910  iptables -I INPUT -s 107.178.246.153 -j ACCEPT; service iptables save;
+  911  iptables -I INPUT -s 107.178.246.153 -j ACCEPT;
+  912  iptables -I INPUT -s 107.178.246.153 -j ACCEPT
+  913  iptables-save
+  914  telnet hosting.console.fortifi.io :80
+  915  telnet hosting.console.fortifi.io
+  916  iptables -L -v
+  917  telnet hosting.console.fortifi.io :443
+  918  ping 107.178.246.153
+  919  ping  hosting.console.fortifi.io
+  920  vi /usr/share/zabbix/include/defines.inc.php
+  921  vi /etc/httpd/conf/httpd.conf
+  922  clrar
+  923  clear
+  924  vi /usr/share/zabbix/include/defines.inc.php
+  925  vi /etc/httpd/conf/httpd.conf
+  926  telnet hosting.console.fortifi.io 80
+  927  clear
+  928  vi /usr/share/zabbix/include/defines.inc.php
+  929  vi /etc/httpd/conf/httpd.conf
+  930  cat /etc/host
+  931  cat /etc/hosta
+  932  cat /etc/hosts
+  933  cat /etc/hosts
+  934  hostnamectl
+  935  cat /etc/hosts
+  936  hostname
+  937  hostname
+  938  cat /etc/hosts
+  939  vi /etc/hosts
+  940  vi /etc/hostname
+  941  vi /usr/share/zabbix/include/defines.inc.php
+  942  vi /etc/hosts.allow
+  943  vi /etc/hosts.allow
+  944  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  945  vi /usr/share/zabbix/include/defines.inc.php
+  946  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  947  vi /usr/share/zabbix/include/defines.inc.php
+  948  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  949  vi /usr/share/zabbix/include/defines.inc.php
+  950  vi /usr/share/zabbix/include/defines.inc.php
+  951  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  952  yum install rh-php72-php-fpm
+  953  vi /usr/share/zabbix/include/defines.inc.php
+  954  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  955  vi /usr/share/zabbix/include/defines.inc.php
+  956  systemctl restart zabbix-server zabbix-agent httpd rh-php72-php-fpm
+  957  vi /usr/share/zabbix/include/defines.inc.php
+  958  iptables -nL
+  959  curl -i https://zabbix.srv.hostgrid.com/
+  960  curl -i https://zabbix1.srv.hostgrid.com/
+  961  cat /etc/hosts
+  962  firewall-cmd --list-all
+  963  netstat -lnp | grep 443
+  964  history + grep iptable
+  965  history | grep iptable
+  966  service iptables status
+  967  service iptables status
+  968  cat cat /etc/zabbix/zabbix_agentd.d/userparameter_curl_URL.conf
+  969  curl -i https://zabbix1.srv.hostgrid.com
+  970  curl -i http://zabbix1.srv.hostgrid.com
+  971  curl -i http://zabbix.srv.hostgrid.com
+  972  curl -i https://zabbix.srv.hostgrid.com
+  973  cat  /etc/httpd/conf.d/zabbix.conf
+  974  cat /etc/httpd/conf.d/ssl.conf
+  975  history
+  976  clear
+  977   vi /usr/share/zabbix/include/defines.inc.php
+  978  clear
+  979   vi /usr/share/zabbix/include/defines.inc.php
+  980  vi /etc/httpd/conf/httpd.conf
+  981   vi /usr/share/zabbix/include/defines.inc.php
+  982   cd /etc/zabbix/
+  983  ll
+  984  cd web/
+  985  ll
+  986  cat /etc/zabbix/zabbix_server.conf | grep -i alertscript
+  987  cd /usr/lib/zabbix/
+  988  ls -la
+  989  cd alertscripts/
+  990  ll
+  991  cp -ar slack.sh slack.sh-OLD
+  992  ll
+  993  vi slack.sh
+  994  vi slack.sh
+  995  cat slack.sh
+  996  ll
+  997  cd ..
+  998  ll
+  999  cd externalscripts/
+ 1000  ll
+ 1001  history
+[root@zabbix zabbix]#

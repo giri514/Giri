@@ -1,0 +1,55 @@
+
+/var/www/vhosts/system/lithiashomedecor.com/logs/access_ssl_log:
+173.252.107.18 - - [20/Oct/2021:14:23:31 +0100] "GET / HTTP/1.0" 200 201770 "-" "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)"
+cebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)"
+173.252.107.17 - - [20/Oct/2021:14:23:33 +0100] "GET / HTTP/1.0" 200 200358 "-" "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)"
+173.252.107.1 - - [20/Oct/2021:14:23:37 +0100] "GET / HTTP/1.0" 200 202340 "-" "fac
+
+----
+https://www.abuseipdb.com/check/173.252.107.18:
+
+
+[root@dazzle ~]# cat /var/www/vhosts/system/lithiashomedecor.com/logs/access_ssl_log | grep '20/Oct/2021:1[3-6]' | awk '{print $1}' | sort -n | uniq -c | sort -nr    
+
+                          
+   3967 51.195.90.229
+   1241 146.59.157.229
+    762 47.35.78.28
+    192 34.121.126.66
+    189 76.179.207.129
+    187 82.132.234.161
+
+------------------
+
+I've checked the /var/log/plesk-php74-fpm/error.log file and found the following errors:
+
+[20-Oct-2021 14:15:44] WARNING: [pool lithiashomedecor.com] server reached max_children setting (10), consider raising it
+[20-Oct-2021 14:34:52] WARNING: [pool lithiashomedecor.com] server reached max_children setting (10), consider raising it
+[20-Oct-2021 14:53:26] WARNING: [pool lithiashomedecor.com] server reached max_children setting (10), consider raising it
+
+You can raise this parameter as described in the article:
+https://support.plesk.com/hc/en-us/articles/214528405--Websites-on-PHP-FPM-are-unavailable-or-loading-slowly-server-reached-max-children-setting-OR-pool-seems-busy-
+
+On how to calculate pm.max_children value please refer to:
+https://support.plesk.com/hc/en-us/articles/360011988053-How-to-calculate-pm-max-children-value
+
+
+grep -r "server reached max_children setting" /var/log/*php*-fpm/error.log | cut -d' ' -f5 | tr -d ']' | sort | uniq -c | sort -nr
+
+
+There are no new entries in /var/log/plesk-php74-fpm/error.log logfile about "server reached max_children" for a while
+and the CPU load is considerably less
+============================
+16229 ltylqbx+  20   0  656832  88648  15244 S  75.1  0.3   0:02.47 php-fpm: pool lithiashomedecor.com
+15985 ltylqbx+  20   0 1184104 188224  23708 S  55.7  0.6   0:20.13 php-fpm: pool lithiashomedecor.com
+15986 ltylqbx+  20   0  818184 168748  18376 S  55.7  0.5   0:20.69 php-fpm: pool lithiashomedecor.com
+16228 ltylqbx+  20   0  665152  98060  15244 S  52.2  0.3   0:02.63 php-fpm: pool lithiashomedecor.com
+15930 ltylqbx+  20   0 1090988 178444  20840 S  43.8  0.5   0:27.24 php-fpm: pool lithiashomedecor.com
+15925 ltylqbx+  20   0  822228 171944  18672 R  40.8  0.5   0:28.64 php-fpm: pool lithiashomedecor.com
+15922 ltylqbx+  20   0  817884 169208  18380 S  40.3  0.5   0:29.29 php-fpm: pool lithiashomedecor.com
+
+
+
+ 
+ Also, you can check hardware usage (CPU, Memory, disk I/O) consumed by a process of a website as described in the article:
+https://support.plesk.com/hc/en-us/articles/115000661569-How-to-check-which-domain-PHP-process-consumes-CPU-resources-?source=search

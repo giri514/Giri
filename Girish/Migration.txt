@@ -1,0 +1,18 @@
+We will surely migrate your account from Site5 to us. Please send us the necessary accesses to download the content of your website to your current host. In some cases, FTP access may be sufficient.
+
+After migration, you will need to update the following DNS for your domain. 
+
+~~~
+ns1.web-dns1.com
+ns2.web-dns1.com
+ns3.web-dns1.com
+~~~
+
+Please confirm if you will update the DNS on your side or do you want us to make the DNS changes? 
+
+Let us know how you would like to proceed so that I can schedule the migration accordingly. 
+
+I remain at your disposal should you have any additional questions.
+
+Regards, 
+

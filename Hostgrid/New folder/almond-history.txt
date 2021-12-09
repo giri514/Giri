@@ -1,0 +1,528 @@
+[ansible@almond ~]$ sudo su
+[root@almond ansible]# history
+    1  history
+    2  df -h
+    3  cat /proc/cpuinfo
+    4  free -m
+    5  hostname
+    6  cat /etc/hosts
+    7  cat /etc/proftpd.d/55-passive-ports.conf | grep -i passive
+    8  iptables -nL | grep 49152
+    9  cat /etc/proftpd.d/55-passive-ports.conf | more
+   10  cat /etc/proftpd.d/55-passive-ports.conf
+   11  cd /usr/local/psa/admin/conf
+   12  ll
+   13  cp panel.ini.sample panel.ini
+   14  vi /usr/local/psa/admin/conf/panel.ini
+   15  service psa restart
+   16  ll /usr/local/psa/admin/conf/panel.ini
+   17  cat /usr/local/psa/admin/conf/panel.ini
+   18  pidof sshd
+   19  cd /etc/zabbix/
+   20  cat zabbix_agentd.conf | grep Hostname
+   21  cat zabbix_agentd.conf | grep "Zabbix server"
+   22  cd /etc/zabbix/
+   23  ll
+   24  cat zabbix_agentd.
+   25  cat zabbix_agentd.conf | grep "Zabbix server"
+   26  vi zabbix_agentd.conf
+   27  cp zabbix_agentd.conf zabbix_agentd.conf-org
+   28  sed -i 's/\(^Hostname=\|^LogFileSize=\)/#\1/' /etc/zabbix/zabbix_agentd.conf
+   29  vi zabbix_agentd.conf
+   30  vi zabbix_agentd.conf
+   31  service zabbix-agent restart
+   32  ll
+   33  diff zabbix_agentd.conf zabbix_agentd.conf-org
+   34  vi zabbix_agentd.conf
+   35  rpm -qa | grep -i mariadb
+   36  plesk db
+   37  plesk bin extension list
+   38  plesk bin extension -l
+   39  plesk bin extension --help
+   40  plesk bin extension --uninstall symantec
+   41  vi /root/265708_alias_redir_disable.sh
+   42  chmod +x /root/265708_alias_redir_disable.sh
+   43  cat /root/265708_alias_redir_disable.sh
+   44  cat /root/265708_alias_redir_disable.sh
+   45  stat /root/265708_alias_redir_disable.sh
+   46  cd /var/www/vhosts/.skel/0/
+   47  ll
+   48  mv cgi-bin error_docs httpdocs /usr/local/src/
+   49  ls -la
+   50  history
+   51  history | grep panel
+   52  vi /usr/local/psa/admin/conf/panel.ini
+   53  ll
+   54  cd /usr/local/src/
+   55  git clone https://github.com/LucidCube/sitecreator-holding.git --branch 1.0.1
+   56  ls -la
+   57  cd sitecreator-holding/plesk/
+   58  ll
+   59  rsync -vprlogDtH * /var/www/vhosts/.skel/0/
+   60  cd rsync -vprlogDtH * /var/www/vhosts/.skel/0/
+   61  cd /var/www/vhosts/.skel/0/
+   62  ll
+   63  cd /usr/local/src/
+   64  ll
+   65  mkdir back
+   66  mv cgi-bin error_docs httpdocs back
+   67  rm -rf sitecreator-holding
+   68  cd /var/www/vhosts/.skel/0/
+   69  ll
+   70  tail -f /var/log/httpd/error_log
+   71  cd /var/log/nginx/
+   72  ll
+   73  tail -f error.log
+   74  plesk installer --select-release-current --reinstall-patch --upgrade-installed-components
+   75  /usr/local/psa/admin/bin/php -dauto_prepend_file=sdk.php '/usr/local/psa/admin/plib/modules/sslit/scripts/keep-secured.php'
+   76  cd /home/ansible/
+   77  ll
+   78  cd hostplus-holding
+   79  git describe --tags
+   80  cd /var/www/vhosts/.skel/0/
+   81  grep -ilr sitecreator * -R
+   82  cp /var/www/vhosts/.skel/0/ /var/www/vhosts/.skel/0-org
+   83  sudo cp /var/www/vhosts/.skel/0/ /var/www/vhosts/.skel/0-org
+   84  sudo cp -ar  /var/www/vhosts/.skel/0/ /var/www/vhosts/.skel/0-org
+   85  d /home/ansible/
+   86  ll
+   87  cd /home/ansible/
+   88  ll
+   89  hostname
+   90  git clone https://dipaksalve13:b8e740c08d98c4a009c842ca6b9d89da2345534b@github.com/LucidCube/sitecreator-holding.git
+   91  ll
+   92  mv hostplus-holding hostplus-holding-
+   93  ll
+   94  cd hostplus-holding-
+   95  git describe --tags
+   96  cd ..
+   97  cd sitecreator-holding
+   98  git describe --tags
+   99  pwd
+  100  cd /home/ansible/
+  101  vi update-sitecreator-holding.sh
+  102  chmod +x update-sitecreator-holding.sh
+  103  ll
+  104  cat update-sitecreator-holding.sh
+  105  ll /home/ansible/sitecreator-holding
+  106  ll /home/ansible/sitecreator-holding/plesk/
+  107  ll /var/www/vhosts/.skel/0/
+  108  sed -i '$ a 0        *      *      *      *      /bin/sh /home/ansible/update-sitecreator-holding.sh' /var/spool/cron/root
+  109  service crond restart
+  110  crontab -l
+  111  ll /home/ansible/update-sitecreator-holding.sh
+  112  sh /home/ansible/update-sitecreator-holding.sh
+  113  cd /home/
+  114  ll
+  115  cd
+  116  cd /home/ansible/
+  117  ll
+  118  cd sitecreator-holding
+  119  git describe --tags
+  120  cd ..
+  121  ll
+  122  cat update-sitecreator-holding.sh
+  123  ll /home/ansible/sitecreator-holding
+  124  ll /home/ansible/sitecreator-holding/plesk/
+  125  cd sitecreator-holding/
+  126  ll
+  127  git pull https://dipaksalve13:b8e740c08d98c4a009c842ca6b9d89da2345534b@github.com/LucidCube/sitecreator-holding.git
+  128  crontab -l
+  129  ll /home/ansible/update-sitecreator-holding.sh
+  130  tail -f /var/log/cron
+  131  cat /var/log/cron | grep "Dec  3 11:00" | more
+  132  cat /var/log/cron | grep update-sitecreator-holding.sh
+  133  git describe --tags
+  134  iptables -nL | grep 8443
+  135  vi /root/sslit.sh
+  136  chmod +x /root/sslit.sh
+  137  ll /root/sslit.sh
+  138  cat /root/sslit.sh
+  139  cat /root/sslit.sh | grep auto.emails+ssl@hostplus.com
+  140  plesk bin event_handler --create -command  "/root/sslit.sh <NEW_DOMAIN_NAME>" -priority 0 -user root -event Physical hosting created;
+  141  plesk bin event_handler --create -command  "/root/sslit.sh <NEW_DOMAIN_NAME>" -priority 0 -user root -event physical hosting created;
+  142  plesk bin event_handler --create -command  "/root/sslit.sh <NEW_DOMAIN_NAME>" -priority 0 -user root -event physical hosting created
+  143  plesk bin event_handler --create -command  "/root/sslit.sh <NEW_DOMAIN_NAME>" -priority 0 -user root -event Physical hosting created
+  144  plesk bin event_handler --help
+  145  plesk bin event_handler --list
+  146  plesk bin event_handler -event
+  147  plesk bin event_handler --list-events
+  148  plesk bin event_handler --create -command  "/root/sslit.sh <NEW_DOMAIN_NAME>" -priority 0 -user root -event phys_hosting_create;
+  149  cat /root/sslit.sh
+  150  tail -f /tmp/sslit_event_handler.log
+  151  ll /root/sslit.sh
+  152  cat /root/sslit.sh
+  153  ll /root/sslit.sh
+  154  cat /root/sslit.sh
+  155  cat /tmp/sslit_event_handler.log
+  156  hostname
+  157  plesk bin extension --exec letsencrypt cli.php --secure-plesk -m auto.emails+ssl@hostplus.com -w /var/www/vhosts/default/htdocs -d almond.srv.sitecreator.com
+  158  plesk bin certificate --assign-cert "Lets Encrypt certificate" -ip 34.70.152.7
+  159  vi /root/sslit.sh
+  160  cat /root/sslit.sh
+  161  cat /root/sslit.sh
+  162  timeout 2m bash -c "while ! ping -c 2 google.com ; do sleep 30 ; done"
+  163  timeout 2m bash -c "while ! ping -c 2 gogle.co ; do sleep 30 ; done"
+  164  tail -f /var/log/plesk/panel.log
+  165  cat /root/sslit.sh
+  166  cat /var/log/plesk/panel.log | grep -i sitebuilder
+  167  cd /
+  168  find . -name config.json
+  169  cd /usr/local/psa/admin/plib/modules
+  170  ll
+  171  cd siteprobuilder
+  172  ll
+  173  cat meta.xml
+  174  ll
+  175  cd views
+  176  ll
+  177  cd scripts
+  178  ll
+  179  cd index
+  180  ll
+  181  cd ..
+  182  cd ..
+  183  cd ..
+  184  ll
+  185  cd controllers
+  186  ll
+  187  cat IndexController.php | more
+  188  cd ../library
+  189  ll
+  190  cat Api.php
+  191  ll
+  192  cat SitePro.php
+  193  cd /
+  194  find . -name config.json
+  195  cd /usr/local/psa/admin/plib/modules
+  196  ll
+  197  ping site.pro
+  198  cd siteprobuilder
+  199  ll
+  200  find . -name api.php
+  201  find . -name Api.php
+  202  cd /library
+  203  cd library/
+  204  ll
+  205  cat Api.php | more
+  206  cat /etc/hosts
+  207  cat /etc/resolv.conf
+  208  ping site.pro
+  209  rpm -qa | grep curl
+  210  ll
+  211  hostname
+  212  cat update-sitecreator-holding.sh
+  213  ll /home/ansible/sitecreator-holding
+  214  cat /tmp/sslit_event_handler.log
+  215  cat /root/sslit.sh
+  216  plesk bin extension --install-url https://sync.site.pro/My-Licenses/installer/eyJpZCI6Ijc1NTExNiIsInVzZXJJZCI6IjE5NDQxMDQiLCJzYWx0IjoiZDZlYmQxZjQifQ2/Plesk/plugin
+  217  passwd root
+  218  hostname
+  219  grep SNI_SUPPORT /etc/psa/psa.conf
+  220  hostname
+  221  uptime
+  222  grep SNI_SUPPORT /etc/psa/psa.conf
+  223  cat /etc/hosts
+  224  grep SNI_SUPPORT /etc/psa/psa.conf
+  225  cd /etc/zabbix/
+  226  ll
+  227  vi zabbix_agentd.conf
+  228  cd zabbix_agentd.d
+  229  ll
+  230  service zabbix-agent restart
+  231  vi zabbix_agentd.conf
+  232  cd ..
+  233  vi zabbix_agentd.conf
+  234  service zabbix-agent restart
+  235  php -v
+  236  unlink /usr/bin/php
+  237  unlink /usr/bin/php-cgi
+  238  unlink /sbin/php-fpm
+  239   ln -s /opt/plesk/php/7.3/bin/php /usr/bin/php; ln -s /opt/plesk/php/7.3/bin/php-cgi /usr/bin/php-cgi; ln -s /opt/plesk/php/7.3/sbin/php-fpm /sbin/php-fpm;
+  240  php -v
+  241  /usr/local/psa/admin/bin/php_hand
+  242  /usr/local/psa/admin/bin/php_handlers_control --reread; /usr/local/psa/admin/sbin/httpdmng --reconfigure-all; service httpd restart;
+  243  service httpd status
+  244  php -v
+  245  ll /usr/bin/php
+  246  ll /usr/bin/php-cgi
+  247  ll /sbin/php-fpm
+  248  php -v
+  249  service httpd status
+  250  top -c
+  251  cd /usr/local/src/
+  252  curl -sSO https://dl.google.com/cloudagents/add-monitoring-agent-repo.sh
+  253  bash add-monitoring-agent-repo.sh
+  254  yum install -y stackdriver-agent
+  255  service stackdriver-agent start
+  256  mkdir -p /etc/google/auth
+  257  vi /etc/google/auth/application_default_credentials.json
+  258  service stackdriver-agent start
+  259  service stackdriver-agent status
+  260  grep collectd /var/log/{syslog,messages} | tail
+  261  systemctl enable stackdriver-agent
+  262  service stackdriver-agent status
+  263  plesk bin extension --uninstall domain-connect
+  264  /etc/zabbix/zabbix_agentd.conf | grep Server
+  265  cat /etc/zabbix/zabbix_agentd.conf | grep Server
+  266  sed -i 's/Server=35.224.52.86/Server=35.226.192.158/g' /etc/zabbix/zabbix_agentd.conf; sed -i 's/ServerActive=35.224.52.86/ServerActive=35.226.192.158/g' /etc/zabbix/zabbix_agentd.conf; service zabbix-agent restart;
+  267  cat /etc/zabbix/zabbix_agentd.conf | grep Server
+  268  php -v
+  269  top -c
+  270  sed -i 's/GRUB_TIMEOUT=0/GRUB_TIMEOUT=20/g' /etc/default/grub; grub2-mkconfig -o /boot/efi/EFI/centos/grub.cfg
+  271  cat /etc/default/grub
+  272  cat /etc/redhat-release
+  273  uname -r
+  274  Plesk version
+  275  plesk version
+  276  cat /etc/redhat-release
+  277  cat /etc/my.cnf
+  278  mysql -uadmin -p`cat /etc/psa/.psa.shadow` -e "SELECT @@sql_mode;"
+  279  vi /etc/my.cnf
+  280  service mysqld restart
+  281  service mysqld status
+  282  mysql -uadmin -p`cat /etc/psa/.psa.shadow` -e "SELECT @@sql_mode;"
+  283  cat /tmp/sslit_event_handler.log | grep besthosthq-7dm2tl.sitecreator.live
+  284  cd /var/log/plesk
+  285  cat panel.log | grep -i internal
+  286  cat panel.log | grep -i 500
+  287  plesk version
+  288  mysql -V
+  289  php -v
+  290  cat /root/265708_alias_redir_disable.sh
+  291  cat /root/sslit.sh
+  292  rpm -qa | grep pexpect
+  293  cat /etc/sysconfig/atop
+  294  service firewalld status
+  295  cat /etc/my.cnf
+  296  cat /var/log/mariadb/mariadb.log
+  297  php -m
+  298  cat /etc/hosts
+  299  hostname
+  300  cd /etc/dhcp/dhclient.d/
+  301  ll
+  302  vi google_hostname.sh
+  303  chattr +ai google_hostname.sh
+  304  ll
+  305  cat google_hostname.sh
+  306  lsattr google_hostname.sh
+  307  ll
+  308  cat /etc/hosts
+  309  hostname
+  310  uptime
+  311  yum install hdparm
+  312  hdparm -tT /dev/sda
+  313  hdparm -tT /dev/sda
+  314  hdparm -tT /dev/sda
+  315  hdparm -tT /dev/sda
+  316  hdparm -tT /dev/sda
+  317  hdparm -tT /dev/sda
+  318  date
+  319  date
+  320  date
+  321  timedatectl set-timezone Europe/London
+  322  date
+  323  timedatectl
+  324  vi /usr/local/psa/admin/conf/panel.ini
+  325  service psa restart
+  326  hostname
+  327  cat /usr/local/psa/admin/conf/panel.ini | grep -i websocket -A2
+  328  vi /usr/local/psa/admin/conf/panel.ini
+  329  cat /usr/local/psa/admin/conf/panel.ini | grep -i websocket -A2
+  330  crontab -l
+  331  cat /home/ansible/update-sitecreator-holding.sh
+  332  hdparm -tT /dev/sda
+  333  hdparm -tT /dev/sda
+  334  hdparm -tT /dev/sda
+  335  yum update
+  336  yum list kernel
+  337  yum list kernel
+  338  uname -r
+  339  cd /etc/yum.repos.d/
+  340  ll
+  341  cat mariadb.repo
+  342  dd if=/dev/zero of=/root/testfile bs=512 count=5000 oflag=direct
+  343  dd if=/dev/zero of=/root/testfile bs=512 count=5000 oflag=direct
+  344  plesk version
+  345  ll /var/www/vhosts/
+  346  top -c
+  347  top -c
+  348  vi /root/sslit.sh
+  349  cat /root/sslit.sh
+  350  php -v
+  351  tail -f /var/log/plesk/panel.log
+  352  plesk db -sNe "select name from domains d INNER JOIN Subscriptions s ON d.id=s.object_id where d.webspace_id=0 AND s.object_type='domain' AND s.locked='true'" > /root/locked_subscriptions.txt
+  353  cat /root/locked_subscriptions.txt
+  354  plesk bin subscription --sync-subscription abba-661qta000.sitecreator.live
+  355  ll /opt/plesk/php/8.0/bin/php
+  356  ll /usr/bin/php
+  357  unlink /usr/bin/php
+  358  ll /usr/bin/php
+  359  ln -s /opt/plesk/php/8.0/bin/php /usr/bin/php
+  360  ll /usr/bin/php
+  361  ll /usr/bin/php-cgi
+  362  unlink /usr/bin/php-cgi
+  363  ll /usr/bin/php-cgi
+  364  /opt/plesk/php/8.0/bin/php-cgi /usr/bin/php-cgi
+  365  ln -s /opt/plesk/php/8.0/bin/php-cgi /usr/bin/php-cgi
+  366  ll /usr/bin/php-cgi
+  367  ll /sbin/php-fpm
+  368  unlink /sbin/php-fpm
+  369  ll /sbin/php-fpm
+  370  ln -s /opt/plesk/php/8.0/sbin/php-fpm /sbin/php-fpm
+  371  ll /sbin/php-fpm
+  372  /usr/local/psa/admin/bin/php_handlers_control --reread
+  373  /usr/local/psa/admin/sbin/httpdmng --reconfigure-all
+  374  service httpd restart
+  375  service httpd status
+  376  ll /usr/bin/php
+  377  ll /usr/bin/php-cgi
+  378  ll /sbin/php-fpm
+  379  php -v
+  380  plesk bin subscription --sync-subscription abba-661qta000.sitecreator.live
+  381  plesk bin subscription --unlock-subscription abba-661qta000.sitecreator.live
+  382  plesk bin subscription --sync-subscription abba-661qta000.sitecreator.live
+  383  plesk db -sNe "select name from domains d INNER JOIN Subscriptions s ON d.id=s.object_id where d.webspace_id=0 AND s.object_type='domain' AND s.synchronized='false'"
+  384  php -v
+  385  iptables -nL | grep 35.226.192.158
+  386  iptables -I INPUT -s 35.226.192.158 -j ACCEPT
+  387  service iptables save
+  388  iptables -nL | grep 35.226.192.158
+  389  plesk installer add --components msmtp
+  390  mail -vv dipak.salve@hostgrid.com
+  391  mail -vv dipak.salve@hostgrid.com
+  392  vi /etc/msmtprc
+  393  mail -vv dipak.salve@hostgrid.com
+  394  cd /var/www/vhosts/
+  395  ll
+  396  cd happyharrison-7fqlefx.sitecreator.live
+  397  vi mail.php
+  398  ll
+  399  chown tvwztdzj0rou:psaserv mail.php
+  400  cat mail.php
+  401  php mail.php
+  402  ll
+  403  mv mail.php httpdocs/
+  404  ll
+  405  cd httpdocs/
+  406  ll
+  407  chown tvwztdzj0rou:psacln mail.php
+  408  cat mail.php
+  409  cp mail.php ../../trouble-17dqta000.sitecreator.live/httpdocs/
+  410  cd ../../trouble-17dqta000.sitecreator.live/httpdocs/
+  411  ll
+  412  chown tvwztdzj0rou:psacln mail.php
+  413  crontab -l
+  414  sed -i '$ a 0      *      *      *      *      replace "auth on" "auth login" -- /etc/msmtprc' /var/spool/cron/root; service crond restart;
+  415  cat /etc/msmtprc
+  416  crontab -l
+  417  cat /tmp/sslit_event_handler.log  | grep 1stmarch-7f10odd.sitecreator.live
+  418  cat /tmp/sslit_event_handler.log  | grep 1stmarch-7f10od
+  419  cat /var/log/plesk/panel.log | grep 1stmarch-7f10odd.sitecreator.live
+  420  cd /var/log/plesk
+  421  ll
+  422  grep -ilr 1stmarch-7f10odd.sitecreator.live * -R
+  423  cat xferlog.processed | grep 1stmarch-7f10odd.sitecreator.live
+  424  cat /tmp/sslit_event_handler.log
+  425  egrep -Ril 1stmarch-7f10odd.sitecreator.live /usr/local/psa/var/modules/letsencrypt/orders
+  426  cat /usr/local/psa/var/modules/letsencrypt/orders/f3a1656da06dfd93359d7c3e9c840a8e833d0fd7.json | more
+  427  ll /usr/local/psa/var/modules/letsencrypt/orders/f3a1656da06dfd93359d7c3e9c840a8e833d0fd7.json
+  428  ll
+  429  ll /var/www/vhosts/
+  430  tail -f /var/log/plesk/panel.log
+  431  tail -f /var/log/cron
+  432  tail -f /var/log/plesk/panel.log
+  433  cat /root/sslit.sh
+  434  plesk ext sslit --certificate -issue -domain exbury-7eo4ibv.sitecreator.live -registrationEmail auto.emails+ssl@hostgrid.com -secure-domain -secure-www
+  435  plesk ext sslit --certificate -issue -domain exbury-7eo4ibv.sitecreator.live -registrationEmail auto.emails+ssl@hostgrid.com -secure-domain -secure-www
+  436  plesk ext sslit --certificate -issue -domain exbury-7eo4ibv.sitecreator.live -registrationEmail auto.emails+ssl@hostgrid.com -secure-domain -secure-www
+  437  uptime
+  438  cat /var/log/dmesg | grep -i fail
+  439  cat /var/log/dmesg | grep -i error
+  440  cat /var/log/dmesg | grep -i fsck
+  441  cat /var/log/dmesg | grep -i e2
+  442  df -h
+  443  df -h
+  444  df -hT
+  445  cd /var/www/vhosts/
+  446  ll
+  447  df -h
+  448  df -BG
+  449  service nginx restart
+  450  service nginx status
+  451  service httpd restart
+  452  service httpd status
+  453  dmesg | grep -i fsck
+  454  cd /var/www/vhosts/
+  455  ll
+  456  mail -vv salve.deepak136@gmail.com
+  457  yum list kernel
+  458  plesk version
+  459  cd /home/ansible/
+  460  ll
+  461  cd sitecreator-holding
+  462  ll
+  463  cd /var/www/
+  464  ll
+  465  cd vhosts/
+  466  ll
+  467  cd ..
+  468  grep -ilr happyharrison.com
+  469  hostname
+  470  cd /var/www/vhosts/default/htdocs
+  471  ll
+  472  cd  /var/www/vhosts/
+  473  ll
+  474  cd abba-661qta000.sitecreator.live
+  475  ll
+  476  cd httpdocs/
+  477  ll
+  478  cd ../..
+  479  cd /home/ansible/hostgrid-holding/plesk/
+  480  pwd
+  481  ll
+  482  cd /var/www/vhosts/
+  483  ls -la
+  484  cd default
+  485  ls -la
+  486  cd htdocs
+  487  ll
+  488  vi /usr/local/src/pkey.key
+  489  vi /usr/local/src/csrreq
+  490  vi /usr/local/src/cart.cert
+  491  vi /usr/local/src/cert.cert
+  492  cd /root/
+  493  ll
+  494  vi sslit.sh1
+  495  vi sslit.sh1
+  496  cat sslit.sh1
+  497  ll
+  498  chmod 755 sslit.sh1
+  499  ll
+  500  mv sslit.sh sslit.sh-old
+  501  mv sslit.sh1 sslit.sh
+  502  ll
+  503  plesk bin certificate -c "Wildcart Certificate" -domain 5th-aug-0faqxcao0.sitecreator.live -key-file /usr/local/src/pkey.key -cert-file /usr/local/src/cert.cert -cacert-file /usr/local/src/cart.cert -csr-file /usr/local/src/csrreq ; plesk bin site -u 5th-aug-0faqxcao0.sitecreator.live -certificate-name "Wildcart Certificate" >> /tmp/sslit_event_handler.log
+  504  cd /ro
+  505  cd /root/
+  506  ll
+  507  cat sslit.sh
+  508  mysql
+  509  mysql -u admin
+  510  cd
+  511  c
+  512  cd /usr/local/src/
+  513  ll
+  514  cat cart.cert
+  515  ll
+  516  cat cert.cert
+  517  ll
+  518  cat csrreq
+  519  cat pkey.key
+  520  ll
+  521  cat cart.cert
+  522  ll
+  523  cat cert.cert
+  524  cat csrreq
+  525  history
+[root@almond ansible]#

@@ -1,0 +1,29 @@
+Subject: Jetbackup Failure Notification
+
+
+
+
+--------
+It is good to see you are making good use of your server “odedi56318.mywhc.ca”. However, as a part of server monitoring system, we noticed that backup for the server 'odedi56318' is failing at the moment.
+
+Reason for backup failure
+
+Your external backup drive does not have enough available free disk space to successfully complete the backup process.
+
+Current disk space usage:
+
+Filesystem                                                 Size    Used   Avail Capacity  Mounted on
+backup/odedi56318                                          2.0T    1.9T    100G    95%    /mnt/backup/odedi56318
+
+We always recommend reserving around 10% of your entire disk space for the server backup process.
+
+How to resolve this issue?
+
+Please take one of the following steps to rectify the issue:
+Purchase the additional external backup disk space.
+Reduce the backup retention set on your server and cleanup the old backups in order to free up the disk space.
+NOTE : Please be aware that until this is resolved, you do not have functional backups. As such, your prompt attention in this matter would be greatly appreciated.
+
+If you would like more information about increasing your external backup disk space, please let us know, so we will get back to you with the more information.
+
+Thank you.

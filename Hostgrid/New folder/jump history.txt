@@ -1,0 +1,1000 @@
+238  vi default-ssl.conf
+  239  service apache2 restart
+  240  nmap -p 443 10.128.0.18
+  241  netstat -ntlp | grep LISTEN
+  242  vi default-ssl.conf
+  243  service apache2 restart
+  244  apache2 -t
+  245  service apache2 restart
+  246  service apache2 status
+  247  nmap -p 443 10.128.0.18
+  248  a2enmod ssl
+  249  systemctl restart apache2
+  250  ll
+  251  cp 000-default.conf 000-default.conf-org
+  252  vi 000-default.conf
+  253  systemctl restart apache2
+  254  journalctl -xe
+  255  vi 000-default.conf
+  256  systemctl restart apache2
+  257  systemctl status apache2
+  258  ll
+  259  vi default-ssl.conf
+  260  systemctl restart apache2
+  261  systemctl status apache2
+  262  vi 000-default.conf
+  263  systemctl restart apache2
+  264  systemctl status apache2
+  265  history
+  266  history | grep -i default
+  267  nmap -p 443 10.128.0.18
+  268  netstat -ntlp | grep LISTEN
+  269  ll
+  270  service apache2 status
+  271  apache2 -t
+  272  ufw status
+  273  history
+  274  reboot
+  275  service apache2 status
+  276  cat /usr/share/applications/google-chrome.desktop | grep -i password
+  277  hostname
+  278  cat /etc/passwd
+  279  apache2 -t
+  280  service apache2 status
+  281  df -h
+  282  uptime
+  283  top -0c
+  284  top -c
+  285  history
+  286  nmap -p 443 10.128.0.18
+  287  cd /etc/apache2/
+  288  ll
+  289  cd sites-enabled/
+  290  ll
+  291  cat 000-default.conf
+  292  ll
+  293  cat default-ssl.conf
+  294  dpkg -l openssh-server
+  295  dpkg -l openssh-client
+  296  apt-get update
+  297  apt-get install filezilla
+  298  find. -name logo.png
+  299  cd /
+  300  find . -name logo.png
+  301  cd /usr/share/backgrounds/xfce/
+  302  ll
+  303  cat /etc/lsb-release 
+  304  cd /usr/local/src/winscp/
+  305  wine WinSCP.exe 
+  306  arch
+  307  dpkg --add-architecture i386 && apt-get update && apt-get install wine32
+  308  wine WinSCP.exe 
+  309  dpkg --add-architecture i386 && apt-get update && apt-get install wine32
+  310  wine WinSCP.exe 
+  311  dpkg -l | grep  ntlm_auth
+  312  apt-get install ntlm_auth
+  313  apt-get install winbind
+  314  wine WinSCP.exe 
+  315  arch
+  316  dpkg -l | grep  ntlm_auth
+  317  dpkg -l | grep -i ntlm_auth
+  318  whereis wine
+  319  vi /usr/bin/wine
+  320  apt-get install wine32
+  321  /usr/lib/wine/wine64 WinSCP.exe 
+  322  wine64 WinSCP.exe 
+  323  DISPLAY=:0.0 wine WinSCP.exe 
+  324  ll
+  325  cat readme.txt 
+  326  cat WinSCP.ini 
+  327  wineconsole WinSCP.exe 
+  328  dpkg -l | grep wine
+  329  apt-get update wine
+  330  apt-get reinstall wine
+  331  dpkg -l | grep wine
+  332  service sshd restart
+  333  wineconsole WinSCP.exe 
+  334  wine64 WinSCP.exe 
+  335  wine WinSCP.exe 
+  336  service apparmor status
+  337  service apparmor stop
+  338  systemctl disable apparmor
+  339  service apparmor status
+  340  wine WinSCP.exe 
+  341  DISPLAY=:0 wine WinSCP.exe 
+  342  SERVICE x STATUS
+  343  service X status
+  344  wine WinSCP.exe 
+  345  cd ..
+  346  ll
+  347  mv /home/dipak/Desktop/WinSCP-5.17.10-Setup.exe .
+  348  ll
+  349  chown root: WinSCP-5.17.10-Setup.exe 
+  350  ll
+  351  wine WinSCP-5.17.10-Setup.exe 
+  352  history | grep bind
+  353  apt-get remove winbind
+  354  apt-get install wine
+  355  cd /usr/local/src/
+  356  wget http://winscp.net/download/winscp553.zip
+  357  mkdir winscp
+  358  mv winscp553.zip winscp
+  359  cd winscp/
+  360  ll
+  361  unzip winscp553.zip 
+  362  ll
+  363  wine WinSCP.exepasswd root
+  364  passwd root
+  365  ll
+  366  vi /usr/bin/wine
+  367  vi /etc/ssh/sshd_config
+  368  vi WinSCP.ini 
+  369  vi /etc/ssh/sshd_config
+  370  service sshd restart
+  371  history
+  372  apt remove wine
+  373  vi /etc/sudoers
+  374  vi /etc/ssh/sshd_config
+  375  service sshd restart
+  376  wine --version
+  377  apt-get install libsm6:i386
+  378  cd /etc/init.d/
+  379  ls -la
+  380  service x11-common status
+  381  service winbind status
+  382  cd /usr/local/src/
+  383  ll
+  384  wget https://cdn.winscp.net/files/WinSCP-5.17.10-Setup.exe
+  385  ll
+  386  chmod 755 WinSCP-5.17.10-Setup.exe 
+  387  wine WinSCP-5.17.10-Setup.exe 
+  388  history
+  389  history | grep install
+  390  apt-get remove libsm6:i386
+  391  apt-get remove windbind
+  392  apt-get remove winebind
+  393  reboot
+  394  cd /usr/local/src/
+  395  wine WinSCP-5.17.10-Setup.exe 
+  396  cd /usr/local/src/
+  397  wine WinSCP-5.17.10-Setup.exe 
+  398  apt-get install winbind
+  399  cp /home/ubuntu/Desktop/WinSCP.desktop /home/dipak/Desktop
+  400  cd /home/ubuntu/Desktop
+  401  ll
+  402  cd /home/dipak/Desktop/
+  403  ll
+  404  chown dipak: WinSCP.desktop 
+  405  ll
+  406  cd /usr/local/src/
+  407  ll
+  408  wine WinSCP-5.17.10-Setup.exe 
+  409  cd /usr/local/src/
+  410  wine WinSCP-5.17.10-Setup.exe 
+  411  cd /home/ubuntu/
+  412  ll
+  413  ls -la
+  414  cd /home/dipak
+  415  ls -la
+  416  cd /usr/local/src/
+  417  ll
+  418  chown dipak: WinSCP-5.17.10-Setup.exe
+  419  chown root: WinSCP-5.17.10-Setup.exe
+  420  dpkg -l | grep winscp
+  421  cd /usr/local/src/
+  422  ll
+  423  cd %SystemDrive%/
+  424  ll
+  425  cd Program\ Files\ \(x86\)/
+  426  ll
+  427  cd WinSCP/
+  428  ll
+  429  wine unins000.exe 
+  430  pwd
+  431  ll
+  432  wine WinSCP.exe 
+  433  reboot
+  434  ll
+  435  cd Desktop/
+  436  ll
+  437  cp /home/ubuntu/Desktop/WinSCP.desktop .
+  438  ll
+  439  mv WinSCP.desktop /home/dipak/Desktop/
+  440  cd /home/dipak/Desktop/
+  441  ll
+  442  chown dipak: WinSCP.desktop
+  443  ll
+  444  env WINEPREFIX="/home/dipak/.wine" wine-stable C:\\windows\\command\\start.exe /Unix /home/dipak/.wine/dosdevices/c:/users/Public/Desktop/WinSCP.lnk
+  445  ll /home/dipak/.wine
+  446  cd /home/dipak/.wine
+  447  ll
+  448  cd drive_c/
+  449  ll
+  450  cd windows/
+  451  ll
+  452  cd command/
+  453  ll
+  454  cd ..
+  455  ll
+  456  cd ..
+  457  ;ll
+  458  cd ..
+  459  ll
+  460  cd dosdevices/
+  461  ll
+  462  cd ../drive_c/
+  463  ll
+  464  cd users/
+  465  ll
+  466  cd Public/
+  467  ll
+  468  cd Documents/
+  469  ll
+  470  cd ..
+  471  ll
+  472  cd Desktop/
+  473  ll
+  474  cp /home/ubuntu/.wine/drive_c/users/Public/Desktop/WinSCP.lnk .
+  475  ll
+  476  chown dipak: WinSCP.lnk
+  477  cd /usr/local/src/%SystemDrive%/Program Files (x86)/WinSCP
+  478  ll
+  479  cd /usr/local/src/%SystemDrive%/Program\ Files\ \(x86\)/WinSCP/
+  480  ll
+  481  wine unins001.exe 
+  482  wine unins000.exe 
+  483  cd /tmp
+  484  git clone https://github.com/Neilpang/acme.sh.git
+  485  cd acme.sh/
+  486  ./acme.sh --install --home /usr/local/acme.sh --certhome /var/www/letsencrypt/ --accountemail auto.emails+ssl@hostgrid.com
+  487  ./acme.sh --issue -d jump.srv.hostplus.com -w /var/www/html/
+  488  ./acme.sh --issue -d jump.srv.hostplus.com -w /var/www/html/ --debug
+  489  service apache2 status
+  490  cd =/var/www/letsencrypt
+  491  cd /var/www/letsencrypt
+  492  ll
+  493  cd ..
+  494  mv letsencrypt letsencrypt-old
+  495  ll
+  496  cd /tmp/acme.sh/
+  497  history
+  498  ./acme.sh --install --home /usr/local/acme.sh --certhome /var/www/letsencrypt/ --accountemail auto.emails+ssl@hostgrid.com
+  499  ./acme.sh --issue -d jump.srv.hostplus.com -w /var/www/html/
+  500  ./acme.sh --issue -d jump.srv.hostgrid.com -w /var/www/html/
+  501  cd /var/www/letsencrypt
+  502  ll
+  503  cd ..
+  504  ll
+  505  rm -rf letsencrypt
+  506  service apache2 restart
+  507  journalctl -xe
+  508  vi /etc/xrdp/xrdp.ini 
+  509  service apache2 restart
+  510  systemctl restart xrdp
+  511  service apache2 restart
+  512  journalctl -xe
+  513  cd /etc/apache2/
+  514  ll
+  515  cd sites-enabled/
+  516  ll
+  517  grep -ilr "jump.srv.hostgrid.com" * -R
+  518  vi 000-default.conf 
+  519  vi default-ssl.conf 
+  520  service apache2 restart
+  521  journalctl -xe
+  522  cd /tmp/
+  523  ll
+  524  rm -rf acme.sh/
+  525  git clone https://github.com/Neilpang/acme.sh.git
+  526  cd acme.sh/
+  527  ll
+  528  ./acme.sh --install --home /usr/local/acme.sh --certhome /var/www/letsencrypt/ --accountemail auto.emails+ssl@hostgrid.com
+  529  ./acme.sh --issue -d jump.srv.hostgrid.com -w /var/www/html
+  530  cd /var/www/letsencrypt/
+  531  ll
+  532  cd jump.srv.hostgrid.com/
+  533  ll
+  534  cat jump.srv.hostgrid.com.conf
+  535  cd ..
+  536  ll
+  537  cd ..
+  538  ll
+  539  cd letsencrypt-old/
+  540  ll
+  541  cd jump.srv.hostgrid.com/
+  542  ll
+  543  cat jump.srv.hostgrid.com.conf
+  544  service apache2 status -l
+  545  ps aufx | grep apache2
+  546  ps aufx | grep apache
+  547  cd /etc/apache2/
+  548  ll
+  549  cd sites-enabled/
+  550  ll
+  551  vi 000-default.conf 
+  552  service apache2 stop
+  553  service apache2 start
+  554  systemctl status apache2.service
+  555  tail -f /var/log/apache2/error.log
+  556  ll
+  557  grep -ilr "jump.srv.hostgrid.com:443" * -R
+  558  cd ..
+  559  grep -ilr "jump.srv.hostgrid.com:443" * -R
+  560  ll
+  561  cd ..
+  562  ll
+  563  grep -ilr "jump.srv.hostgrid.com:443" * -R
+  564  cd apache2/
+  565  ll
+  566  cd sites-enabled/
+  567  ll
+  568  vi 000-default.conf 
+  569  vi default-ssl.conf 
+  570  service apache2 restart
+  571  systemctl status apache2.service
+  572  vi default-ssl.conf 
+  573  service apache2 restart
+  574  service apache2 status
+  575  cd /tmp/acme.sh/
+  576  ./acme.sh --issue -d jump.srv.hostgrid.com -w /var/www/html/
+  577  ./acme.sh --issue -d jump.srv.hostgrid.com -w /var/www/html/ --log
+  578  ./acme.sh --issue -d jump.srv.hostgrid.com -w /var/www/html/ --debug
+  579  cd /var/www/
+  580  ll
+  581  rm -rf letsencrypt
+  582  service apache2 restart
+  583  cd -
+  584  ./acme.sh --issue -d jump.srv.hostgrid.com -w /var/www/html/ --debug
+  585  ll /var/www/letsencrypt//jump.srv.hostgrid.com
+  586  rm -rf /var/www/letsencrypt
+  587  cd /tmp/
+  588  ll
+  589  rm -rf acme.sh/
+  590  service apache2 restart
+  591  service apache2 status
+  592  systemctl restart xrdp
+  593  cd /tmp
+  594  git clone https://github.com/Neilpang/acme.sh.git
+  595  cd acme.sh/
+  596  ll /usr/local/acme.sh 
+  597  cd /usr/local/acme.sh
+  598  cd /var/www/letsencrypt/
+  599  ll
+  600  ced jump.srv.hostgrid.com/
+  601  ll
+  602  cd jump.srv.hostgrid.com/
+  603  ll
+  604  vi /etc/xrdp/xrdp.ini 
+  605  cat /etc/xrdp/xrdp.ini
+  606  ll /var/www/letsencrypt/jump.srv.hostgrid.com/fullchain.cer
+  607  ll /var/www/letsencrypt/jump.srv.hostgrid.com/jump.srv.hostgrid.com.key
+  608  cd /etc/apache2/sites-enabled/
+  609  vi 000-default.conf 
+  610  vi default-ssl.conf 
+  611  service apache2 restart
+  612  service apache2 status
+  613  systemctl restart xrdp
+  614  service apache2 restart
+  615  reboot
+  616  service apache2 restart
+  617  cd /tmp/acme.sh/
+  618  ./acme.sh --install --home /usr/local/acme.sh --certhome /var/www/letsencrypt/ --accountemail dipks4545@gmail.com
+  619  cd /usr/local/acme.sh
+  620  ./acme.sh --issue -d jump.srv.hostgrid.com -w /var/www/html/
+  621  cd /etc/apache2/sites-enabled/
+  622  cat default-ssl.conf 
+  623  ll /var/www/letsencrypt//jump.srv.hostgrid.com/fullchain.cer
+  624  ll /var/www/letsencrypt//jump.srv.hostgrid.com/jump.srv.hostgrid.com.key
+  625  history 
+  626  RS5gkF4t*y
+  627  cd /tmp/
+  628  ll
+  629  cat /etc/xrdp/xrdp.ini 
+  630  history 
+  631  ll
+  632  git clone https://github.com/Neilpang/acme.sh.git
+  633  cd /tmp/acme.sh/
+  634  ll
+  635  ./acme.sh --install --home /usr/local/acme.sh --certhome /var/www/letsencrypt/ --accountemail dipak.salve@hostgrid.com
+  636  cd /usr/local/acme.sh
+  637  ll
+  638  ./acme.sh --issue -d jump.srv.hostgrid.com -w /var/www/html/
+  639  ./acme.sh --issue -d jump.srv.hostgrid.com -w /var/www/html/ --debug
+  640  cd /etc/apache2/sites-enabled/
+  641  ll
+  642  cat 000-default.conf 
+  643  cat default-ssl.conf 
+  644  service apache2 restart
+  645  service apache2 status 
+  646  cd /var/www/
+  647  ll
+  648  mv letsencrypt letsencrypt-BK
+  649  cd tm
+  650  cd /tmp/
+  651  ll
+  652  mv acme.sh/ acme.sh-BK
+  653  service apache2 restart 
+  654  systemctl restart xrdp
+  655  mv acme.sh acme.sh--
+  656  service apache2 restart
+  657  service apache2 status 
+  658  cd /tmp/
+  659  ls -la
+  660  git clone https://github.com/Neilpang/acme.sh.git
+  661  ls -la
+  662  cd acme.sh
+  663  ls -la
+  664  cd /usr/local/
+  665  ls -la
+  666  cd /tmp/acme.sh
+  667  l
+  668  ./acme.sh --install --home /usr/local/acme.sh --certhome /var/www/letsencrypt/ --accountemail dipak.salve@hostgrid.com
+  669  cd /var/www
+  670  ls -la
+  671  cd /usr/local/acme.sh
+  672  ./acme.sh --issue -d jump.srv.hostgrid.com -w /var/www/html/
+  673  ./acme.sh --issue -d jump.srv.hostgrid.com -w /var/www/html/ --debug
+  674  cd /usr/local/
+  675  rm -rf acme.sh
+  676  cd /tmp/
+  677  ll
+  678  rm -rf acme.sh
+  679  cd /var/www/
+  680  ll
+  681  cd /etc/apache2/sites-enabled/
+  682  ls -la
+  683  vi default-ssl.conf 
+  684  service apache2 restart
+  685  journalctl -xe
+  686  vi default-ssl.conf 
+  687  cd /var/www/
+  688  ll
+  689  mv letsencrypt- letsencrypt
+  690  service apache2 restart
+  691  journalctl -xe
+  692  cd /etc/apache2/sites-available/
+  693  ll
+  694  cd ..
+  695  cd sites-enabled/
+  696  ls -la
+  697  vi 000-default.conf 
+  698  vi default-ssl.conf 
+  699  ls -la
+  700  service apache2 restart
+  701  journalctl -xe
+  702  !
+  703  vi default-ssl.conf 
+  704  cat /etc/apache2/sites-enabled/default-ssl.conf 
+  705  ll | grep pem
+  706  ll | grep *pem
+  707  ll
+  708  cd -
+  709  ll | grep /etc/ssl/certs/ssl-cert-snakeoil.pem
+  710  cd sites-enabled/
+  711  ll
+  712  vi default-ssl.conf 
+  713  service apache2 restart
+  714  service apache2 status
+  715  cd /var/www/
+  716  ll
+  717  mv letsencrypt letsencrypt-
+  718  service apache2 restart
+  719  service apache2 status
+  720  cd /tmp/
+  721  git clone https://github.com/Neilpang/acme.sh.git
+  722  ll /usr/local/acme.sh 
+  723  vi /etc/xrdp/xrdp.ini 
+  724  ./acme.sh --install  --home /usr/local/acme.sh --certhome /var/www/letsencrypt/ --accountemail  "dipak.salve@hostgrid.com"
+  725  ll
+  726  cd /tmp/
+  727  cd acme.sh
+  728  ll
+  729  ./acme.sh --issue -d jump.srv.hostgrid.com -w /var/www/html/
+  730  vi /etc/xrdp/xrdp.ini
+  731  service apache2 restart 
+  732  service apache2 status 
+  733  vi /etc/xrdp/xrdp.ini
+  734  ll /var/www/letsencrypt//jump.srv.hostgrid.com/fullchain.cer
+  735  ll /var/www/letsencrypt/jump.srv.hostgrid.com/fullchain.cer
+  736  ll ll /var/www/letsencrypt//jump.srv.hostgrid.com/fullchain.cer
+  737  ll /var/www/letsencrypt//jump.srv.hostgrid.com/jump.srv.hostgrid.com.key
+  738  rm -rf /var/www/letsencrypt
+  739  cd /tmp/
+  740  rm -rf acme.sh
+  741  vi /etc/apache2/sites-enabled/default-ssl.conf 
+  742  service apache2 restart 
+  743  service apache2 status
+  744  service xrdp restart 
+  745  vi 000-default.conf 
+  746  cd /etc/apache2/sites-enabled/
+  747  ls -la
+  748  cat 000-default.conf 
+  749  history 
+  750  cd /tmp
+  751  git clone https://github.com/Neilpang/acme.sh.git
+  752  cd acme.sh/
+  753  ll
+  754  ll /usr/local/acme.sh 
+  755  service apache2 stop
+  756  cd /etc/apache2/
+  757  ll
+  758  cat sites-enabled/
+  759  cd sites-enabled/
+  760  ll
+  761  cat 000-default.conf 
+  762  cat default-ssl.conf 
+  763  cd ..
+  764  cd -
+  765  vi default-ssl.conf 
+  766  clear
+  767  vi default-ssl.conf 
+  768  cat default-ssl.conf 
+  769  ll
+  770  cat default-ssl.conf 
+  771  vi default-ssl.conf 
+  772  cd /var/www/
+  773  ll
+  774  mv letsencrypt-BK/ letsencrypt
+  775  service apache2 start
+  776  service apache2 status
+  777  service xrdp status 
+  778  cd /tmp/
+  779  ll
+  780  mv acme.sh-BK/ acme.sh
+  781  service xrdp restart 
+  782  service xrdp status 
+  783  service apache2 restart 
+  784  service apache2 status 
+  785  ll
+  786  service xrdp status 
+  787  systemctl restart xrdp
+  788  service xrdp status 
+  789  vi /etc/xrdp/xrdp.ini 
+  790  cd acme.sh/
+  791  ll
+  792  ll | grep ac
+  793  mv acme.sh acme.sh-BK
+  794  git clone
+  795  git clone https://github.com
+  796  git clone https://github.com/Neilpang
+  797  git clone https://github.com/Neilpang/acme.sh.git
+  798  ll
+  799  cd acme.sh
+  800  ll
+  801  cd ..
+  802  rm -rf acme.sh
+  803  cd ..
+  804  ll
+  805  ll | grep acme
+  806  git clone https://github.com/Neilpang/acme.sh.git
+  807  mv acme.sh/ acme.sh-bk
+  808  git clone https://github.com/Neilpang/acme.sh.git
+  809  cd acme.sh
+  810  ll
+  811  ./acme.sh --install --home
+  812  ./acme.sh --install --home /usr/local/acme.sh --certhome /var/www/letsencrypt/ --accountemail dipak.salve@hostgrid.com
+  813  cd /usr/local/acme.sh
+  814  ./acme.sh --issue -d jump.srv.hostgrid.com -w /var/www/html/
+  815  mv /var/www/letsencrypt /var/www/letsencrypt-BK
+  816  mv /tmp/acme.sh /tmp/acme.sh-BK
+  817  service apache2 restart
+  818  cd /tmp
+  819  git clone https://github.com/Neilpang/acme.sh.git
+  820  cd acme.sh/
+  821  ll
+  822  service apache2 restart
+  823  cd /tmp/acme.sh/
+  824  ./acme.sh --install --home /usr/local/acme.sh --certhome /var/www/letsencrypt/ --accountemail dipak.salve@hostgrid.com
+  825  service apache2 restart
+  826  cd /usr/local/acme.sh
+  827  ./acme.sh --issue -d jump.srv.hostgrid.com -w /var/www/html/
+  828  cat /var/www/letsencrypt/jump.srv.hostgrid.com/fullchain.cer
+  829  cp -ar /var/www/letsencrypt-BK/jump.srv.hostgrid.com/fullchain.cer /var/www/letsencrypt/jump.srv.hostgrid.com/
+  830  service apache2 restart 
+  831  journalctl -xe
+  832  cd /var/www/
+  833  ll
+  834  mv letsencrypt/ letsencrypt-
+  835  mv letsencrypt-BK/ letsencrypt
+  836  service apache2 restart 
+  837  service apache2 stauts 
+  838  service apache2 status
+  839  cd /tmp/
+  840  mv acme.sh acme.sh-
+  841  mv acme.sh-BK acme.sh
+  842  service apache2 status
+  843  systemctl restart xrdp
+  844  systemctl status xrdp
+  845  service apache2 status
+  846  cd /etc/xrdp/
+  847  ll
+  848  cat cert.pem 
+  849  vi xrdp.ini 
+  850  systemctl restart xrdp
+  851  systemctl status  xrdp
+  852  vi xrdp.ini 
+  853  cd /etc/apache2/sites-enabled/
+  854  vi default-ssl.conf 
+  855  vi 000-default.conf 
+  856  cat 000-default.conf
+  857  service apache2 restart
+  858  service apache2 status
+  859  systemctl restart xrdp
+  860  vi 000-default.conf 
+  861  vi default-ssl.conf 
+  862  vi xrdp.ini 
+  863  vi /etc/xrdp/xrdp.ini 
+  864  cd /etc/apache2/sites-enabled/
+  865  vi default-ssl.conf 
+  866  service apache2 status
+  867  service apache2 restart
+  868  service apache2 status
+  869  systemctl restart xrdp
+  870  systemctl status  xrdp
+  871  service apache2 status
+  872  ls -la
+  873  cat 000-default.conf 
+  874  cd ..
+  875  ls -la
+  876  cd -
+  877  ls -la
+  878  cat 
+  879  cat default-ssl.conf
+  880  vi default-ssl.conf
+  881  cat default-ssl.conf
+  882  vi default-ssl.conf
+  883  cat default-ssl.conf
+  884  vi default-ssl.conf
+  885  service apache2 restart 
+  886  service apache2 status 
+  887  cd /etc/xrdp/
+  888  ll
+  889  vi xrdp.ini
+  890  ls -la
+  891  cat xrdp.ini
+  892  vi xrdp.ini 
+  893  systemctl restart  xrdp 
+  894  mv /usr/local/acme.sh /usr/local/acme.sh_
+  895  systemctl restart  xrdp 
+  896  systemctl status  xrdp 
+  897  vi /etc/apache2/apache2.conf 
+  898  ls -la
+  899  service apache2 status 
+  900  ls -la
+  901  cd /etc/apache2/
+  902  cd sites-enabled/
+  903  vi default-ssl.conf 
+  904  cat default-ssl.conf 
+  905  cd /var/www/letsencrypt
+  906  ll
+  907  ls -la
+  908  cd jump.srv.hostgrid.com/
+  909  ll
+  910  cat 
+  911  cat jump.srv.hostgrid.com.key
+  912  ll
+  913  cd ..
+  914  mv letsencrypt letsencrypt-
+  915  systemctl status  xrdp 
+  916  systemct restart  xrdp 
+  917  systemctl restart  xrdp 
+  918  systemctl stop xrdp
+  919  systemctl start xrdp
+  920  systemctl stop xrdp
+  921  ls -lat /run/xrdp/xrdp.pid
+  922  ps -ef | grep xrdp
+  923  kill -9 1164765 
+  924  ps -ef | grep xrdp
+  925  kill -9 1186    
+  926  ps -ef | grep xrdp
+  927  systemctl start xrdp
+  928  history 
+  929  ps -ef | grep xrdp
+  930  kill -9 ubuntu   
+  931  kill -9 1196500 
+  932  kill -9 ubuntu   
+  933  ps -ef | grep xrdp
+  934  systemctl start xrdp
+  935  systemctl status xrdp
+  936  history 
+  937  systemctl restart xrdp
+  938  systemctl status xrdp
+  939  ps -ef | grep xrdp
+  940  kill -9 ubuntu   
+  941  kill -9 1205020 
+  942  ps -ef | grep xrdp
+  943  systemctl restart xrdp
+  944  reboot 
+  945  cd /var/www/
+  946  ll
+  947  mv letsencrypt-old/ letsencrypt
+  948  cd /tmp/
+  949  ll
+  950  ls -lA
+  951  ls -la
+  952  vi /etc/apache2/sites-enabled/default-ssl.conf 
+  953  ll 
+  954  cat /var/www/letsencrypt/jump.srv.hostgrid.com/fullchain.cer
+  955  vi /etc/apache2/sites-enabled/default-ssl.conf 
+  956  service apache2 srestart 
+  957  service apache2 restart 
+  958  cd /var/www/
+  959  ll
+  960  rm -rf letsencrypt
+  961  cd /tmp/
+  962  ll
+  963  cd /usr/local/
+  964  ll
+  965  c
+  966  vi /etc/apache2/sites-enabled/default-ssl.conf 
+  967  vi /etc/xrdp/xrdp.ini 
+  968  service apache2 restart 
+  969  service apache2 status 
+  970  service xrdp restart 
+  971  cd /usr/l
+  972  cd /usr/local/
+  973  ls -la
+  974  rm -rf acme.sh-
+  975  rm -rf acme.sh_
+  976  ll
+  977  cd /var/www/
+  978  ll
+  979  service xrdp status 
+  980  ll
+  981  cd html/
+  982  ls -la
+  983  cat index.html 
+  984  cd /tmp/
+  985  ls -la
+  986  git clone https://github.com/Neilpang/acme.sh.git
+  987  ll
+  988  cd acme.sh/
+  989  ls -la
+  990  cat LICENSE.md 
+  991  ll
+  992  cat README.md 
+  993  ll
+  994  ./acme.sh --install --home /usr/local/acme.sh --certhome /var/www/letsencrypt/ --accountemail dipak.salve@hostgrid.com
+  995  cd /var/www/
+  996  ll
+  997  cat /etc/apache2/sites-enabled/default-ssl.conf 
+  998  vi /etc/apache2/sites-enabled/default-ssl.conf 
+  999  service apache2 restart 
+ 1000  vi /etc/apache2/sites-enabled/default-ssl.conf 
+ 1001  service apache2 restart 
+ 1002  cd /tmp/acme.sh/
+ 1003  ./acme.sh --install --home /usr/local/acme.sh --certhome /var/www/letsencrypt/ --accountemail dipak.salve@hostgrid.com
+ 1004  cd /tmp/
+ 1005  ll
+ 1006  rm -rf acme.sh/
+ 1007  rm -rf  /usr/local/acme.sh/
+ 1008  cd /var/www/
+ 1009  ll
+ 1010  l
+ 1011  cd /tmp/
+ 1012  ls -la
+ 1013  git clone https://github.com/Neilpang/acme.sh.git
+ 1014  cd /tmp/acme.sh/
+ 1015  ll
+ 1016  ./acme.sh --install --home /usr/local/acme.sh --certhome /var/www/letsencrypt/ --accountemail dipak.salve@hostgrid.com
+ 1017  cd /var/www/letsencrypt-/
+ 1018  cd /etc/apache2/sites-enabled/
+ 1019  ls -la
+ 1020  cat default-ssl.conf 
+ 1021  ps -aurx
+ 1022  ps -aufx
+ 1023  ll
+ 1024  rm -rf jump.srv.hostgrid.com
+ 1025  ll
+ 1026  cd ..
+ 1027  ll
+ 1028  cd letsencrypt-/
+ 1029  ll
+ 1030  cd jump.srv.hostgrid.com
+ 1031  ll
+ 1032  cd ..
+ 1033  ll
+ 1034  cd ..
+ 1035  ll
+ 1036  hostname
+ 1037  reboot
+ 1038  cd /tmp/acme.sh/
+ 1039  cd /tmp/
+ 1040  ls -la
+ 1041  git clone https://github.com/Neilpang/acme.sh.git
+ 1042  cd acme.sh/
+ 1043  ll
+ 1044  ll /usr/local/acme.sh 
+ 1045  cd /var/www/letsencrypt/
+ 1046  ./acme.sh --install --home /usr/local/acme.sh --certhome /var/www/letsencrypt/ --accountemail dipks4545@gmail.com
+ 1047  cd /usr/local/acme.sh
+ 1048  ll
+ 1049  ./acme.sh --issue -d jump.srv.hostgrid.com -w /var/www/html/
+ 1050  cd /usr/local/
+ 1051  cd /var/www/
+ 1052  ll
+ 1053  rm -rf letsencrypt
+ 1054  rm -rf /tmp/acme.sh/
+ 1055  cd /usr/local/
+ 1056  ll
+ 1057  mv acme.sh acme.sh-
+ 1058  service apache2 status 
+ 1059  ll
+ 1060  vi /etc/apache2/sites-enabled/default-ssl.conf 
+ 1061  service apache2 restart 
+ 1062  vi /etc/xrdp/xrdp.ini 
+ 1063  cd /etc/xrdp/
+ 1064  ll
+ 1065  vi /etc/xrdp/xrdp.ini 
+ 1066  cd /tmp/
+ 1067  ls -la
+ 1068  vi /etc/apache2/sites-enabled/default-ssl.conf 
+ 1069  git clone https://github.com/Neilpang/acme.sh.git
+ 1070  cd acme.sh/
+ 1071  ./acme.sh --install --home /usr/local/acme.sh --certhome /var/www/letsencrypt/ --accountemail dipks4545@gmail.com
+ 1072  ll
+ 1073  ll /usr/local/acme.sh
+ 1074  ./acme.sh --issue -d jump.srv.hostgrid.com -w /var/www/html/
+ 1075  ./acme.sh --issue -d jump.srv.hostgrid.com -w /var/www/html/ --debug
+ 1076  \
+ 1077  ll /usr/local/acme.sh
+ 1078  vi /etc/xrdp/xrdp.ini 
+ 1079  cd /var/www/letsencrypt
+ 1080  ll
+ 1081  cd jump.srv.hostgrid.com/
+ 1082  ll
+ 1083  cat jump.srv.hostgrid.com.csr.conf
+ 1084  cat jump.srv.hostgrid.com.conf
+ 1085  ll
+ 1086  vi /etc/xrdp/xrdp.ini 
+ 1087  rm -rf /var/www/letsencrypt
+ 1088  cd /tmp/
+ 1089  rm -rf acme.sh/
+ 1090  service apache2 restart
+ 1091  service apache2 status
+ 1092  systemctl restart xrdp
+ 1093  ps -aufx | grep xrdp
+ 1094  systemctl restart xrdp
+ 1095  ps -ef | grep xrdp
+ 1096  vi /etc/xrdp/xrdp.ini 
+ 1097  vi /etc/apache2/sites-enabled/default-ssl.conf 
+ 1098  vi /etc/xrdp/xrdp.ini 
+ 1099  ll
+ 1100  cd /tmp
+ 1101  git clone https://github.com/Neilpang/acme.sh.git
+ 1102  cd /tmp/acme.sh/
+ 1103  ./acme.sh --install --home /usr/local/acme.sh --certhome /var/www/letsencrypt/ --accountemail dipak.salve@hostgrid.com
+ 1104  cd /usr/local/acme.sh
+ 1105  ./acme.sh --issue -d jump.srv.hostgrid.com -w /var/www/html/
+ 1106  rm -rf /var/www/letsencrypt
+ 1107  rm -rf /tmp/acme.sh/
+ 1108  rm -rf /usr/local/acme.sh
+ 1109  vi /etc/apache2/sites-enabled/default-ssl.conf 
+ 1110  service apache2 resatart 
+ 1111  service apache2 restart 
+ 1112  vi /etc/xrdp/xrdp.ini 
+ 1113  service xrdp restart 
+ 1114  service xrdp status
+ 1115  vi /etc/xrdp/xrdp.ini 
+ 1116  service xrdp status
+ 1117  service xrdp restart 
+ 1118  ps -ef | grep xrdp
+ 1119  service xrdp status
+ 1120  ps -ef | grep xrdp
+ 1121  kill -9 17047   
+ 1122  ps -ef | grep xrdp
+ 1123  service apache2 restart 
+ 1124  cd /var/www/
+ 1125  ll
+ 1126  cd /etc/xrdp/xrdp.ini 
+ 1127  vi /etc/xrdp/xrdp.ini 
+ 1128  cd /tmp/
+ 1129  ll
+ 1130  rm -rf acme.sh/
+ 1131  cd /var/www/
+ 1132  ls -la
+ 1133  cd -
+ 1134  ll
+ 1135  cd /tmp
+ 1136  git clone https://github.com/Neilpang/acme.sh.git
+ 1137  cd acme.sh/
+ 1138  ./acme.sh --install --home /usr/local/acme.sh --certhome /var/www/letsencrypt/ --accountemail dipak.salve@hostgrid.com
+ 1139  service apache2 restart 
+ 1140  cd /usr/local/acme.sh
+ 1141  ./acme.sh --issue -d jump.srv.hostgrid.com -w /var/www/html/
+ 1142  ./acme.sh --issue -d jump.srv.hostgrid.com -w /var/www/html/ --debug
+ 1143  cd -
+ 1144  ll
+ 1145  cat README.md 
+ 1146  vi README.md 
+ 1147  ./acme.sh --issue -d jump.srv.hostgrid.com  --apache -w /var/www/html/
+ 1148  ./acme.sh --issue -d jump.srv.hostgrid.com  --apache -w /var/www/html/ --debug
+ 1149  cd /var/www/
+ 1150  ll
+ 1151  cd letsencrypt
+ 1152  ll
+ 1153  cd jump.srv.hostgrid.com/
+ 1154  ll
+ 1155  cd ..
+ 1156  ls -la
+ 1157  cd jump.srv.hostgrid.com/
+ 1158  ls -la
+ 1159  history 
+ 1160  cd /var/www/
+ 1161  ll
+ 1162  rm -rf letsencrypt
+ 1163  cd /tmp/
+ 1164  ll
+ 1165  rm -rf acme.sh/
+ 1166  git clone https://github.com/Neilpang/acme.sh.git
+ 1167  ll
+ 1168  cd acme.sh/
+ 1169  ll
+ 1170  ./acme.sh --install --home /usr/local/acme.sh --certhome /var/www/letsencrypt/ --accountemail dipak.salve@hostgrid.com
+ 1171  cd /usr/local/acme.sh
+ 1172  ll
+ 1173  ./acme.sh --issue -d jump.srv.hostgrid.com -w /var/www/html/
+ 1174  ifconfig 
+ 1175  cd /etc/apache2/sites-enabled/
+ 1176  ll
+ 1177  vi /etc/xrdp/xrdp.ini 
+ 1178  service apache2 restart 
+ 1179  service apache2 status 
+ 1180  cd /tmp/
+ 1181  ll
+ 1182  cd /tmp
+ 1183  ll
+ 1184  git clone https://github.com/Neilpang/acme.sh.git
+ 1185  cd acme.sh/
+ 1186  ll /usr/local/acme.sh 
+ 1187  ./acme.sh --install --home /usr/local/acme.sh --certhome /var/www/letsencrypt/ --accountemail dipak.salve@hostgrid.com
+ 1188  iptables -nL
+ 1189  netstat -anp | grep :80
+ 1190  ./acme.sh --issue -d jump.srv.hostgrid.com -w /var/www/html/ --log
+ 1191  ./acme.sh --issue --log -d jump.srv.hostgrid.com -w /var/www/html/
+ 1192  cat /usr/local/acme.sh/acme.sh.log
+ 1193  curl --silent --dump-header /usr/local/acme.sh/http.header  -L  -g
+ 1194  cat /var/log/apache2/error.log
+ 1195  cd /etc/apache2/
+ 1196  ll
+ 1197  cd sites-enabled/
+ 1198  ll
+ 1199  cat 000-default.conf 
+ 1200  vi 000-default.conf
+ 1201  service apache2 restart
+ 1202  hostname
+ 1203  cd /tmp/acme.sh/
+ 1204  history\
+ 1205  history
+ 1206  ./acme.sh --install --home /usr/local/acme.sh --certhome /var/www/letsencrypt/ --accountemail dipak.salve@hostgrid.com
+ 1207  ./acme.sh --issue -d jump.srv.hostgrid.com -w /var/www/html/ --log
+ 1208  ./acme.sh --issue -d jump.srv.hostgrid.com -w /var/www/html/ 
+ 1209  cat /etc/xrdp/xrdp.ini | grep -i certificate -A2
+ 1210  service xrdp restart
+ 1211  cd -
+ 1212  ll
+ 1213  vi 000-default.conf
+ 1214  service apache2 restart
+ 1215  hostname
+ 1216  reboot
+ 1217  cd /var/www/letsencrypt/jump.srv.hostgrid.com/
+ 1218  history
+ 1219  cat /etc/xrdp/xrdp.ini | grep -i certificate -A2
+ 1220  vi /etc/xrdp/xrdp.ini
+ 1221  service xrdp restart
+ 1222  cd /etc/apache2/
+ 1223  ll
+ 1224  grep -ilr jump.srv
+ 1225  cat sites-available/default-ssl.conf
+ 1226  cp sites-available/default-ssl.conf sites-available/default-ssl.conf-old
+ 1227  vi sites-available/default-ssl.conf
+ 1228  service apache2 restart
+ 1229  cd sites-enabled/
+ 1230  llS
+ 1231  cat 000-default.conf
+ 1232  history
+ 1233  cat 000-default.conf
+ 1234  ll
+ 1235  cat default-ssl.conf
+ 1236  history 
+root@jump:/home/ubuntu# 

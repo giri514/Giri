@@ -1,0 +1,1002 @@
+[root@kuruka ansible]# history
+    4  plesk login -support
+    5  ll
+    6  cat /root/sslit.sh
+    7  vi /root/sslit.sh
+    8  cat /root/sslit.sh
+    9  cat /root/sslit.sh
+   10  W6MvEFSyDP9hL+hJ
+   11  plesk db "select domains.name as 'Domain Name', val 'Certificate Email' from dom_param join domains on dom_id=domains.id where param like 'ext-letsencrypt-registrationEmail'"
+   12  plesk login -support
+   13  plesk db "select domains.name as 'Domain Name', val 'Certificate Email' from dom_param join domains on dom_id=domains.id where param like 'ext-letsencrypt-registrationEmail' and domains.id=4191"
+   14  plesk db "select domains.name as 'Domain Name', val 'Certificate Email' from dom_param join domains on dom_id=domains.id where param like 'ext-letsencrypt-registrationEmail' and domains.id=3243"
+   15  plesk db "select domains.name as 'Domain Name', val 'Certificate Email' from dom_param join domains on dom_id=domains.id where param like 'ext-letsencrypt-registrationEmail' and domains.id=15"
+   16  plesk db "select domains.name as 'Domain Name', val 'Certificate Email' from dom_param join domains on dom_id=domains.id where param like 'ext-letsencrypt-registrationEmail' and domains.id=30"
+   17  plesk db "select domains.name as 'Domain Name', val 'Certificate Email' from dom_param join domains on dom_id=domains.id where param like 'ext-letsencrypt-registrationEmail' and domains.id=1582"
+   18  cat /tmp/sslit_event_handler.log
+   19  cat /var/log/cron
+   20  cat /var/log/cron | grep keep-secured.php
+   21  history | grep sslit
+   22  cat /tmp/sslit_event_handler.log
+   23  plesk db "select domains.id, domains.name as 'Domain Name', val 'Certificate Email' from dom_param join domains on dom_id=domains.id where param like 'ext-letsencrypt-registrationEmail' and val not like '%auto.emails+ssl@hostgrid.com%' limit 3"
+   24  plesk db "select domains.id, domains.name as 'Domain Name', val 'Certificate Email' from dom_param join domains on dom_id=domains.id where param like 'ext-letsencrypt-registrationEmail'"
+   25  w
+   26  top -c
+   27  tail -f /var/log/plesk/panel.log
+   28  top -c
+   29  kill -9 1957
+   30  kill -9 15560
+   31  top -c
+   32  plesk db "select d.name as 'Domain Name',dp.val as 'Email Address' from domains d join dom_param dp on d.id=dp.dom_id where dp.param='ext-letsencrypt-registrationEmail'"
+   33  plesk db "select d.name as 'Domain Name',dp.val as 'Email Address' from domains d join dom_param dp on d.id=dp.dom_id where dp.param='ext-letsencrypt-registrationEmail'" | grep auto.emails+ssl@hostplus.com
+   34  plesk db "select d.name as 'Domain Name',dp.val as 'Email Address' from domains d join dom_param dp on d.id=dp.dom_id where dp.param='ext-letsencrypt-registrationEmail'" | grep auto.emails+ssl@hostplus.com | wc -l
+   35  plesk db "select d.name as 'Domain Name',dp.val as 'Email Address' from domains d join dom_param dp on d.id=dp.dom_id where dp.param='ext-letsencrypt-registrationEmail'" | grep auto.emails+ssl@hostgrid.com | wc -l
+   36  plesk db "select d.name as 'Domain Name',dp.val as 'Email Address' from domains d join dom_param dp on d.id=dp.dom_id where dp.param='ext-letsencrypt-registrationEmail'" | grep auto.emails+ssl@hostgrid.com
+   37  plesk db "select d.name as 'Domain Name',dp.val as 'Email Address' from domains d join dom_param dp on d.id=dp.dom_id where dp.param='ext-letsencrypt-registrationEmail' and d.name='wqeqweqwe21312312-598qtl400.hostplus.co'"
+   38  cat /root/sslit.sh
+   39  plesk repair db -n
+   40  cat /tmp/sslit_event_handler.log  | grep iuhjnpiujnygtgg-2faqtsio0.hostplus.co
+   41  cat /tmp/sslit_event_handler.log  | grep iuhjnpiujnygtgg-2faqtsio0
+   42  cat /tmp/sslit_event_handler.log  | grep iuhjnpiujnygtgg\
+   43  cat /tmp/sslit_event_handler.log  | grep iuhjnpiujnygtgg
+   44  tail -f /var/log/plesk/panel.log
+   45  top -c
+   46  kill -9 32386
+   47  top -c
+   48  pidof nginx
+   49  top -c
+   50  top -c
+   51  hostname
+   52  w
+   53  top -c
+   54  service plesk-web-socket status
+   55  vi /usr/local/psa/admin/conf/panel.ini
+   56  service psa restart
+   57  service plesk-web-socket status
+   58  service plesk-web-socket restart
+   59  service plesk-web-socket status
+   60  top -c
+   61  top -c
+   62  plesk version
+   63  plesk login
+   64  cd /var/log/plesk
+   65  ls -la
+   66  cat panel.lo
+   67  cat panel.log
+   68  cat panel.log
+   69  plesk login
+   70  plesk login
+   71  top
+   72  plesk version
+   73  plesk installer --repatch
+   74  plesk installer update --repatch
+   75  cat panel.log
+   76  date
+   77  plesk login
+   78  top
+   79  service sw-engine status
+   80  service sw-engine restart
+   81  ls -la
+   82  cd ..
+   83  ls -la
+   84  cd sw-cp-server/
+   85  ls -la
+   86  date
+   87  cat sw-engine.log
+   88  cat /usr/local/psa/admin/conf/panel.ini
+   89  vi /usr/local/psa/admin/conf/panel.ini
+   90  vi /usr/local/psa/admin/conf/panel.ini
+   91  service plesk-web-socket restart
+   92  cd ..
+   93  cd plesk
+   94  ls -la
+   95  cat panel.log
+   96  service sw-engine restart
+   97  vi /usr/local/psa/admin/conf/panel.ini
+   98  exit
+   99  top -c
+  100  ll /usr/bin/php
+  101  ll /usr/bin/php-cgi
+  102  ll /sbin/php-fpm
+  103  top -c
+  104  top -c
+  105  ll  /usr/bin/php
+  106  unlink /usr/bin/php
+  107  ll /usr/bin/php-cgi
+  108  unlink /usr/bin/php-cgi
+  109  ll /usr/bin/php-cgi
+  110  ll /sbin/php-fpm
+  111  unlink /sbin/php-fpm
+  112  php -v
+  113  ln -s /opt/plesk/php/8.0/bin/php /usr/bin/php; ln -s /opt/plesk/php/8.0/bin/php-cgi /usr/bin/php-cgi; ln -s /opt/plesk/php/8.0/sbin/php-fpm /sbin/php-fpm; /usr/local/psa/admin/bin/php_handlers_control --reread; /usr/local/psa/admin/sbin/httpdmng --reconfigure-all; service httpd restart;
+  114  service httpd status
+  115  top -c
+  116  cat /root/sslit.sh
+  117  ll /usr/bin/php
+  118  ll /usr/bin/php-cgi
+  119  ll /sbin/php-fpm
+  120  php -v
+  121  top -c
+  122  kill -9 28026
+  123  top -c
+  124  L
+  125  ll /usr/bin/php
+  126  ll /usr/bin/php-cgi
+  127  ll /sbin/php-fpm
+  128  php -v
+  129  top -c
+  130  kill -9 809
+  131  top -c
+  132  w
+  133  ps aufx
+  134  ps aufx | grep sync
+  135  lsof -p 10174
+  136  lsof -p 10376
+  137  tail -f /var/log/plesk/panel.log
+  138  w
+  139  w
+  140  top -c
+  141  /etc/init.d/psa restart
+  142  service sw_engine status
+  143  iptables -nL | grep 35.226.192.158
+  144  iptables -I INPUT -s 35.226.192.158 -j ACCPET
+  145  iptables -I INPUT -s 35.226.192.158 -j ACCEPT
+  146  service iptables save
+  147  iptables -nL | grep 35.226.192.158
+  148  top -c
+  149  top -c
+  150  kill -9 31689
+  151  top -c
+  152  ps aufx
+  153  ps aufx | grep event_handler
+  154  ps aufx | grep event_handler | wc -l
+  155  ps aufx | grep event_handler | wc -l
+  156  ps aufx | grep event_handler | wc -l
+  157  ps aufx | grep event_handler | wc -l
+  158  ps aufx | grep event_handler | wc -l
+  159  watch ps aufx | grep event_handler | wc -l
+  160  ps aufx | grep event_handler | wc -l
+  161  ps aufx | grep event_handler | wc -l
+  162  top -c
+  163  ps aufx | grep event_handler | wc -l
+  164  ps aufx | grep event_handler | wc -l
+  165  ps aufx | grep event_handler | wc -l
+  166  ps aufx | grep event_handler | wc -l
+  167  ps aufx | grep event_handler | wc -l
+  168  ps aufx | grep event_handler | wc -l
+  169  ps aufx | grep event_handler | wc -l
+  170  ps aufx | grep event_handler | wc -l
+  171  ps aufx | grep event_handler | wc -l
+  172  ps aufx | grep event_handler | wc -l
+  173  ps aufx | grep event_handler | wc -l
+  174  top -c
+  175  ps aufx | grep event_handler | wc -l
+  176   ps aufx | grep event_handler
+  177  lsof -p 27847
+  178  ps aufx | grep event_handler | wc -l
+  179  cd /var/spool/cron/
+  180  grep -ilr wp-toolkit
+  181  cat psaadm
+  182  cat psaadm | grep wp-toolkit
+  183  cat /usr/local/psa/admin/plib/modules/wp-toolkit/scripts/maintenance.php | more
+  184   ps aufx | grep event_handler | wc -l
+  185  w
+  186   ps aufx | grep event_handler | wc -l
+  187   ps aufx | grep event_handler | wc -l
+  188  w
+  189   ps aufx | grep event_handler | wc -l
+  190  w
+  191  top -c
+  192   ps aufx | grep event_handler | wc -l
+  193   ps aufx | grep event_handler | wc -l
+  194   ps aufx | grep event_handler | wc -l
+  195   ps aufx | grep event_handler | wc -l
+  196   ps aufx | grep event_handler | wc -l
+  197   ps aufx | grep event_handler | wc -l
+  198   ps aufx | grep event_handler | wc -l
+  199   ps aufx | grep event_handler | wc -l
+  200   ps aufx | grep event_handler | wc -l
+  201   ps aufx | grep event_handler | wc -l
+  202   ps aufx | grep event_handler | wc -l
+  203   ps aufx | grep event_handler | wc -l
+  204   ps aufx | grep event_handler | wc -l
+  205   ps aufx | grep event_handler | wc -l
+  206   ps aufx | grep event_handler | wc -l
+  207   ps aufx | grep event_handler | wc -l
+  208   ps aufx | grep event_handler | wc -l
+  209   ps aufx | grep event_handler | wc -l
+  210  top -c
+  211   ps aufx | grep event_handler | wc -l
+  212   ps aufx | grep event_handler | wc -l
+  213   ps aufx | grep event_handler | wc -l
+  214   ps aufx | grep event_handler | wc -l
+  215   ps aufx | grep event_handler | wc -l
+  216   ps aufx | grep event_handler | wc -l
+  217   ps aufx | grep event_handler | wc -l
+  218  top -c
+  219  top -c
+  220   ps aufx | grep event_handler | wc -l
+  221   ps aufx | grep event_handler | wc -l
+  222   ps aufx | grep event_handler | wc -l
+  223   ps aufx | grep event_handler | wc -l
+  224   ps aufx | grep event_handler | wc -l
+  225   ps aufx | grep event_handler | wc -l
+  226   ps aufx | grep event_handler | wc -l
+  227  top -c
+  228  cd /var/www/vhosts/
+  229  ll
+  230  cd nostalgic-lewin.34-73-202-141.plesk.page
+  231  ll
+  232  cd httpdocs
+  233  vi mail.php
+  234  ll
+  235  chown sysuser_0:psacln mail.php
+  236  cat mail.php
+  237  php mail.php
+  238  cd /var/www/vhosts/nostalgic-lewin.34-73-202-141.plesk.page/httpdocs/
+  239  vimai
+  240  vi mail.php
+  241  php mail.php
+  242  mail -vv dipak.salve@hostgrid.com
+  243  mail -vv dipak.salve@hostgrid.com
+  244  iptables -nL | grep 587
+  245  iptables -A INPUT -p tcp --dport 25 -j ACCEPT
+  246  iptables -A INPUT -p tcp --dport 587 -j ACCEPT
+  247  iptables -A INPUT -p tcp --dport 465 -j ACCEPT
+  248  service iptables save
+  249  iptables -nL | grep 587
+  250  telnet smtp.gmail.com 587
+  251  mail -vv salve.deepak136@gmail.com
+  252  cat /etc/msmtprc
+  253  cat /etc/psa/private/msmtp-pwdeval.conf
+  254  mail -vv salve.deepak136@gmail.com
+  255  cat /etc/msmtprc | grep tls_starttls off
+  256  cat /etc/msmtprc | grep "tls_starttls off"
+  257  cat /etc/msmtprc | grep "tls_starttls"
+  258  cp -ar  /etc/msmtprc  /etc/msmtprc-org
+  259  vi  /etc/msmtprc
+  260  vi  /etc/msmtprc
+  261  vi  /etc/msmtprc
+  262  mail -vv salve.deepak136@gmail.com
+  263  mail -vv salve.deepak136@gmail.com
+  264  dig mx gmail.com
+  265  telnet gmail-smtp-in.l.google.com 587
+  266  mail -vv salve.deepak136@gmail.com
+  267  mail -vv dipak.salve@hostgrid.com
+  268  ll  /var/log/msmtp
+  269  ll /etc/msmtprc
+  270  stat /etc/msmtprc
+  271  mail -vv dipak.salve@hostgrid.com
+  272  hostname
+  273  mail -vv dipak.salve@hostgrid.com
+  274  cat  /etc/msmtprc
+  275  vi /etc/msmtprc
+  276  mail -vv dipak.salve@hostgrid.com
+  277  vi /etc/msmtprc
+  278  mail -vv dipak.salve@hostgrid.com
+  279  service psa restart
+  280  mail -vv dipak.salve@hostgrid.com
+  281  cat  /etc/msmtprc
+  282  vi  /etc/msmtprc
+  283  mail -vv dipak.salve@hostgrid.com
+  284  service psa restart
+  285  mail -vv dipak.salve@hostgrid.com
+  286  telnet smtp.gmail.com 465
+  287  mail -vv dipak.salve@hostgrid.com
+  288  vi /etc/msmtprc
+  289  mail -vv dipak.salve@hostgrid.com
+  290  vi /etc/msmtprc
+  291  mail -vv dipak.salve@hostgrid.com
+  292  vi /etc/msmtprc
+  293  mail -vv dipak.salve@hostgrid.com
+  294  vi /etc/msmtprc
+  295  mail -vv dipak.salve@hostgrid.com
+  296  \
+  297  cat /etc/msmtprc
+  298  vi /etc/msmtprc
+  299  vi /etc/msmtprc
+  300  mail -vv dipak.salve@hostgrid.com
+  301  vi /etc/msmtprc
+  302  mail -vv dipak.salve@hostgrid.com
+  303  vi /etc/msmtprc
+  304  mail -vv dipak.salve@hostgrid.com
+  305  cat /etc/msmtprc
+  306  cat /usr/lib64/plesk-9.0/msmtp-pwdeval
+  307  cat /etc/msmtprc
+  308  telnet thisisthenameofmy.website 587
+  309  telnet thisisthenameofmy.website 465
+  310  telnet mx.thisisthenameofmy.website.cust.a.hostedemail.com 587
+  311  telnet mx.thisisthenameofmy.website.cust.a.hostedemail.com 465
+  312  telnet smtprelay.hostedemail.com 587
+  313  mail -vv dipak.salve@hostgrid.com
+  314  mail -vv dipak.salve@hostgrid.com
+  315  vi /etc/msmtprc
+  316  service psa restart
+  317  mail -vv dipak.salve@hostgrid.com
+  318  cat /var/log/maillog
+  319  vi /etc/msmtprc
+  320  mail -vv dipak.salve@hostgrid.com
+  321  cat /etc/msmtprc
+  322  telnet smtprelay.hostedemail.com 587
+  323  cat /etc/msmtprc
+  324  mail -vv dipak.salve@hostgrid.com
+  325  vi /etc/msmtprc
+  326  service psa restart
+  327  mail -vv dipak.salve@hostgrid.com
+  328  cd /var/www/vhosts/nostalgic-lewin.34-73-202-141.plesk.page/httpdocs/
+  329  cat mail.php
+  330  php mail.php
+  331  vi mail.php
+  332  pwd
+  333  vi mail.php
+  334  cat mail.php
+  335  ll
+  336  cat /etc/msmtprc
+  337  cat /etc/msmtprc
+  338  cat /etc/msmtprc
+  339  mail -vv salve.deepak136@gmail.com
+  340  w
+  341  w
+  342  ps aufx | grep plesk_support
+  343  lsof -p 26532
+  344  passwd root
+  345  hostname
+  346  exit
+  347  top -c
+  348  service httpd status
+  349  service nginx status
+  350  history
+  351  service nginx status
+  352  service httpd status
+  353  service httpd status
+  354  service httpd status
+  355  service httpd status
+  356  service httpd status
+  357  service httpd status
+  358  service httpd status
+  359  top -c
+  360  service httpd status
+  361  service httpd status
+  362  service httpd restart
+  363  service httpd status
+  364  w
+  365  w
+  366  top -c
+  367  w
+  368  less /var/log/plesk/panel.log
+  369  plesk login -support
+  370  less /var/log/plesk/panel.log
+  371  less /var/log/maillog
+  372  less /etc/msmtprc
+  373  tail -fn 0 /var/log/maillog
+  374  telnet smtprelay.hostedemail.com 465
+  375  top -c
+  376  plesk db "select count(*) from domains"
+  377  less /etc/msmtprc
+  378  tail -fn 0 /var/log/maillog
+  379  less /var/log/maillog
+  380  less /etc/msmtprc-org
+  381  vim /etc/msmtprc
+  382  less /var/log/maillog
+  383  grep testmailplesk /var/log/maillog
+  384  telnet hostedemail.com 25
+  385  telnet hostedemail.com 587
+  386  telnet smtprelay.hostedemail.com 587
+  387  less /etc/msmtprc
+  388  vim /etc/msmtprc
+  389  vim /etc/msmtprc-org
+  390  exit
+  391  telnet hostenvelope.com 587
+  392  telnet hostenvelope.com 587
+  393  ping hostenvelope.com
+  394  mail -vv salve.deepak136@gmail.com
+  395  vi /etc/msmtprc
+  396  service psa restart
+  397  mail -vv salve.deepak136@gmail.com
+  398  history
+  399  cd /var/www/vhosts/nostalgic-lewin.34-73-202-141.plesk.page/httpdocs/
+  400  ll
+  401  cat mail.php
+  402  mail -vv dipak.salve@hostgrid.com
+  403  telnet hostenvelope.com 587
+  404  ll
+  405  cat mail.php
+  406  ll
+  407  vi mail.php
+  408  pwd
+  409  history
+  410  telnet smtprelay.hostedemail.com 587
+  411  telnet smtprelay.hostedemail.com 25
+  412  telnet smtprelay.hostedemail.com 587
+  413  plesk version
+  414  vim /root/plesktestmail.txt
+  415  curl --ssl-reqd   --url 'smtps://smtp.gmail.com:465'   --user 'username@gmail.com:password'   --mail-from 'username@gmail.com'   --mail-rcpt 'john@example.com' \
+  416  curl --ssl-reqd -- --url 'smtp://smtprelay.hostedemail.com:587' --user 'hgtest@thisisthenameofmy.website:@2R513s+&1O@$Cc' --mail-from 'hgtest@thisisthenameofmy.website' --mail-rcpt 'testmailplesk@gmail.com' --upload-file /root/plesktestmail.txt
+  417  fg
+  418  curl --ssl-reqd --url 'smtp://smtprelay.hostedemail.com:587' --user 'hgtest@thisisthenameofmy.website:@2R513s+&1O@$Cc' --mail-from 'hgtest@thisisthenameofmy.website' --mail-rcpt 'testmailplesk@gmail.com' --upload-file /root/plesktestmail.txt
+  419  curl --url 'smtp://smtprelay.hostedemail.com:587' --user 'hgtest@thisisthenameofmy.website:@2R513s+&1O@$Cc' --mail-from 'hgtest@thisisthenameofmy.website' --mail-rcpt 'testmailplesk@gmail.com' --upload-file /root/plesktestmail.txt
+  420  curl -v --login-options AUTH=PLAIN --url 'smtp://smtprelay.hostedemail.com:587' --user 'hgtest@thisisthenameofmy.website:@2R513s+&1O@$Cc' --mail-from 'hgtest@thisisthenameofmy.website' --mail-rcpt 'testmailplesk@gmail.com' --upload-file /root/plesktestmail.txt
+  421  man curl
+  422  curl -V
+  423  curl --url 'smtp://smtprelay.hostedemail.com:587' --user 'hgtest@thisisthenameofmy.website:@2R513s+&1O@$Cc' -v --login-options AUTH=PLAIN --mail-from 'hgtest@thisisthenameofmy.website' --mail-rcpt 'testmailplesk@gmail.com' --upload-file /root/plesktestmail.txt
+  424  plesk login -support
+  425  cat /etc/msmtprc
+  426  vim /etc/msmtprc
+  427  less /var/log/maillog
+  428  vim /etc/msmtprc
+  429  service sw-engine status
+  430  service sw-engine restart
+  431  service sw-engine status
+  432  top -c
+  433  service httpd status
+  434  top -c
+  435  ps aufx
+  436  ps aufx | grep sw-engine
+  437  service sw-engine stop
+  438  ps aufx | grep sw-engine
+  439  killall -9 sw-engine
+  440  killall -9 sw-engine
+  441  killall -9 sw-engine
+  442  killall -9 sw-engine
+  443  killall -9 sw-engine
+  444  killall -9 sw-engine
+  445  killall -9 sw-engine
+  446  ps aufx | grep sw-engine
+  447  service sw-engine start
+  448  service sw-engine status
+  449  ps aufx | grep sw-engine
+  450  ps aufx | grep sw-engine
+  451  w
+  452  top -c
+  453  tail -f /var/log/plesk/panel.log
+  454  top -c
+  455  w
+  456  top -c
+  457  tail -f /var/log/plesk/panel.log
+  458  top -c
+  459  ps aufx
+  460  top -c
+  461  w
+  462  cat /tmp/sslit_event_handler.log | grep foot
+  463  top -c
+  464  kill -9 15578
+  465  top -c
+  466  service psa restart
+  467  top -c
+  468  kill -9 25715
+  469  top -c
+  470  ps aufx
+  471  crontab -l
+  472  sed -i '$ a 0      *      *      *      *      replace "auth on" "auth login" -- /etc/msmtprc' /var/spool/cron/root; service crond restart;
+  473  crontab -l
+  474  cat /var/spool/cron/root
+  475  cat /etc/msmtprc
+  476  w
+  477  passwd root
+  478  passwd root
+  479  hostname
+  480  vi /etc/ssh/sshd_config
+  481  service sshd restart
+  482  cat /etc/msmtprc
+  483  cat /var/log/cron | grep replace
+  484  crontab -l
+  485  top -c
+  486  top -c
+  487  tail -f /var/log/plesk/panel.log
+  488  top -c
+  489  kill -9 6419
+  490  top -c
+  491  kill -9 9897
+  492  top -c
+  493  tail -f /var/log/plesk/panel.log
+  494  top -c
+  495  kill -9 1157
+  496  top -c
+  497  top -c
+  498  top -c
+  499  top -
+  500  top -c
+  501  kill -9 28115 11281 26599
+  502  top -c
+  503  kill -9 17299
+  504  top -c
+  505  top -c
+  506  top -c
+  507  plesk db -e “select name from domains where status=16”
+  508  plesk db -e "select name from domains where status=16"
+  509  plesk bin site --list
+  510  plesk bin subscription --list
+  511  plesk bin subscription --list | wc -l
+  512  hostname
+  513  plesk bin subscriptions
+  514  plesk bin subscriptions
+  515  plesk bin subscription
+  516  plesk bin subscription -h
+  517  plesk bin subscription -h | grep -i suspend
+  518  plesk db -Ne "select d.name from domains d, dom_param dp where dp.dom_id = d.id AND dp.param = 'turnOffAction' AND dp.val = 'suspend'"
+  519  vi /etc/ssh/sshd_config
+  520  service sshd restart
+  521  hostname
+  522  plesk -v
+  523  htop
+  524  dmesg
+  525  top -c
+  526  plesk login -support
+  527  atop
+  528  lscpu
+  529  w
+  530  lsblk
+  531  dmesg
+  532  plesk login -support
+  533  which htop
+  534  plesk login -support
+  535  grep processor /proc/cpuinfo | wc -l && w
+  536  lscpu | grep CPU
+  537  watch -n1 "w"
+  538  which atop
+  539  cd /var/log/atop/
+  540  ls
+  541  ls -lash
+  542  atop -r /var/log/atop/20210429
+  543  atop -r /var/log/atop_20210429
+  544  atop -r /var/log/atop/atop_20210429
+  545  plesk login -support
+  546  du -sh /var/lib/mysql/psa
+  547  vi /var/log/plesk/panel.log
+  548  tail -f /var/log/plesk/panel.log
+  549  vi /var/log/plesk/panel.log
+  550  tail -f /var/log/plesk/panel.log
+  551  :q
+  552  atop -r /var/log/atop/daily.log
+  553  atop
+  554  atop 1
+  555  cat /var/log/dmesg | grep -i error
+  556  cat /var/log/dmesg | grep -i fail
+  557  cat /var/log/dmesg | grep -i warning
+  558  cat /var/log/dmesg | grep -i fsck
+  559  df -h
+  560  df -hT
+  561  uptime
+  562  zcat /var/log/messages* | grep error
+  563  zcat /var/log/messages* | grep fail
+  564  cat /var/log/messages* | grep -i error
+  565  du -sh /var/log/messages
+  566  cat /var/log/messages* | grep -i fail
+  567  plesk bin extension --list
+  568  df -h
+  569  df -h
+  570  cd /var/www/vhosts/
+  571  ll
+  572  df -h
+  573  uptime
+  574  df -h
+  575  service nginsx restart
+  576  service nginx restart
+  577  service nginx status
+  578  service httpd status
+  579  service httpd restart
+  580  service httpd status
+  581  df -h
+  582  dmesg | grep -i fsck
+  583  touch /forcefsck
+  584  reboot
+  585  cd /
+  586  kk
+  587  ll
+  588  ls -la
+  589  touch /forcefsck
+  590  shutdown -rF now
+  591  df -h
+  592  mail -vv salve.deepak136@gmail.com
+  593  vi /etc/msmtprc
+  594  mail -vv salve.deepak136@gmail.com
+  595  yum list kernel
+  596  plesk version
+  597  cat /etc/my.cnf
+  598  plesk db
+  599  service mariadb restart
+  600  service mariadb status
+  601  plesk db
+  602  cat /etc/my.cnf
+  603  cat /etc/my.cnf
+  604  mysql -V
+  605  cat /etc/yum.repos.d/mariadb.repo
+  606  plesk db
+  607  ping ffff
+  608  ping ::ffff:127.0.0.1
+  609  ping6 ::ffff:127.0.0.1
+  610  mysql -V
+  611  plesk repair web
+  612  clar
+  613  clear
+  614  plesk repair web
+  615  top -cd1
+  616  top -cd1
+  617  top cd2
+  618  top cd2
+  619  ps aufx | grep sslit
+  620  top cd2
+  621  top cd2
+  622  vf /var/lib/plesk/task-manager/
+  623  cd /var/lib/plesk/task-manager/
+  624  ll
+  625  cat /usr/local/psa/admin/conf/task-manager.yml.sample
+  626  top cd2
+  627  w
+  628  top cd2
+  629  service psa status
+  630  service psa restart
+  631  service psa status
+  632  top -cd1
+  633  top -cd1
+  634  service psa stop
+  635  top -cd1
+  636  service psa start
+  637  w
+  638  top -cd2
+  639  top -cd2
+  640  ps -aufx
+  641  top -cd2
+  642  top
+  643  top -cd2
+  644  plesk listupgrade
+  645  plesk checkupgrade
+  646  plesk checkupgrade 18.0.37
+  647  plesklogin
+  648  plesk login
+  649  top -cd2
+  650  ps -ausf | grep autoinstaller
+  651  ps -auff | grep autoinstaller
+  652  ps -aufx | grep autoinstaller
+  653  ps -aufx
+  654   plesk login
+  655  top -cd2
+  656  history  | grep plesk_support
+  657  service purefrpd status
+  658  service pure-ftpd status
+  659  service xinid status
+  660  service xinet status
+  661  history | grep xi
+  662  systemctl | grep ftp
+  663  systemctl | grep xi
+  664  systemctl status xinetd.service
+  665  systemctl stop xinetd.service
+  666  systemctl status xinetd.service
+  667  systemctl start xinetd.service
+  668  systemctl stop xinetd.service
+  669  systemctl start xinetd.service
+  670  systemctl stop xinetd.service
+  671  systemctl start xinetd.service
+  672  systemctl stop xinetd.service
+  673  systemctl start xinetd.service
+  674  systemctl stop xinetd.service
+  675  systemctl start xinetd.service
+  676  cd /var/www/vhosts/
+  677  l
+  678  ll
+  679  cd default/
+  680  ll
+  681  cd htdocs/
+  682  ls -la
+  683  hostname
+  684  vi index.php
+  685  ll
+  686  mv index.html index.html_
+  687  mv index.html_ index.html
+  688  ll
+  689  ll
+  690  cat index.php
+  691  mv index.php index.php_bk
+  692  ls -la
+  693  cat index.html
+  694  cat /root/sslit.sh
+  695  cat /tmp/sslit_event_handler.log
+  696  cat /root/sslit.sh
+  697  mail -vv salve.deepak136@gmail.com
+  698  plesk version
+  699  cat /etc/msmtprc
+  700  cat /usr/lib64/plesk-9.0/msmtp-pwdeval
+  701  plesk version
+  702  stat /etc/msmtprc
+  703  cat /etc/msmtprc
+  704  mail root
+  705  tail -f /var/log/maillog
+  706  grep -v -e '^ *#' -e '^$'  /etc/msmtprc
+  707  cd /usr/local/psa/var/certificates/
+  708  ll
+  709  cat scfZtgW07
+  710  ll
+  711  ll
+  712  pwd
+  713  cd /var/www/vhosts/
+  714  ll | grep scfzrYiAH
+  715  vi /etc/httpd/conf/httpd.conf
+  716  vi /etc/nginx/plesk.conf.d/
+  717  cd  /etc/nginx/plesk.conf.d/vhosts/
+  718  ll
+  719  cat /var/www/vhosts/system/hhdfghsfghdfgh-b04qyog00.hostgrid.live/conf/nginx.conf
+  720  vi /var/www/vhosts/system/hhdfghsfghdfgh-b04qyog00.hostgrid.live/conf/nginx.conf
+  721  cat /usr/local/psa/var/certificates/cert2BG9uPc
+  722  /usr/local/psa/var/certificates/cert2BG9uPc
+  723  cat /usr/local/psa/var/certificates/cert2BG9uPc
+  724  pwd
+  725  plesk login
+  726  cd /tmp/
+  727  ll
+  728  pwd
+  729  cd /usr/local/src/
+  730  ll
+  731  cd /tmp/
+  732  ll
+  733  cd -
+  734  ls -la
+  735  ls -la
+  736  vi cert.cert
+  737  date
+  738  vi cert.cert
+  739  cd /tmp/
+  740  ll
+  741  vi cert.cert
+  742  vi pkey.key
+  743  vi csr.cert
+  744  cd /root/
+  745  ll
+  746  cp sslit.sh sslit.sh-org
+  747  vi sslit.sh
+  748  cat /tmp/sslit_event_handler.log
+  749  cat sslit.sh
+  750  cd /usr/local/psa//var/certificates/
+  751  ll
+  752  plesk login
+  753  cd /etc/nginx/
+  754  ll
+  755  cd plesk.conf.d
+  756  ll
+  757  cd vhosts
+  758  ll
+  759  cat rdtyhrdhydr-7fxt909.hostplus.co.conf
+  760  cat /usr/local/psa/var/certificates/scfMGErCk
+  761  vi /usr/local/src/pkey.key
+  762  vi /usr/local/src/cert.cert
+  763  vi /usr/local/src/cart.cert
+  764  vi /usr/local/src/csrreq
+  765  ll
+  766  ll
+  767  cp /usr/local/psa/var/certificates/scfMGErCk /usr/local/src/
+  768  ll /usr/local/psa/var/certificates/scfMGErCk
+  769  ll /usr/local/psa/var/certificates/scfMGErCk
+  770  cat rdtyhrdhydr-7fxt909.hostplus.co
+  771  cat rdtyhrdhydr-7fxt909.hostplus.co.conf
+  772  cat /usr/local/psa/var/certificates/cert2BG9uPc
+  773  plesk bin certificate -c "Wildcart Certificate" rdtyhrdhydr-7fxt909.hostplus.co -key-file /usr/local/src/pkey.key -cert-file /usr/local/src/cert.cert -cacer-file /usr/local/src/cart.cert -csr-file /usr/local/src/csrreq
+  774  plesk bin certificate -c "Wildcart Certificate" -domain rdtyhrdhydr-7fxt909.hostplus.co -key-file /usr/local/src/pkey.key -cert-file /usr/local/src/cert.cert -cacer-file /usr/local/src/cart.cert -csr-file /usr/local/src/csrreq
+  775  plesk bin certificate -c "Wildcart Certificate" -domain rdtyhrdhydr-7fxt909.hostplus.co -key-file /usr/local/src/pkey.key -cert-file /usr/local/src/cert.cert -cacert-file /usr/local/src/cart.cert -csr-file /usr/local/src/csrreq
+  776  cat rdtyhrdhydr-7fxt909.hostplus.co.conf
+  777  cat /usr/local/psa/var/certificates/cert2BG9uPc
+  778  service nginx restart
+  779  cat rdtyhrdhydr-7fxt909.hostplus.co.conf
+  780  cat /usr/local/psa/var/certificates/cert2BG9uPc
+  781  cd /usr/local/psa/var/certificates/
+  782  grep -ilr MIIFYDCCBEigAwIBAgIQQA
+  783  grep -ilr MIIDEjCCAfoCAQAwKjEoMCYGA1UEAwwfcmR0eWh
+  784  grep -ilr MIIEvwIBADANBgkqhkiG9w0BAQEFAASCB
+  785  grep -ilr MIIFaDCCBFCgAwIBAgISA8p20DDjw423op3E9t
+  786  cat scfaBfbOO
+  787  cd /root/
+  788  testssl.sh
+  789  vi testssl.sh
+  790  cp testssl.sh testssl123.sh
+  791  plesk bin site -u rdtyhrdhydr-7fxt909.hostplus.co -certificate-name "Wildcart Certificate"
+  792  vi testssl.sh
+  793  cp testssl.sh testssl123.sh
+  794  vi testssl123.sh
+  795  chmod +x testssl123.sh
+  796  cat testssl123.sh
+  797  sh testssl123.sh
+  798  vi testssl123.sh
+  799  sh testssl123.sh
+  800  vi testssl123.sh
+  801  sh testssl123.sh
+  802  ll
+  803  cat testssl123.sh
+  804  sh testssl123.sh
+  805  sh testssl123.sh
+  806  sh testssl123.sh
+  807  cp testssl123.sh testssl.sh
+  808  cp testssl123.sh testssl1.sh
+  809  vi testssl1.sh
+  810  chmod +x testssl1.sh
+  811  sh testssl1.sh
+  812  ll
+  813  vi testssl123.sh
+  814  mv testssl123.sh testssl-working-test1.sh
+  815  cat testssl-working-test1.sh
+  816  history
+  817  ll
+  818  cat testssl1.sh
+  819  ll
+  820  history
+  821  sh testssl1.sh
+  822  ll
+  823  cat testssl-working-test1.sh
+  824  pwd
+  825  cat /tmp/sslit_event_handler.log
+  826  cat testssl-working-test1.sh
+  827  ll
+  828  vi testssl1.sh
+  829  cat testssl-working-test1.sh
+  830  cd /root/
+  831  cat testssl-working-test1.sh
+  832  ll
+  833  rm -vf testssl1.sh sslit.sh-org testssl.sh
+  834  ll
+  835  cat testssl-working-test1.sh
+  836  history
+  837  cd /usr/local/src/
+  838  ll
+  839  cd /root/
+  840  ll
+  841  cat testssl123.sh
+  842  cd /tmp/
+  843  ll
+  844  vi scr.cert
+  845  ls -la
+  846  cd /tmp/
+  847  ll
+  848  vi cert.cert
+  849  vi scr.cert
+  850  vi srrr.cert
+  851  cd /root/
+  852  ll
+  853  plesk login
+  854  plesk bin certificate -c "Wildcart Certificate" -domain gerhtyjftdhrg-7foija1.hostplus.co -key-file /tmp/pkey.key -cert-file /tmp/cert.cert -cacert-file /usr/local/src/cart.cert -csr-file /usr/local/src/srrr.cert ; plesk bin site -u gerhtyjftdhrg-7foija1.hostplus.co -certificate-name "Wildcart Certificate"
+  855  plesk bin certificate -c "Wildcart Certificate" -domain gerhtyjftdhrg-7foija1.hostplus.co -key-file /tmp/pkey.key -cert-file /tmp/cert.cert -cacert-file /tmp/cart.cert -csr-file /tmp/srrr.cert ; plesk bin site -u gerhtyjftdhrg-7foija1.hostplus.co -certificate-name "Wildcart Certificate"
+  856  cd /tmp/
+  857  ll
+  858  plesk bin certificate -c "Wildcart Certificate" -domain gerhtyjftdhrg-7foija1.hostplus.co -key-file /tmp/pkey.key -cert-file /tmp/cert.cert -cacert-file /tmp/scr.cert -csr-file /tmp/srrr.cert ; plesk bin site -u gerhtyjftdhrg-7foija1.hostplus.co -certificate-name "Wildcart Certificate"
+  859  ll
+  860  cat cert.cert
+  861  vi scr.cert
+  862  vi scr.cert
+  863  vi srrr.cert
+  864  plesk bin certificate -c "Wildcart Certificate" -domain gerhtyjftdhrg-7foija1.hostplus.co -key-file /tmp/pkey.key -cert-file /tmp/cert.cert -cacert-file /tmp/scr.cert -csr-file /tmp/srrr.cert ; plesk bin site -u gerhtyjftdhrg-7foija1.hostplus.co -certificate-name "Wildcart Certificate"
+  865  cd /root/
+  866  ll
+  867  cat testssl-working-test1.sh
+  868  cd /rm
+  869  cd /tmp/
+  870  vi csr1-cert
+  871  vi pk-cert
+  872  mv pk-cert pk.key
+  873  vi cr.cert
+  874  vi ca.cert
+  875  plesk bin certificate -c "Wildcart Certificate" -domain tdrhgfthrd-ff3qs7400.hostplus.co -key-file /tmp/pk.key -cert-file /tmp/cr.cert -cacert-file /tmp/ca.cert -csr-file /tmp/csr1-cert ; plesk bin site -u tdrhgfthrd-ff3qs7400.hostplus.co -certificate-name "Wildcart Certificate"
+  876  cd /root/
+  877  ll
+  878  cat testssl-working-test1.sh
+  879  tail -f /tmp/sslit_event_handler.log
+  880  cd /root/
+  881  ll
+  882  mv sslit.sh sslit.sh_bk
+  883  mv testssl-working-test1.sh sslit.sh
+  884  ll
+  885  cat sslit.sh
+  886  vi /usr/local/src/csrreq
+  887  vi /usr/local/src/pkey.key
+  888  vi /usr/local/src/cert.cert
+  889  vi /usr/local/src/cart.cert
+  890  cd /var/www/vhosts/
+  891  ll | grep trshtrdhdr.com
+  892  ll | grep trshtrdhdr
+  893  tail -f /tmp/sslit_event_handler.log
+  894  tail -f /tmp/sslit_event_handler.log
+  895  ps -aufx | grep ssl
+  896  kill -9 15168
+  897  ps -aufx | grep ssl
+  898  tail -f /tmp/sslit_event_handler.log
+  899  cd /root/
+  900  ll
+  901  vi sslit.sh
+  902  tail -f /tmp/sslit_event_handler.log
+  903  tail -f /tmp/sslit_event_handler.log
+  904  vi sslit.sh
+  905  tail -f /tmp/sslit_event_handler.log
+  906  vi sslit.sh
+  907  tail -f /tmp/sslit_event_handler.log
+  908  vi sslit.sh
+  909  tail -f /tmp/sslit_event_handler.log
+  910  vi sslit.sh
+  911  tail -f /tmp/sslit_event_handler.log
+  912  vi sslit.sh
+  913  tail -f /tmp/sslit_event_handler.log
+  914  vi sslit.sh
+  915  tail -f /tmp/sslit_event_handler.log
+  916  cd /root/
+  917  vi sslit.sh
+  918  vi sslit.sh
+  919  vi sslit.sh
+  920  ls -la
+  921  vi sslit.sh
+  922  tail -f /tmp/sslit_event_handler.log
+  923  vi sslit.sh
+  924  tail -f /tmp/sslit_event_handler.log
+  925  vi sslit.sh
+  926  tail -f /tmp/sslit_event_handler.log
+  927  vi sslit.sh
+  928  tail -f /tmp/sslit_event_handler.log
+  929  vi sslit.sh
+  930  vi sslit.sh
+  931  tail -f /tmp/sslit_event_handler.log
+  932  vi sslit.sh
+  933  tail -f /tmp/sslit_event_handler.log
+  934  vi sslit.sh
+  935  tail -f /tmp/sslit_event_handler.log
+  936  cat sslit.sh
+  937  ls -la
+  938  cat sslit.sh
+  939  history
+  940  tail -f /tmp/sslit_event_handler.log
+  941  tail -f /tmp/sslit_event_handler.log
+  942  vi /etc/hosts
+  943  cd /root/
+  944  l
+  945  ll
+  946  cat sslit.sh
+  947  tail -f /tmp/sslit_event_handler.log
+  948  tail -f /tmp/sslit_event_handler.log
+  949  cd /root/
+  950  ll
+  951  mv sslit.sh sslit.sh-new
+  952  mv sslit.sh_bk sslit.sh
+  953  ll
+  954  cat sslit.sh-new
+  955  cat sslit.sh
+  956  cd /etc/host
+  957  vi /etc/hosts
+  958  ping rerereretdrhgfthrd.com
+  959  cd /root/
+  960  s -la
+  961  ls -la
+  962  cat sslit.sh
+  963  vi sslit.sh
+  964  vi sslit.sh
+  965  plesk ext sslit --certificate -issue -domain rerereretdrhgfthrd.com -registrationEmail auto.emails+ssl@hostgrid.com -secure-domain -secure-www
+  966  ping rerereretdrhgfthrd.com
+  967  vi /etc/my.cnf
+  968  ping kuruka.srv.hostplus.com
+  969  vi /etc/my.cnf
+  970  service mariadb restart
+  971  vi /etc/my.cnf
+  972  vi /etc/my.cnf
+  973  service mariadb restart
+  974  vi /etc/my.cnf
+  975  service mariadb restart
+  976  vi /etc/my.cnf
+  977  service mariadb restart
+  978  vi /etc/my.cnf
+  979  service mariadb restart
+  980  cd /usr/local/src/
+  981  ls -la
+  982  cat /root/sslit.sh-new
+  983  history
+  984  cat /root/sslit.sh-new
+  985  history
+  986  plesk bin service_plan --show-php-settings starter
+  987  plesk bin service_plan --show-php-settings starter /usr/bin/php
+  988  plesk bin service_plan --show-php-settings standard
+  989  cat /usr/bin/php
+  990  clear
+  991  history
+  992  vi /opt/plesk/php/8.0/bin/php
+  993  vi /opt/plesk/php/8.0/
+  994  cd  /opt/plesk/php/8.0/
+  995  ll
+  996  cd bin/
+  997  ll
+  998  plesk bin service_plan --update-php-settings '<standard' -settings custom_settings
+  999  plesk bin service_plan --update-php-settings '<standard' -settings
+ 1000  top -cd2
+ 1001  plesk login
+ 1002  top -cd2
+ 1003  history
+[root@kuruka ansible]#
