@@ -1,8 +1,0 @@
-VZ node:
-```
-fixed time/timezone issue on vz17 by running: 
-
-ntpdate 0.ca.pool.ntp.org  on host node. 
-
-Also fixed connectivity issue between vz17 & solus/whmcs connectivity issue by running: service svmstack-nginx restart .
-```

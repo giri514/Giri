@@ -1,3 +1,0 @@
-cat /usr/local/apache/logs/modsec_audit.log  | grep -i -A10 -B10 184.161.109.98
-
-Imunify disable rule
