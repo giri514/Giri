@@ -1,0 +1,93 @@
+Enable client-side encryption using AWS encryption SDK
+
+The act of encrypting data before sending it to Amazon S3 is termed as client-side encryption. The AWS encryption SDK is a client-side encryption library that is separate from the language–specific SDKs. You can use this encryption library to more easily implement encryption best practices in Amazon S3. Unlike the Amazon S3 encryption clients in the language–specific AWS SDKs, the AWS encryption SDK is not tied to Amazon S3 and can be used to encrypt or decrypt data to be stored anywhere.
+
+Incorrect options:
+
+Enable server-side encryption with Amazon S3-Managed Keys (SSE-S3) - When you use server-side encryption with Amazon S3-Managed Keys (SSE-S3), each object is encrypted with a unique key. As an additional safeguard, it encrypts the key itself with a root key that it regularly rotates.
+
+Enable server-side encryption with KMS keys stored in AWS Key Management Service (SSE-KMS) - server-side encryption with AWS KMS keys (SSE-KMS) is similar to SSE-S3, but with some additional benefits and charges for using this service. There are separate permissions for the use of a KMS key that provides added protection against unauthorized access of your objects in Amazon S3. SSE-KMS also provides you with an audit trail that shows when your KMS key was used and by whom.
+
+server-side encryption is the encryption of data at its destination by the application or service that receives it. Amazon S3 encrypts your data at the object level as it writes it to disks in its data centers and decrypts it for you when you access it. Hence, server-side encryption is not the right answer for the current scenario. So both these options are incorrect.
+
+Encryption is enabled by default for all the objects written to Amazon S3. Additional configuration is not required - This statement is incorrect as encryption is not enabled by default on S3. You can protect data in transit using Secure Socket Layer/Transport Layer Security (SSL/TLS) or client-side encryption. Data at rest on Amazon S3 can be encrypted using server-side encryption or client-side encryption.
+
+---------------------
+Enterprise -
+
+high-quality engineers, tools and technology to automatically manage the health of your environment, consultative architectural guidance delivered in the context of your applications and use-cases
+Designated Technical Account Manager (TAM) to coordinate access to proactive/preventative programs and AWS subject matter experts.
+You get access to guidance, configuration, and troubleshooting of AWS interoperability with many common operating systems, platforms, and application stack components.
+Allows unlimited contacts to open unlimited cases
+The Concierge Support Team is only available for the Enterprise Support plan.
+AWS Support API is only available for Business and Enterprise Support plans.
+
+Business - 
+
+Full access to AWS Trusted Advisor Best Practice Checks. 
+Get access to guidance, configuration, and troubleshooting of AWS interoperability with many common operating systems, platforms, and application stack components.
+Allows unlimited contacts to open unlimited cases
+AWS Support API is only available for Business and Enterprise Support plans.
+
+
+Developer -
+
+Ability to get email-based technical support during business hours.
+General guidance on how services can be used for various use cases, workloads, or applications. 
+AWS Developer Support plan allows one primary contact to open unlimited cases.
+
+------------
+
+AWS Shield Advanced -  provides expanded DDoS attack protection for web applications running on the following resources:
+Amazon Elastic Compute Cloud, 
+Elastic Load Balancing (ELB),
+Amazon CloudFront,
+Amazon Route 53,
+AWS Global Accelerator.
+
+-----------
+You can deploy AWS WAF on
+Amazon CloudFront as part of your CDN solution,
+Application Load Balancer that fronts your web servers or origin servers running on EC2,
+Amazon API Gateway for your REST APIs,
+AWS AppSync for your GraphQL APIs.
+
+
+-----------
+ Elasticity
+
+The ability to acquire resources as you need and release when they are no longer needed is termed as Elasticity of the Cloud. With cloud computing, you don’t have to over-provision resources upfront to handle peak levels of business activity in the future. Instead, you provision the number of resources that you need. You can scale these resources up or down instantly to grow and shrink capacity as your business needs change.
+
+Reliability - Refers to the ability of a system to recover from infrastructure or service disruptions, by dynamically acquiring computing resources to meet demand, and mitigate disruptions.
+
+Durability - Refers to the ability of a system to assure data is stored and data remains consistently on the system as long as it is not changed by legitimate access, i.e. data should not get corrupt or disappear from the cloud because of a system malfunction.
+
+Resiliency - Describes the ability of a system to recover from a failure induced by the load (data or network), attacks, and failures (hardware, software, or network failures).
+
+ The ability of a workload to recover from infrastructure or service disruptions, dynamically acquire computing resources to meet demand, and mitigate disruptions, such as misconfigurations or transient network issues.
+
+----------------------------------
+
+
+Performance Efficiency Pillar - The performance efficiency pillar focuses on using IT and computing resources efficiently. Key topics include selecting the right resource types and sizes based on workload requirements, monitoring performance, and making informed decisions to maintain efficiency as business needs evolve.
+
+Performance Efficiency uses the following design principles to help achieve and maintain efficient workloads in the cloud: Democratize advanced technologies, Go global in minutes, Use serverless architectures, Experiment more often and Consider mechanical sympathy.
+
+More information on the Design principles of the Performance Efficiency pillar:  via - https://d1.awsstatic.com/whitepapers/architecture/AWS-Performance-Efficiency-Pillar.pdf
+
+Incorrect options:
+
+Operational Excellence Pillar - The operational excellence pillar focuses on running and monitoring systems to deliver business value, and continually improving processes and procedures. Key topics include automating changes, responding to events, and defining standards to manage daily operations.
+
+Cost Optimization Pillar - The cost optimization pillar focuses on avoiding unnecessary costs. Key topics include understanding and controlling where the money is being spent, selecting the most appropriate and right number of resource types, analyzing spend over time, and scaling to meet business needs without overspending.
+
+Reliability Pillar - The reliability pillar focuses on ensuring a workload performs its intended function correctly and consistently when it’s expected to. A resilient workload quickly recovers from failures to meet business and customer demand. Key topics include distributed system design, recovery planning, and how to handle change.
+
+----------------------------------
+
+
+
+
+
+
+
