@@ -60,3 +60,58 @@ Serial number, Refresh time, Retry time, Expire time, Minimum TTL
 
 SPF
 An SPF record or Sender Policy Framework record lists the designated mail servers for a domain, It helps establish the legitimacy of your mail server and reduces the chances of spoofing
+
+-------------------------------------
+1. Difference between Linux and Windows Operating system. Explain the advantages of Linux over Windows.
+2. Explain the different RAID types, their advantages and steps to configure RAID 0, RAID 1, RAID 10, RAID 01.
+3. What is Volume, Physical Volume, Logical Volumes and explain the steps for setting up Physical Volume, Volume Group, Logical Volume?
+4. Explain the process of extending & reducing Logical Volumes.
+5. Explain the Linux boot process
+6. How to create, delete users & gruops with the proper commands?
+7. How to enable quota for the drive & enable/configure quota for the user?
+8. What is Yum and how does Yum repos work?
+9. How to install applications using YUM & RPM?
+10 What are inodes, how can you find files with particular inode number?
+11. What is Kernel and how to upgrade Kernel?
+12. Commands for blocking particular IP address and port numbers through IP tables?
+13. Steps for installaing and configuring csf.
+14. Steps to install and configure LAMP Server.
+15. Explain the steps for installating and configuring Nginx.
+16. Explain the steps for installing & configuring postfix, dovecot & squirrel mail?
+17. what are linux libraries ? 
+18. what is shell and what are the types of shells ? 
+19. Please explain top command output
+20. what is swap ?
+21. What is LVM why it is used can you explain the steps to extend and reduce the partition
+22. what is sticky bit ? 
+23. Explain the working of NFS and configuration steps 
+24. What is linux utility
+25. difference between services and deamons
+26. what is zombie process means
+27. How to reset root password in single user mode. 
+28. what is root squash
+29. what is nslookup 
+
+Scenario based questions : 
+
+30. if I am not able to access the server using sshd but it is pingable share the troubleshooting steps
+31. How to avoid disconnecting of the server after 10 mins of intervals without touching sshd_conf
+32. if the entry in fstab added with incorrect syntax, and you have rebooted the server its not coming up what will you do to make it accessible ? 
+33. user management ,what if you as a root user you removed a home dir of user will you be able to using the credentials of that user ? what will you do to resolve it
+34. how to restrict or disable the user ?
+35. Grub installation
+36. Install OS using IPMI and KVM
+37. Difference between IPMI and KVM
+38. Create Software RAID
+39. No control panel server optimization and security
+40. Virtulizor installation
+41. Loadbalancer setup using Cloudflare
+42. NFS setup
+43. Automation tools like Ansible
+44. Server recovery using Acronis backups
+45. Hard disk recovery
+46. RAID 5 configuration
+47. MySQL replication
+48. Cloud server experience.
+49. Web cluster setup
+50. Kernel panic error
